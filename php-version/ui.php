@@ -11,6 +11,80 @@
 					</li>
 				</ul>
 			</div>
+			
+			<div class="row-fluid sortable">	
+				<div class="box span12">
+					<div class="box-header well" data-original-title>
+						<h2><i class="icon-plus"></i> Extended Elements</h2>
+						<div class="box-icon">
+							<a href="#" class="btn btn-setting btn-round"><i class="icon-cog"></i></a>
+							<a href="#" class="btn btn-minimize btn-round"><i class="icon-chevron-up"></i></a>
+							<a href="#" class="btn btn-close btn-round"><i class="icon-remove"></i></a>
+						</div>
+					</div>
+					<div class="box-content">
+						<table class="table table-bordered table-striped">
+							<tr>
+								<td><h3>Multiple File Upload</h3></td>
+								<td>
+									<input data-no-uniform="true" type="file" name="file_upload" id="file_upload" />
+								</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td><h3>Star Rating</h3></td>
+								<td>
+									<div class="raty"></div>
+								</td>
+								<td><code>&lt;div class="raty"&gt;&lt;/div&gt;</code></td>
+							</tr>
+							<tr>
+								<td><h3>Toggle Switch</h3></td>
+								<td>
+									<input data-no-uniform="true" checked type="checkbox" class="iphone-toggle">
+								</td>
+								<td><code>&lt;input data-no-uniform="true" type="checkbox" class="iphone-toggle"&gt;</code></td>
+							</tr>
+							<tr>
+								<td><h3>Auto Growing Textarea</h3></td>
+								<td>
+									<textarea class="autogrow">Press enter here, it will grow automatically.</textarea>
+								</td>
+								<td><code>&lt;textarea class="autogrow"&gt;&lt;/textarea&gt;</code></td>
+							</tr>
+							<tr>
+								<td><h3>Popover</h3></td>
+								<td>
+									<a href="#" class="btn btn-danger" data-rel="popover" data-content="And here's some amazing content. It's very engaging. right?" title="A Title">Hover for popover</a>
+								</td>
+								<td><code>&lt;a href="#" class="btn btn-danger" data-rel="popover" data-content="And here's some amazing content. It's very engaging. right?" title="A Title"&gt;hover for popover&lt;/a&gt;</code></td>
+							</tr>
+							<tr>
+								<td><h3>Slider</h3></td>
+								<td>
+									<div class="slider"></div>
+								</td>
+								<td><code>&lt;div class="slider"&gt;&lt;/div&gt;</code></td>
+							</tr>
+							<tr>
+								<td><h3>Dialog</h3></td>
+								<td>
+									<a href="#" class="btn btn-info btn-setting">Click for dialog</a>
+								</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td><h3>Tooltip</h3></td>
+								<td>
+									<a href="#" title="Tooltip, you can change the position." data-rel="tooltip" class="btn btn-warning">Hover for tooltip</a>
+								</td>
+								<td><code>&lt;a href="#" title="Tooltip, you can change the position." data-rel="tooltip" class="btn btn-warning"&gt;Hover for tooltip&lt;/a&gt;</code></td>
+							</tr>
+						</table>
+					</div>	
+				</div><!--/span-->
+				
+			</div><!--/row-->
 
 			<div class="row-fluid sortable">
 				<div class="box span6">
@@ -205,78 +279,6 @@
 					</div>	
 				</div><!--/span-->
 			</div><!--/row-->
-			<div class="row-fluid sortable">	
-				<div class="box span12">
-					<div class="box-header well" data-original-title>
-						<h2><i class="icon-plus"></i> Extended Elements</h2>
-						<div class="box-icon">
-							<a href="#" class="btn btn-setting btn-round"><i class="icon-cog"></i></a>
-							<a href="#" class="btn btn-minimize btn-round"><i class="icon-chevron-up"></i></a>
-							<a href="#" class="btn btn-close btn-round"><i class="icon-remove"></i></a>
-						</div>
-					</div>
-					<div class="box-content">
-						<table class="table table-bordered table-striped">
-							<tr>
-								<td><h3>Multiple File Upload</h3></td>
-								<td>
-									<input data-no-uniform="true" type="file" name="file_upload" id="file_upload" />
-								</td>
-								<td></td>
-							</tr>
-							<tr>
-								<td><h3>Star Rating</h3></td>
-								<td>
-									<div class="raty"></div>
-								</td>
-								<td><code>&lt;div class="raty"&gt;&lt;/div&gt;</code></td>
-							</tr>
-							<tr>
-								<td><h3>Toggle Switch</h3></td>
-								<td>
-									<input data-no-uniform="true" checked type="checkbox" class="iphone-toggle">
-								</td>
-								<td><code>&lt;input data-no-uniform="true" type="checkbox" class="iphone-toggle"&gt;</code></td>
-							</tr>
-							<tr>
-								<td><h3>Auto Growing Textarea</h3></td>
-								<td>
-									<textarea class="autogrow">Press enter here, it will grow automatically.</textarea>
-								</td>
-								<td><code>&lt;textarea class="autogrow"&gt;&lt;/textarea&gt;</code></td>
-							</tr>
-							<tr>
-								<td><h3>Popover</h3></td>
-								<td>
-									<a href="#" class="btn btn-danger" data-rel="popover" data-content="And here's some amazing content. It's very engaging. right?" title="A Title">Hover for popover</a>
-								</td>
-								<td><code>&lt;a href="#" class="btn btn-danger" data-rel="popover" data-content="And here's some amazing content. It's very engaging. right?" title="A Title"&gt;hover for popover&lt;/a&gt;</code></td>
-							</tr>
-							<tr>
-								<td><h3>Slider</h3></td>
-								<td>
-									<div class="slider"></div>
-								</td>
-								<td><code>&lt;div class="slider"&gt;&lt;/div&gt;</code></td>
-							</tr>
-							<tr>
-								<td><h3>Dialog</h3></td>
-								<td>
-									<a href="#" class="btn btn-info btn-setting">Click for dialog</a>
-								</td>
-								<td></td>
-							</tr>
-							<tr>
-								<td><h3>Tooltip</h3></td>
-								<td>
-									<a href="#" title="Tooltip, you can change the position." data-rel="tooltip" class="btn btn-warning">Hover for tooltip</a>
-								</td>
-								<td><code>&lt;a href="#" title="Tooltip, you can change the position." data-rel="tooltip" class="btn btn-warning"&gt;Hover for tooltip&lt;/a&gt;</code></td>
-							</tr>
-						</table>
-					</div>	
-				</div><!--/span-->
-				
-			</div><!--/row-->
+			
 		
 <?php include('footer.php'); ?>
