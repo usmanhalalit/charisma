@@ -73,7 +73,7 @@
 		<div class="clear"></div>
 		<div class="content">
 			The page your are looking for is not found.
-			<br/><a href="dashboard.html">Go Home</a> or<br/><form>Search<br/><input autofocus type="text" name="search" /></form>
+			<br/><a href="index.html">Go Home</a> or<br/><form>Search<br/><input autofocus type="text" name="search" /></form>
 		</div>
 	</body>
 </html>
