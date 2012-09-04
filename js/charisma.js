@@ -1,6 +1,6 @@
 $(document).ready(function(){
-	//themes, change css with js
-	//default theme is cerulean, change it if needed
+	//themes, change CSS with JS
+	//default theme(CSS) is cerulean, change it if needed
 	var current_theme = $.cookie('current_theme')==null ? 'cerulean' :$.cookie('current_theme');
 	switch_theme(current_theme);
 	
