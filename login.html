@@ -29,7 +29,7 @@
 	</style>
 
 	<link href="css/bootstrap-responsive.css" rel="stylesheet">
-	<link href="css/charisma-app.css" rel="stylesheet">
+	<link href="css/charisma-app-j3.css" rel="stylesheet">
 	<link href="css/jquery-ui-1.8.21.custom.css" rel="stylesheet">
 <!--
 	NOTE: this is needless by login.html page
@@ -79,9 +79,14 @@
 			</div><!--/row-->
 
 			<div class="row-fluid">
-				<div class="well span5 center login-box">
+				<div class="well center login-box">
+<!--
 					<div class="alert alert-info">
 						Please login with your Username and Password.
+					</div>
+-->
+					<div class="center logo">
+						<img src="img/logo.png" alt="" title="" />
 					</div>
 					<form class="form-horizontal" action="index.html" method="post">
 						<fieldset>
@@ -100,14 +105,15 @@
 							</div>
 							<div class="clearfix"></div>
 
-							<div class="input-prepend">
-							<label class="remember" for="remember"><input type="checkbox" id="remember" name="remember" />Remember me</label>
+							<div style="width:100%;">
+								<div class="remember">
+									<label for="remember"><input type="checkbox" id="remember" name="remember" />Remember me</label>
+								</div>
+								<div class="forgot">
+									<label for="forgotch"><input type="checkbox" id="forgotch" />Forgot password?</label>
+								</div>
+								<div class="clearfix"></div>
 							</div>
-
-							<div class="input-prepend">
-							<label class="forgot" for="forgotch"><input type="checkbox" id="forgotch" />Forgot password?</label>
-							</div>
-							<div class="clearfix"></div>
 
 							<p class="center span5">
 							<button type="submit" class="btn btn-primary" id="login">Login</button>

@@ -1,12 +1,24 @@
-$(document).ready(function() {
-    // TODO: center window
+jQuery.fn.center = function () {
+    this.css("position","absolute");
+    this.css("top",  Math.max(0, (($(window).height() - $(this).outerHeight()) / 2) + $(window).scrollTop() ) + "px");
+    this.css("left", Math.max(0, (($(window).width()  - $(this).outerWidth() ) / 2) + $(window).scrollLeft()) + "px");
 
-    var backup   = {
+    return this;
+}
+
+
+$(window).resize(function() {
+    $('.login-box').center();
+});
+
+
+$(document).ready(function() {
+    var backup = {
         'login': $('fieldset #login').html()
     };
+    $('.login-box').center();
     $('fieldset #forgotel').css('visibility', 'hidden');
     $('fieldset input[name=forgotemail]').attr('disabled', true);
-
 
     $('fieldset #forgotch').change(function() {
         var el = {
@@ -31,7 +43,7 @@ $(document).ready(function() {
             el['forgotin'].removeAttr("disabled");
 
             el['login'].html('Send');
-            el['login'].toggleClass('forgot');
+            el['login'].toggleClass('btn-forgot');
 
         } else {
             el['remember'].removeAttr("disabled");
@@ -45,7 +57,7 @@ $(document).ready(function() {
             el['forgotin'].attr('disabled', true);
 
             el['login'].html(backup['login']);
-            el['login'].toggleClass('forgot');
+            el['login'].toggleClass('btn-forgot');
         }
     });
 });
