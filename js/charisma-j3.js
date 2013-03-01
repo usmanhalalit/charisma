@@ -1,8 +1,8 @@
 $(document).ready(function(){
 	//themes, change CSS with JS
 	//default theme(CSS) is cerulean, change it if needed
-//	var current_theme = $.cookie('current_theme')==null ? 'cerulean' :$.cookie('current_theme');
-	var current_theme = $.cookie('current_theme') == null ? 'j3' : $.cookie('current_theme');
+	var current_theme = $.cookie('current_theme')==null ? 'cerulean' :$.cookie('current_theme');
+//	var current_theme = $.cookie('current_theme') == null ? 'j3' : $.cookie('current_theme');
 	switch_theme(current_theme);
 	
 	// fixed: {navbar-fixed-top and main-menu-span} while scrolling
@@ -38,7 +38,7 @@ $(document).ready(function(){
 	
 	function switch_theme(theme_name)
 	{
-		$('#bs-css').attr('href','css/bootstrap-'+theme_name+'.css');
+		$('#bs-css').attr('href','css/themes/'+theme_name+'.css');
 	}
 	
 	//ajax menu checkbox
