@@ -31,17 +31,11 @@
 		padding: 9px 0;
 	  }
 	</style>
+
 	<link href="css/3rd-party/jquery-ui-1.8.21.custom.css" rel="stylesheet">
-	<link href='css/3rd-party/fullcalendar.css' rel='stylesheet'>
-	<link href='css/3rd-party/fullcalendar.print.css' rel='stylesheet'  media='print'>
 	<link href='css/3rd-party/chosen.css' rel='stylesheet'>
 	<link href='css/3rd-party/uniform.default.css' rel='stylesheet'>
 	<link href='css/3rd-party/colorbox.css' rel='stylesheet'>
-	<link href='css/3rd-party/jquery.cleditor.css' rel='stylesheet'>
-	<link href='css/3rd-party/jquery.noty.css' rel='stylesheet'>
-	<link href='css/3rd-party/noty_theme_default.css' rel='stylesheet'>
-	<link href='css/3rd-party/elfinder.min.css' rel='stylesheet'>
-	<link href='css/3rd-party/elfinder.theme.css' rel='stylesheet'>
 	<link href='css/3rd-party/jquery.iphone.toggle.css' rel='stylesheet'>
 	<link href='css/3rd-party/opa-icons.css' rel='stylesheet'>
 	<link href='css/3rd-party/uploadify.css' rel='stylesheet'>
@@ -64,11 +58,19 @@
 					<h2>Welcome to Charisma</h2>
 				</div><!--/span-->
 			</div><!--/row-->
-
 			<div class="row-fluid">
-				<div class="well span5 center login-box">
+				<div class="well center login-box">
+<!--
 					<div class="alert alert-info">
 						Please login with your Username and Password.
+					</div>
+-->
+					<div class="center logo">
+<!--
+						TODO: specify image dimensions: The following image(s) are missing a width and/or height.
+						NOTE: by chrome-audits: A width and height should be specified for all images in order to speed up page display.
+-->
+						<img src="img/logo.png" alt="" title="" width="" height="" />
 					</div>
 					<form class="form-horizontal" action="index.html" method="post">
 						<fieldset>
@@ -82,13 +84,23 @@
 							</div>
 							<div class="clearfix"></div>
 
-							<div class="input-prepend">
-							<label class="remember" for="remember"><input type="checkbox" id="remember" />Remember me</label>
+							<div class="input-prepend" title="E-Mail to send new password" data-rel="tooltip" style="visibility:hidden;" id="forgotel">
+								<span class="add-on"><i class="icon-globe"></i></span><input class="input-large span10" name="forgotemail" type="email" value="email@domain.tld" />
 							</div>
 							<div class="clearfix"></div>
 
+							<div style="width:100%;">
+								<div class="remember">
+									<label for="remember"><input type="checkbox" id="remember" name="remember" />Remember me</label>
+								</div>
+								<div class="forgot">
+									<label for="forgotch"><input type="checkbox" id="forgotch" />Forgot password?</label>
+								</div>
+								<div class="clearfix"></div>
+							</div>
+
 							<p class="center span5">
-							<button type="submit" class="btn btn-primary">Login</button>
+							<button type="submit" class="btn btn-primary" id="login">Login</button>
 							</p>
 						</fieldset>
 					</form>
@@ -170,7 +182,10 @@
 	<!-- history.js for cross-browser state change on ajax -->
 	<script src="js/jquery.history.js"></script>
 	<!-- application script for Charisma demo -->
-	<script src="js/charisma.js"></script>
+	<script src="js/charismaNG.js"></script>
+
+	<!-- ONLY FOR login.html purposes! -->
+	<script src="js/login.js"></script>
 
 
 </body>

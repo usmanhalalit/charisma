@@ -38,7 +38,7 @@ $(document).ready(function(){
 	
 	function switch_theme(theme_name)
 	{
-		$('#bs-css').attr('href','css/themes/'+theme_name+'.css');
+		$('#bs-css').attr('href','css2/'+theme_name+'.css');
 	}
 	
 	//ajax menu checkbox

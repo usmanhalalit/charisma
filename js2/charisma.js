@@ -18,8 +18,7 @@ $(document).ready(function(){
 	
 	function switch_theme(theme_name)
 	{
-		$('#bs-css').attr('href','css/themes/'+theme_name+'/bootstrap.css');
-		$('#th-css').attr('href','css/themes/'+theme_name+'/charisma-app.css');
+		$('#bs-css').attr('href','css2/themes/bootstrap-'+theme_name+'.css');
 	}
 	
 	//ajax menu checkbox
