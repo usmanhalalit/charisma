@@ -1,5 +1,5 @@
 jQuery.fn.center = function () {
-    this.css("position","absolute");
+    this.css("position", "absolute");
     this.css("top",  Math.max(0, (($(window).height() - $(this).outerHeight()) / 2) + $(window).scrollTop() ) + "px");
     this.css("left", Math.max(0, (($(window).width()  - $(this).outerWidth() ) / 2) + $(window).scrollLeft()) + "px");
 
@@ -8,7 +8,7 @@ jQuery.fn.center = function () {
 
 
 $(window).resize(function() {
-    $('.login-box').center();
+//    $('.login-box').center();
 });
 
 
@@ -16,7 +16,7 @@ $(document).ready(function() {
     var backup = {
         'login': $('fieldset #login').html()
     };
-    $('.login-box').center();
+//    $('.login-box').center();
     $('fieldset #forgotel').css('visibility', 'hidden');
     $('fieldset input[name=forgotemail]').attr('disabled', true);
 

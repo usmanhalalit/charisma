@@ -1,8 +1,27 @@
 $(document).ready(function(){
 	//themes, change CSS with JS
 	//default theme(CSS) is cerulean, change it if needed
-	var current_theme = $.cookie('current_theme')==null ? 'cerulean' :$.cookie('current_theme');
+	var current_theme = $.cookie('current_theme')==null ? 'ceruleanNG' :$.cookie('current_theme');
 	switch_theme(current_theme);
+	
+	// fixed: {navbar-fixed-top and main-menu-span} while scrolling
+	// -- http://jsfiddle.net/9erk2/
+	// -- http://www.html5trends.com/tutorials/simple-and-short-jquery-fixed-floating-scrollbar-technique/
+//	$window = $(window),
+//	$sidebar = $(".sidebar"),
+//	sidebarTop = $sidebar.position().top,
+//	sidebarHeight = $sidebar.height(),
+//	$footer = $(".footer"),
+//	footerTop = $footer.position().top,    
+//	$sidebar.addClass('fixed');
+//	
+//	$window.scroll(function(event) {
+//	    scrollTop = $window.scrollTop(),
+//	        topPosition = Math.max(0, sidebarTop - scrollTop),
+//	            topPosition = Math.min(topPosition, (footerTop - scrollTop) - sidebarHeight);
+//	                $sidebar.css('top', topPosition);
+//	                });
+	
 	
 	$('#themes a[data-value="'+current_theme+'"]').find('i').addClass('icon-ok');
 				 

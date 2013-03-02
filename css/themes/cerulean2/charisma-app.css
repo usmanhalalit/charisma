@@ -18,7 +18,7 @@
  PUT HERE YOUR THEME BASED CSS: [INHERITED from charisma-app]
  ============================================================================
 */
-.login-box{
+.login-box {
 	width: 370px;
 	height: 240px;
 	position: relative;
@@ -44,6 +44,10 @@
 .login-box .logo img {
 	position: relative;
 	z-index: -1;
+}
+
+.login-box .form-horizontal {
+	margin-top: 50px;
 }
 
 .login-box .remember {
