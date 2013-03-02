@@ -46,6 +46,11 @@
 }
 
 
+body {
+  padding-bottom: 40px;
+}
+
+
 select {
   background-color:#fff;
 }
@@ -428,6 +433,7 @@ img.center {
      -moz-border-radius: 5px;
   margin-bottom: 0;
   padding-bottom:0;
+  padding: 9px 0;
 }
 
 .sidebar-nav > ul > li:not(.nav-header) {

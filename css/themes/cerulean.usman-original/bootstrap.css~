@@ -365,7 +365,6 @@ textarea[readonly] {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#61b0df', endColorstr='#369bd7', GradientType=0);
 }
 
-
 /* NOTE: override same element with new attributes... */
 .navbar-inner {
   background: -moz-linear-gradient(top,  rgba(255,255,255,0) 0%, rgba(0,0,0,0.15) 50%, rgba(30,30,30,0) 100%);
@@ -534,8 +533,6 @@ a.thumbnail:hover {
 
 .btn {
 /*
-  130302: disable this one, because the button was white and in original cerulean is blue. same as in original twitter-bootstrap! REMOVE this shit while do you next edit... @see: bootstrap.css line: 2576[original], bootstrap-cerulean.css line 4245[defined twice!]
-
   background-color: #ffffff;
   background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), color-stop(5%, #ffffff), to(#ffffff));
   background-image: -webkit-linear-gradient(#ffffff, #ffffff 5%, #ffffff);
