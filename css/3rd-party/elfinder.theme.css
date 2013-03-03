@@ -40,7 +40,7 @@
 
 /* contextmenu */
 .elfinder-contextmenu .ui-state-hover { background: #3875d7; color:#fff; }
-.elfinder-contextmenu .ui-state-hover .elfinder-contextmenu-arrow { background-image:url('../img/arrows-active.png'); }
+.elfinder-contextmenu .ui-state-hover .elfinder-contextmenu-arrow { background-image:url('../../img/arrows-active.png'); }
 
 
 
