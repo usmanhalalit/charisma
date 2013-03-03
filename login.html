@@ -23,13 +23,14 @@
 	<link href="css/themes/cerulean/bootstrap.css" rel="stylesheet" id="bs-css">
 	<link href="css/charisma-app.css" rel="stylesheet">
 	<link href="css/themes/cerulean/charisma-app.css" rel="stylesheet" id="th-css">
+
 	<link href="css/3rd-party/jquery-ui-1.8.21.custom.css" rel="stylesheet">
-	<link href='css/3rd-party/chosen.css' rel='stylesheet'>
-	<link href='css/3rd-party/uniform.default.css' rel='stylesheet'>
-	<link href='css/3rd-party/colorbox.css' rel='stylesheet'>
-	<link href='css/3rd-party/jquery.iphone.toggle.css' rel='stylesheet'>
-	<link href='css/3rd-party/opa-icons.css' rel='stylesheet'>
-	<link href='css/3rd-party/uploadify.css' rel='stylesheet'>
+	<link href="css/3rd-party/chosen.css" rel="stylesheet">
+	<link href="css/3rd-party/uniform.default.css" rel="stylesheet">
+	<link href="css/3rd-party/colorbox.css" rel="stylesheet">
+	<link href="css/3rd-party/jquery.iphone.toggle.css" rel="stylesheet">
+	<link href="css/3rd-party/opa-icons.css" rel="stylesheet">
+	<link href="css/3rd-party/uploadify.css" rel="stylesheet">
 
 	<!-- The HTML5 shim, for IE6-8 support of HTML5 elements -->
 	<!--[if lt IE 9]>
@@ -52,17 +53,22 @@
 			<div class="row-fluid">
 				<div class="well center login-box">
 <!--
+					NOTE: some welcome text... uncoment this if you want and update {width|height} of ".login-box" in: css/<theme-name>/charisma-app.css
 					<div class="alert alert-info">
 						Please login with your Username and Password.
 					</div>
 -->
-					<div class="center logo">
 <!--
+
+					<div class="center logo">
+						NOTE: uncoment this, if you want a logo on ".login-box". just prepare your app's logo, max-width: 368px; max-height: 258px; @see: css/<theme-name>/charisma-app.css
+
 						TODO: specify image dimensions: The following image(s) are missing a width and/or height.
 						NOTE: by chrome-audits: A width and height should be specified for all images in order to speed up page display.
--->
+
 						<img src="img/logo.png" alt="" title="" width="" height="" />
 					</div>
+-->
 					<form class="form-horizontal" action="index.html" method="post">
 						<fieldset>
 							<div class="input-prepend" title="Username" data-rel="tooltip">
@@ -138,9 +144,9 @@
 	<!-- library for cookie management -->
 	<script src="js/3rd-party/jquery.cookie.js"></script>
 	<!-- calander plugin -->
-	<script src='js/3rd-party/fullcalendar.min.js'></script>
+	<script src="js/3rd-party/fullcalendar.min.js"></script>
 	<!-- data table plugin -->
-	<script src='js/3rd-party/jquery.dataTables.min.js'></script>
+	<script src="js/3rd-party/jquery.dataTables.min.js"></script>
 
 	<!-- chart libraries start -->
 	<script src="js/3rd-party/excanvas.js"></script>
