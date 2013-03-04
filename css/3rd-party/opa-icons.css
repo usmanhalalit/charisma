@@ -310,26 +310,26 @@
 .active .icon32.icon-xls,.icon32.icon-xls,.icon32.icon-xls:hover {background-position : -416px -192px ;}
 .active .icon32.icon-zoomin,.icon32.icon-zoomin,.icon32.icon-zoomin:hover {background-position : -416px -128px ;}
 .active .icon32.icon-zoomout,.icon32.icon-zoomout,.icon32.icon-zoomout:hover {background-position : -448px -128px ;}
-.icon.icon-black,.icons-black .icon,.icon.icon-darkgray:hover {background-image : url('../img/opa-icons-black16.png') ;}
-.icon.icon-blue,.icons-blue .icon {background-image : url('../img/opa-icons-blue16.png') ;}
-.icon.icon-color,.icons-color .icon,.active .icon {background-image : url('../img/opa-icons-color16.png') ;}
-.icon.icon-green,.icons-green .icon {background-image : url('../img/opa-icons-green16.png') ;}
-.icon.icon-orange,.icons-orange .icon {background-image : url('../img/opa-icons-orange16.png') ;}
-.icon.icon-red,.icons-red .icon {background-image : url('../img/opa-icons-red16.png') ;}
-.icon.icon-white:hover,.icons-white .icon:hover,.icons-gray .icon {background-image : url('../img/opa-icons-gray16.png') ;}
-.icon.icon-white,.icons-white .icon {background-image : url('../img/opa-icons-white16.png') ;}
-.icon:hover,.icon.icon-darkgray,.icons-darkgray .icon {background-image : url('../img/opa-icons-darkgray16.png') ;}
-.icon {background-image : url('../img/opa-icons-gray16.png') ;background-repeat : no-repeat ;display : inline-block ;height : 16px ;vertical-align : text-top ;width : 16px ;}
-.icon32.icon-black,.icons-black .icon32,.icon32.icon-darkgray:hover {background-image : url('../img/opa-icons-black32.png') ;}
-.icon32.icon-blue,.icons-blue .icon32 {background-image : url('../img/opa-icons-blue32.png') ;}
-.icon32.icon-color,.icons-color .icon32,.active .icon32 {background-image : url('../img/opa-icons-color32.png') ;}
-.icon32.icon-green,.icons-green .icon32 {background-image : url('../img/opa-icons-green32.png') ;}
-.icon32.icon-orange,.icons-orange .icon32 {background-image : url('../img/opa-icons-orange32.png') ;}
-.icon32.icon-red,.icons-red .icon32 {background-image : url('../img/opa-icons-red32.png') ;}
-.icon32.icon-white:hover,.icons-white .icon32:hover,.icons-gray .icon32 {background-image : url('../img/opa-icons-gray32.png') ;}
-.icon32.icon-white,.icons-white .icon32 {background-image : url('../img/opa-icons-white32.png') ;}
-.icon32:hover,.icon32.icon-darkgray,.icons-darkgray .icon32 {background-image : url('../img/opa-icons-darkgray32.png') ;}
-.icon32 {background-image : url('../img/opa-icons-gray32.png') ;background-repeat : no-repeat ;display : inline-block ;height : 32px ;vertical-align : text-top ;width : 32px ;}
+.icon.icon-black,.icons-black .icon,.icon.icon-darkgray:hover {background-image : url('../../img/opa-icons-black16.png') ;}
+.icon.icon-blue,.icons-blue .icon {background-image : url('../../img/opa-icons-blue16.png') ;}
+.icon.icon-color,.icons-color .icon,.active .icon {background-image : url('../../img/opa-icons-color16.png') ;}
+.icon.icon-green,.icons-green .icon {background-image : url('../../img/opa-icons-green16.png') ;}
+.icon.icon-orange,.icons-orange .icon {background-image : url('../../img/opa-icons-orange16.png') ;}
+.icon.icon-red,.icons-red .icon {background-image : url('../../img/opa-icons-red16.png') ;}
+.icon.icon-white:hover,.icons-white .icon:hover,.icons-gray .icon {background-image : url('../../img/opa-icons-gray16.png') ;}
+.icon.icon-white,.icons-white .icon {background-image : url('../../img/opa-icons-white16.png') ;}
+.icon:hover,.icon.icon-darkgray,.icons-darkgray .icon {background-image : url('../../img/opa-icons-darkgray16.png') ;}
+.icon {background-image : url('../../img/opa-icons-gray16.png') ;background-repeat : no-repeat ;display : inline-block ;height : 16px ;vertical-align : text-top ;width : 16px ;}
+.icon32.icon-black,.icons-black .icon32,.icon32.icon-darkgray:hover {background-image : url('../../img/opa-icons-black32.png') ;}
+.icon32.icon-blue,.icons-blue .icon32 {background-image : url('../../img/opa-icons-blue32.png') ;}
+.icon32.icon-color,.icons-color .icon32,.active .icon32 {background-image : url('../../img/opa-icons-color32.png') ;}
+.icon32.icon-green,.icons-green .icon32 {background-image : url('../../img/opa-icons-green32.png') ;}
+.icon32.icon-orange,.icons-orange .icon32 {background-image : url('../../img/opa-icons-orange32.png') ;}
+.icon32.icon-red,.icons-red .icon32 {background-image : url('../../img/opa-icons-red32.png') ;}
+.icon32.icon-white:hover,.icons-white .icon32:hover,.icons-gray .icon32 {background-image : url('../../img/opa-icons-gray32.png') ;}
+.icon32.icon-white,.icons-white .icon32 {background-image : url('../../img/opa-icons-white32.png') ;}
+.icon32:hover,.icon32.icon-darkgray,.icons-darkgray .icon32 {background-image : url('../../img/opa-icons-darkgray32.png') ;}
+.icon32 {background-image : url('../../img/opa-icons-gray32.png') ;background-repeat : no-repeat ;display : inline-block ;height : 32px ;vertical-align : text-top ;width : 32px ;}
 
 ul.media-grid li {
   text-align: center;

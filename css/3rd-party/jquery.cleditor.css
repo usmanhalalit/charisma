@@ -1,9 +1,9 @@
 .cleditorMain {border:1px solid #999; padding:0 1px 1px; background-color:white}
 .cleditorMain iframe {border:none; margin:0; padding:0}
 .cleditorMain textarea {border:none; margin:0; padding:0; overflow-y:scroll; font:10pt Arial,Verdana; resize:none; outline:none /* webkit grip focus */}
-.cleditorToolbar {background: url('../img/toolbar.gif') repeat}
+.cleditorToolbar {background: url('../../img/toolbar.gif') repeat}
 .cleditorGroup {float:left; height:26px}
-.cleditorButton {float:left; width:24px; height:24px; margin:1px 0 1px 0; background: url('../img/buttons.gif')}
+.cleditorButton {float:left; width:24px; height:24px; margin:1px 0 1px 0; background: url('../../img/buttons.gif')}
 .cleditorDisabled {opacity:0.3; filter:alpha(opacity=30)}
 .cleditorDivider {float:left; width:1px; height:23px; margin:1px 0 1px 0; background:#CCC}
 .cleditorPopup {border:solid 1px #999; background-color:white; position:absolute; font:10pt Arial,Verdana; cursor:default; z-index:10000}
