@@ -20,9 +20,9 @@
 	<!-- The styles -->
 	<link href="css/bootstrap.css" rel="stylesheet">
 	<link href="css/bootstrap-responsive.css" rel="stylesheet">
-	<link href="css/themes/cerulean/bootstrap.css" rel="stylesheet" id="bs-css">
-	<link href="css/charisma-app.css" rel="stylesheet">
-	<link href="css/themes/cerulean/charisma-app.css" rel="stylesheet" id="th-css">
+	<link href="css/themes/zatebou/bootstrap.css" rel="stylesheet" id="bs-css">
+	<link href="css/app-charisma.css" rel="stylesheet">
+	<link href="css/themes/zatebou/app-charisma.css" rel="stylesheet" id="th-css">
 
 	<link href="css/3rd-party/jquery-ui-1.8.21.custom.css" rel="stylesheet">
 	<link href="css/3rd-party/chosen.css" rel="stylesheet">
@@ -43,6 +43,7 @@
 </head>
 
 <body>
+<!--
 	<div id="login-header">
 		<dl id="environments">
 		<dt>Environments</dt>
@@ -53,15 +54,8 @@
 		</ul></dd>
 		</dl>
 		<h1>Welcome to charisma</h1>
-<!--
-		NOTE: watermark demo: just put img-link into your app's watermark or comment/delete this section.
-		      (it's used only to show your actual watermark on images, if you use that!)
--->
-		<div class="watermark app">
-			<div class="img-layer"><img src="xwmark/NG/watermark-app.png" /></div>
-			<div class="crop-layer"></div>
-		</div>
 	</div>
+-->
 	<div class="container-fluid">
 		<div class="row-fluid">
 			<div class="row-fluid">
@@ -82,7 +76,7 @@
 				</div></noscript>
 				<div class="well center login-box" style="visibility:hidden;">
 <!--
-					NOTE: some welcome text... uncoment this if you want and update {width|height} of ".login-box" in: css/<theme-name>/charisma-app.css
+					NOTE: some welcome text... uncoment this if you want and update {width|height} of ".login-box" in: css/<theme-name>/app-charisma.css
 					<div class="alert alert-info">
 						Please login with your Username and Password.
 					</div>
@@ -90,7 +84,7 @@
 <!--
 
 					<div class="center logo">
-						NOTE: uncoment this, if you want a logo on ".login-box". just prepare your app's logo, max-width: 368px; max-height: 258px; @see: css/<theme-name>/charisma-app.css
+						NOTE: uncoment this, if you want a logo on ".login-box". just prepare your app's logo, max-width: 368px; max-height: 258px; @see: css/<theme-name>/app-charisma.css
 
 						TODO: specify image dimensions: The following image(s) are missing a width and/or height.
 						NOTE: by chrome-audits: A width and height should be specified for all images in order to speed up page display.
@@ -134,12 +128,16 @@
 			</div><!--/row-->
 		</div><!--/fluid-row-->
 	</div><!--/.fluid-container-->
-	<div id="login-footer">
-		<div class="watermark s2">
-			<div class="img-layer"><img src="xwmark/NG/watermark-s2.png" /></div>
-			<div class="crop-layer"></div>
+	<div class="footer-s2">
+		<div class="logo"><a href="http://s2.asnetxe.com/" title="" target="_blank"><img src="img/logo-s2.png" alt="" /></a></div>
+		<div class="platform-powered">
+			<div class="text-s2-platform"><span><a href="http://s2.asnetxe.com/" title="" target="_blank">s2 platform</a></span></div><div class="text-powered"><span>powered</span></div>
+			<div class="clearfix"></div>
+			<div class="copyright"><span>&copy; <a href="http://jan.smid.sk/" title="" target="_blank">jan.smid.sk</a></span></div>
 		</div>
+		<div class="clearfix"></div>
 	</div>
+
 
 
 	<!-- external javascript
