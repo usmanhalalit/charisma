@@ -43,6 +43,21 @@
 </head>
 
 <body>
+	<div id="login-header">
+		<dl id="environments">
+		<dt>Environments</dt>
+		<dd><ul>
+			<li class="dev active"><a href="#" title="Switch to development environment"><span>dev</span></a></li>
+			<li class="uat"><a href="#" title="Switch to user acceptance testing environment"><span>uat</span></a></li>
+			<li class="prod"><a href="#" title="Switch to production environment"><span>prod</span></a></li>
+		</ul></dd>
+		</dl>
+		<h1>Welcome to charisma</h1>
+		<div class="watermark app">
+			<div class="img-layer"><img src="xwmark/NG/watermark-app.png" /></div>
+			<div class="crop-layer"></div>
+		</div>
+	</div>
 	<div class="container-fluid">
 		<div class="row-fluid">
 			<div class="row-fluid">
@@ -51,6 +66,12 @@
 				</div><!--/span-->
 			</div><!--/row-->
 			<div class="row-fluid">
+				<div id="flash-messages" class="center" style="width:50%;">
+					<div class="center alert alert-success">[alert alert-success]: Success flash message...</div>
+					<div class="center alert alert-info">[alert alert-info]: Success flash message...</div>
+					<div class="center alert alert-danger">[alert alert-danger]: Success flash message...</div>
+					<div class="center alert alert-error">[alert alert-error]: Success flash message...</div>
+				</div>
 				<noscript><div class="well center" style="width:50%;">
 						<div class="center alert alert-error"><strong>FATAL:</strong> You have javascript turned off!</div>
 						<div class="center alert alert-warning">Javascript is <u>required</u> for proper operation of this site.</div>
@@ -108,8 +129,14 @@
 				</div><!--/span-->
 			</div><!--/row-->
 		</div><!--/fluid-row-->
-
 	</div><!--/.fluid-container-->
+	<div id="login-footer">
+		<div class="watermark s2">
+			<div class="img-layer"><img src="xwmark/NG/watermark-s2.png" /></div>
+			<div class="crop-layer"></div>
+		</div>
+	</div>
+
 
 	<!-- external javascript
 	================================================== -->
