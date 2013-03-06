@@ -92,14 +92,17 @@
 .footer-s2 {
 	position: absolute;
 	right: 0;
- 	bottom: 0;
+	bottom: 0;
 }
 
 .footer-s2 .logo {
+/*
 	position: absolute;
 	right: 0;
 	bottom: 0;
-	margin-bottom: 4em;
+*/
+	width: 10em;
+	margin-bottom: 0.4em;
 	margin-right: 1em;
 }
 
