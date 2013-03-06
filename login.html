@@ -21,8 +21,8 @@
 	<link href="css/bootstrap.css" rel="stylesheet">
 	<link href="css/bootstrap-responsive.css" rel="stylesheet">
 	<link href="css/themes/cerulean/bootstrap.css" rel="stylesheet" id="bs-css">
-	<link href="css/charisma-app.css" rel="stylesheet">
-	<link href="css/themes/cerulean/charisma-app.css" rel="stylesheet" id="th-css">
+	<link href="css/app-charisma.css" rel="stylesheet">
+	<link href="css/themes/cerulean/app-charisma.css" rel="stylesheet" id="th-css">
 
 	<link href="css/3rd-party/jquery-ui-1.8.21.custom.css" rel="stylesheet">
 	<link href="css/3rd-party/chosen.css" rel="stylesheet">
@@ -51,22 +51,32 @@
 				</div><!--/span-->
 			</div><!--/row-->
 			<div class="row-fluid">
-				<div class="well center login-box">
+				<div id="flash-messages" class="center" style="width:50%;">
+					<div class="center alert alert-success">[alert alert-success]: Success flash message...</div>
+					<div class="center alert alert-info">[alert alert-info]: Success flash message...</div>
+					<div class="center alert alert-danger">[alert alert-danger]: Success flash message...</div>
+					<div class="center alert alert-error">[alert alert-error]: Success flash message...</div>
+				</div>
+				<noscript><div class="well center" style="width:50%;">
+						<div class="center alert alert-error"><strong>FATAL:</strong> You have javascript turned off!</div>
+						<div class="center alert alert-warning">Javascript is <u>required</u> for proper operation of this site.</div>
+				</div></noscript>
+				<div class="well center login-box" style="visibility:hidden;">
 <!--
-					NOTE: some welcome text... uncoment this if you want and update {width|height} of ".login-box" in: css/<theme-name>/charisma-app.css
+					NOTE: some welcome text... uncoment this if you want and update {width|height} of ".login-box" in: css/<theme-name>/app-charisma.css
 					<div class="alert alert-info">
 						Please login with your Username and Password.
 					</div>
 -->
-<!--
 
+<!--
 					<div class="center logo">
-						NOTE: uncoment this, if you want a logo on ".login-box". just prepare your app's logo, max-width: 368px; max-height: 258px; @see: css/<theme-name>/charisma-app.css
+						NOTE: uncoment this, if you want a logo on ".login-box". just prepare your app's logo, max-width: 368px; max-height: 258px; @see: css/<theme-name>/app-charisma.css
 
 						TODO: specify image dimensions: The following image(s) are missing a width and/or height.
 						NOTE: by chrome-audits: A width and height should be specified for all images in order to speed up page display.
 
-						<img src="img/logo.png" alt="" title="" width="" height="" />
+						<img src="img/charisma/logo.png" alt="" title="" width="" height="" />
 					</div>
 -->
 					<form class="form-horizontal" action="index.html" method="post">
@@ -104,7 +114,6 @@
 				</div><!--/span-->
 			</div><!--/row-->
 		</div><!--/fluid-row-->
-
 	</div><!--/.fluid-container-->
 
 	<!-- external javascript

@@ -14,9 +14,10 @@ $(window).resize(function() {
 
 $(document).ready(function() {
 	var backup = {
-	'login': $('fieldset #login').html()
+		'login': $('fieldset #login').html()
 	};
 	$('.login-box').center();
+	$('.login-box').css('visibility', '');
 	$('fieldset #forgotel').css('visibility', 'hidden');
 	$('fieldset input[name=forgotemail]').attr('disabled', true);
 
