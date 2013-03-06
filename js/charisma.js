@@ -161,6 +161,7 @@ function docReady(){
 
 	//star rating
 	$('.raty').raty({
+		path  : 'img/3rd-party/raty',
 		score : 4 //default stars
 	});
 
