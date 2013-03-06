@@ -179,12 +179,7 @@ li.dev
 
 
 .s2-footer .logo {
-/*
-	position: absolute;
-	right: 0;
-	bottom: 0;
-*/
-	width: 10em;
+	width: 128px;
 	margin-bottom: 0.4em;
 	margin-right: 1em;
 }
