@@ -845,6 +845,10 @@ legend {
 	}
 }
 
+.modal.fade.in {
+  top: 50%;
+}
+
 
 
 /*
