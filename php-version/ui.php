@@ -275,7 +275,7 @@
 					<div class="box-content">
 						<ul class="ajax-loaders">
 						<?php for($i=1;$i<=8;$i++){ ?>
-								<li><img src="img/ajax-loaders/ajax-loader-<?php echo $i ?>.gif" title="img/ajax-loaders/ajax-loader-<?php echo $i ?>.gif" ></li>
+								<li><img src="img/charisma/ajax-loaders/ajax-loader-<?php echo $i ?>.gif" title="img/charisma/ajax-loaders/ajax-loader-<?php echo $i ?>.gif" ></li>
 						<?php } ?>
 						</ul>
 						<span class="clearfix">From / More <a href="http://ajaxload.info/" target="_blank">http://ajaxload.info/</a></span>

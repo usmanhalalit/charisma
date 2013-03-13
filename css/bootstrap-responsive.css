@@ -679,7 +679,7 @@
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 979px) {
   body {
     padding-top: 0;
   }
@@ -807,7 +807,7 @@
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 980px) {
   .nav-collapse.collapse {
     height: auto !important;
     overflow: visible !important;

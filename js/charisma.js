@@ -4,6 +4,7 @@ $(document).ready(function(){
 	var current_theme = $.cookie('current_theme')==null ? 'cerulean' :$.cookie('current_theme');
 	switch_theme(current_theme);
 	
+	
 	$('#themes a[data-value="'+current_theme+'"]').find('i').addClass('icon-ok');
 				 
 	$('#themes a').click(function(e){
@@ -18,7 +19,8 @@ $(document).ready(function(){
 	
 	function switch_theme(theme_name)
 	{
-		$('#bs-css').attr('href','css/bootstrap-'+theme_name+'.css');
+		$('#bs-css').attr('href','css/themes/'+theme_name+'/bootstrap.css');
+		$('#th-css').attr('href','css/themes/'+theme_name+'/app-charisma.css');
 	}
 	
 	//ajax menu checkbox
@@ -159,6 +161,7 @@ function docReady(){
 
 	//star rating
 	$('.raty').raty({
+		path  : 'img/3rd-party/raty',
 		score : 4 //default stars
 	});
 
