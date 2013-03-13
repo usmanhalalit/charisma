@@ -622,6 +622,10 @@ a.thumbnail:hover {
 @media (min-width: 768px) {
 }
 
+.modal.fade.in {
+  top: 50%;
+}
+
 
 
 /*
