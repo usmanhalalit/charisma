@@ -1,0 +1,50 @@
+=======================================
+login:
+	- flash messages:
+		- put some javascript functionality to fade and move through layers...
+		  #1 - flash msg
+		  #2 - login-box
+		  #3 - after fade-out
+			- onmouseover on this flash msg in this layer will put flash msg back to #1
+		- put some shadow effect on the box
+
+	- [s2]: version info (version, build) - in some eye-candy way!
+
+	- background + (s2-logo) + (install-customer-logo)
+		1) bg -> put onto old paper, @see: https://www.google.cz/search?q=old+paper+texture&aq=0&oq=old+paper&aqs=chrome.1.57j0l3j62l2.2475&sugexp=chrome,mod=17&sourceid=chrome&ie=UTF-8
+		2.1)   html: s2-logo and install-customer-logo put onto circle
+		2.2) canvas: s2-logo and install-customer-logo put onto canvas blob by spline, @see: https://www.google.cz/search?q=old+paper+texture&aq=0&oq=old+paper&aqs=chrome.1.57j0l3j62l2.2475&sugexp=chrome,mod=17&sourceid=chrome&ie=UTF-8#hl=cs&safe=off&sclient=psy-ab&q=javascript%20blob%20moving&oq=&gs_l=&pbx=1&bav=on.2,or.r_cp.r_qf.&bvm=bv.43828540,d.d2k&fp=ed195c3d6b70e243&biw=1680&bih=846&pf=p&pdl=300
+		3) torn paper over: s2-logo and install-customer-logo
+
+	- season
+		- on the "s2-env" the top environment do some fx with season time...
+		J) spring
+			- flower on the top: grown down and moving + paralax
+		L) summer
+			-
+		P) autumn
+			- the leafs falling down from tree (~"s2-env" on top). and accumulate on the bottom + paralax
+		Z) winter
+			- on the top (~"s2-env") is some layer with snow. and snow white falling down (~similar like leafs(P)). "login-box" is in the nearest layer and snow whites are only on border-bottom side.
+
+=======================================
+after login:
+	- [s2]: dynamic loading of the maximum pages in all tables (ajax => async)
+
+	- top:
+		- be fixed (~while you scrolling page)
+		- some less height...
+		- show messages (actual and previous by clicking on expand button); system and flash messages... @todo: need to be UI/UX designed
+
+	- left-menu:
+		- be fixed (~while you scrolling page)
+		- hide/show (move left to hide and show only icons on left side, @see: http://tympanus.net/Tutorials/FixedNavigationTutorial/ and http://www.freshdesignweb.com/jquery-menu.html)
+		- tree-menu: i mean: [category]/sub-page1 [category]/sub-page2 (it's enough for this time)
+
+---
+??blob, spline, canvas??
+??http://sole.github.com/tween.js/examples/02_black_and_red.html??
+
+??https://github.com/sole/tween.js??
+??https://github.com/mbostock/d3??
+??fuck-cool: http://www.moma.org/interactives/exhibitions/2012/inventingabstraction/??
