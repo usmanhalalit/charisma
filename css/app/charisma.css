@@ -13,7 +13,7 @@
  */
 
 
-@import url(https://fonts.googleapis.com/css?family=Shojumaru);
+@import url('https://fonts.googleapis.com/css?family=Shojumaru');
 /*
  ============================================================================
  OVERRIDES CSS FROM [themes/<name>/bootstrap.css]
@@ -355,7 +355,7 @@ img.grayscale {
       -ms-filter: grayscale(100%);
        -o-filter: grayscale(100%);
 /*
-          filter: url(desaturate.svg#grayscale);
+          filter: url('desaturate.svg#grayscale');
           filter: gray;
           filter: grayscale(100%);
 */
@@ -497,7 +497,7 @@ ul.ajax-loaders {
   margin-top:10px;
   height:15px;
   width:128px;
-  background:url("../img/charisma/ajax-loaders/ajax-loader-6.gif");
+  background:url("../../img/charisma/ajax-loaders/ajax-loader-6.gif");
 }
 
 .box-content .nav-tabs {

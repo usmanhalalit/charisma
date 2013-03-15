@@ -23,6 +23,7 @@
 	<link href="css/themes/zatebou/bootstrap.css" rel="stylesheet" id="bs-css">
 	<link href="css/app/charisma.css" rel="stylesheet">
 	<link href="css/app/charisma-login.css" rel="stylesheet">
+	<link href="css/app/charisma-login-amazing.css" rel="stylesheet">
 	<link href="css/themes/zatebou/app-charisma.css" rel="stylesheet" id="th-css">
 
 	<link href="css/3rd-party/jquery-ui-1.8.21.custom.css" rel="stylesheet">
@@ -47,6 +48,17 @@
 
 	<div class="container-fluid">
 
+		<div class="s2-env">
+			<dl id="environment">
+			<dt>Environment</dt>
+			<dd><ul>
+				<li class="dev active"><a href="#" title="Switch to development environment"><span>dev</span></a></li>
+				<li class="uat"><a href="#" title="Switch to user acceptance testing environment"><span>uat</span></a></li>
+				<li class="prod"><a href="#" title="Switch to production environment"><span>prod</span></a></li>
+			</ul></dd>
+			</dl>
+		</div>
+
 		<div class="row-fluid">
 			<div class="row-fluid">
 				<div class="span12 center login-header">
@@ -54,21 +66,34 @@
 				</div><!--/span-->
 			</div><!--/row-->
 			<div class="row-fluid">
-
 				<div id="flash-messages" class="center" style="width:50%;">
 					<div class="center alert alert-success">[alert alert-success]: Success flash message...</div>
 					<div class="center alert alert-info">[alert alert-info]: Success flash message...</div>
 					<div class="center alert alert-danger">[alert alert-danger]: Success flash message...</div>
 					<div class="center alert alert-error">[alert alert-error]: Success flash message...</div>
 				</div>
-
 				<noscript><div class="well center" style="width:50%;">
 						<div class="center alert alert-error"><strong>FATAL:</strong> You have javascript turned off!</div>
 						<div class="center alert alert-warning"><a href="http://en.wikipedia.org/wiki/JavaScript" target="_blank">Javascript</a> is <u>required</u> for proper operation of this site.</div>
 				</div></noscript>
-
-
 				<div class="well center login-box" style="visibility:hidden;">
+<!--
+					NOTE: some welcome text... uncoment this if you want and update {width|height} of ".login-box" in: css/<theme-name>/app-charisma.css
+					<div class="alert alert-info">
+						Please login with your Username and Password.
+					</div>
+-->
+<!--
+
+					<div class="center logo">
+						NOTE: uncoment this, if you want a logo on ".login-box". just prepare your app's logo, max-width: 368px; max-height: 258px; @see: css/<theme-name>/app-charisma.css
+
+						TODO: specify image dimensions: The following image(s) are missing a width and/or height.
+						NOTE: by chrome-audits: A width and height should be specified for all images in order to speed up page display.
+
+						<img src="img/charisma/logo.png" alt="" title="" width="" height="" />
+					</div>
+-->
 					<form class="form-horizontal" action="index.html" method="post">
 						<fieldset>
 							<div class="input-prepend" title="Username" data-rel="tooltip">
@@ -104,6 +129,15 @@
 				</div><!--/span-->
 			</div><!--/row-->
 		</div><!--/fluid-row-->
+
+		<div class="s2-footer">
+			<div class="logo"><a href="http://s2.asnetxe.com/" title="" target="_blank"><img src="img/charisma/s2-logo.png" alt="" /></a></div>
+			<div class="platform-powered">
+				<div class="text-s2-platform"><span><a href="http://s2.asnetxe.com/" title="" target="_blank">s2 platform</a></span></div><div class="text-powered"><span>powered</span></div>
+				<div class="copyright"><span>&copy; <a href="http://jan.smid.sk/" title="" target="_blank">jan.smid.sk</a></span></div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
 
 	</div><!--/.fluid-container-->
 
