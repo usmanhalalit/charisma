@@ -1,0 +1,187 @@
+/*!
+ * Charisma v1.0.0
+ *
+ * Copyright 2012 Muhammad Usman
+ * Licensed under the Apache License v2.0
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * http://usman.it
+ * http://twitter.com/halalit_usman
+ *
+ * @author  Muhammad Usman
+ * @author  Jan Smid
+ */
+
+
+/*
+ ============================================================================
+ PUT HERE YOUR THEME BASED CSS: [INHERITED from app/charisma.css]
+ ============================================================================
+*/
+
+
+
+/*
+ ============================================================================
+ PUT HERE YOUR THEME BASED CSS: [COMPLETLY NEW SECTIONS]
+ ============================================================================
+*/
+
+body {
+	xbackground: url('../../img/charisma/login-amazing_bg.png') no-repeat center top fixed;
+	background-color: silver;
+
+  /* css3 */
+  -webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
+
+  /* css2, @see: http://webdesignerwall.com/tutorials/how-to-css-large-background */
+  width: 100%;
+  display: table;
+}
+
+/*.login-box .logo {
+	width: 100%;
+	height: 258px;
+	max-width: 368px;
+	max-height: 258px;
+	overflow: hidden;
+	margin-top: -17px;
+	position: absolute;
+	z-index: -1;
+}
+.login-box .logo img {
+	position: relative;
+	z-index: -1;
+}*/
+
+
+
+/* ===[ HEADER / environment switcher ]=================================== */
+.s2-env {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background: url('../../img/charisma/login-amazing_bg-header.png') repeat-x 0 0;
+	overflow: hidden;
+}
+
+.s2-env #environment dt {
+	float: left;
+	font-weight: bold;
+	font-style: italic;
+	padding: 24px 0px 0 0.5em;
+}
+
+.s2-env #environment dd {
+	float: left;
+	-webkit-margin-start: -14px;
+}
+
+.s2-env #environment dd ul {
+	list-style: none;
+	font-weight: bold;
+}
+
+.s2-env #environment dd ul li {
+	display: inline-block;
+	width: 48px;
+	height: 48px;
+	margin: 0 6px 0 0;
+	text-decoration: none;
+	background: #F5F5F5;
+	        border-radius: 48px;
+	   -moz-border-radius: 48px;
+	-webkit-border-radius: 48px;
+          box-shadow: 2px 3px 3px 0px #ccc;
+     -moz-box-shadow: 2px 3px 3px 0px #ccc;
+  -webkit-box-shadow: 2px 3px 3px 0px #ccc;
+}
+
+.s2-env #environment dd ul li a {
+	display: inline-block;
+	width: 48px;
+	height: 48px;
+	text-decoration: none;
+	text-align: right;
+	        border-radius: 48px;
+	   -moz-border-radius: 48px;
+	-webkit-border-radius: 48px;
+}
+
+.s2-env #environment dd ul li a:hover {
+	background-color: #A0D0EC;
+	color: #595959;
+}
+
+.s2-env #environment dd ul li.active {
+	background-color: #3689D7;
+}
+
+.s2-env #environment dd ul li.active span {
+	color: white;
+}
+
+.s2-env #environment dd ul li.active a:hover span {
+	color: #595959;
+}
+
+.s2-env #environment dd ul li a span {
+	display: block;
+	text-align: right;
+	margin: 17px 0 0 0;
+	padding: 0 6px;
+}
+
+
+/*
+uat = #64D733
+prod = ???
+
+li.dev
+li.dev a:hover
+li.dev
+
+
+*/
+
+
+
+/* ===[ FOOTER / s2 platform logo and copyright ]========================== */
+.s2-footer {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+
+
+.s2-footer .logo {
+	width: 128px;
+	margin-bottom: 0.4em;
+	margin-right: 1em;
+}
+
+.s2-footer .platform-powered {
+	float: left;
+	text-align: right;
+	margin-right: 1em;
+	padding-bottom: 0.30em;
+	border-top: dotted 2px silver;
+	padding-top: 2px;
+}
+
+.s2-footer .platform-powered .text-powered {
+	float: left;
+	padding-left: 0.4em;
+}
+
+.s2-footer .platform-powered .text-s2-platform {
+	float: left;
+	font-weight: bold;
+}
+
+.s2-footer .platform-powered .copyright {
+}

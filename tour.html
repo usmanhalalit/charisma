@@ -18,31 +18,26 @@
 	<meta name="author" content="Muhammad Usman">
 
 	<!-- The styles -->
-	<link id="bs-css" href="css/bootstrap-cerulean.css" rel="stylesheet">
-	<style type="text/css">
-	  body {
-		padding-bottom: 40px;
-	  }
-	  .sidebar-nav {
-		padding: 9px 0;
-	  }
-	</style>
+	<link href="css/bootstrap.css" rel="stylesheet">
 	<link href="css/bootstrap-responsive.css" rel="stylesheet">
-	<link href="css/charisma-app.css" rel="stylesheet">
-	<link href="css/jquery-ui-1.8.21.custom.css" rel="stylesheet">
-	<link href='css/fullcalendar.css' rel='stylesheet'>
-	<link href='css/fullcalendar.print.css' rel='stylesheet'  media='print'>
-	<link href='css/chosen.css' rel='stylesheet'>
-	<link href='css/uniform.default.css' rel='stylesheet'>
-	<link href='css/colorbox.css' rel='stylesheet'>
-	<link href='css/jquery.cleditor.css' rel='stylesheet'>
-	<link href='css/jquery.noty.css' rel='stylesheet'>
-	<link href='css/noty_theme_default.css' rel='stylesheet'>
-	<link href='css/elfinder.min.css' rel='stylesheet'>
-	<link href='css/elfinder.theme.css' rel='stylesheet'>
-	<link href='css/jquery.iphone.toggle.css' rel='stylesheet'>
-	<link href='css/opa-icons.css' rel='stylesheet'>
-	<link href='css/uploadify.css' rel='stylesheet'>
+	<link href="css/themes/cerulean/bootstrap.css" rel="stylesheet" id="bs-css">
+	<link href="css/app/charisma.css" rel="stylesheet">
+	<link href="css/themes/cerulean/app-charisma.css" rel="stylesheet" id="th-css">
+
+	<link href="css/3rd-party/jquery-ui-1.8.21.custom.css" rel="stylesheet">
+	<link href="css/3rd-party/fullcalendar.css" rel="stylesheet">
+	<link href="css/3rd-party/fullcalendar.print.css" rel="stylesheet"  media="print">
+	<link href="css/3rd-party/chosen.css" rel="stylesheet">
+	<link href="css/3rd-party/uniform.default.css" rel="stylesheet">
+	<link href="css/3rd-party/colorbox.css" rel="stylesheet">
+	<link href="css/3rd-party/jquery.cleditor.css" rel="stylesheet">
+	<link href="css/3rd-party/jquery.noty.css" rel="stylesheet">
+	<link href="css/3rd-party/noty_theme_default.css" rel="stylesheet">
+	<link href="css/3rd-party/elfinder.min.css" rel="stylesheet">
+	<link href="css/3rd-party/elfinder.theme.css" rel="stylesheet">
+	<link href="css/3rd-party/jquery.iphone.toggle.css" rel="stylesheet">
+	<link href="css/3rd-party/opa-icons.css" rel="stylesheet">
+	<link href="css/3rd-party/uploadify.css" rel="stylesheet">
 
 	<!-- The HTML5 shim, for IE6-8 support of HTML5 elements -->
 	<!--[if lt IE 9]>
@@ -51,11 +46,11 @@
 
 	<!-- The fav icon -->
 	<link rel="shortcut icon" href="img/favicon.ico">
-		
+
 </head>
 
 <body>
-		<!-- topbar starts -->
+	<!-- topbar starts -->
 	<div class="navbar">
 		<div class="navbar-inner">
 			<div class="container-fluid">
@@ -64,8 +59,8 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</a>
-				<a class="brand" href="index.html"> <img alt="Charisma Logo" src="img/logo20.png" /> <span>Charisma</span></a>
-				
+				<a class="brand" href="index.html"> <img alt="Charisma Logo" src="img/charisma/logo20.png" /> <span>Charisma</span></a>
+
 				<!-- theme selector starts -->
 				<div class="btn-group pull-right theme-container" >
 					<a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
@@ -82,10 +77,13 @@
 						<li><a data-value="slate" href="#"><i class="icon-blank"></i> Slate</a></li>
 						<li><a data-value="spacelab" href="#"><i class="icon-blank"></i> Spacelab</a></li>
 						<li><a data-value="united" href="#"><i class="icon-blank"></i> United</a></li>
+						<li><i class="icon-blank"></i>- - - - - - - - - - - -</li>
+						<li><a data-value="s2" href="#"><i class="icon-blank"></i> s2</a></li>
+						<li><a data-value="zatebou" href="#"><i class="icon-blank"></i> zatebou.cz</a></li>
 					</ul>
 				</div>
 				<!-- theme selector ends -->
-				
+
 				<!-- user dropdown starts -->
 				<div class="btn-group pull-right" >
 					<a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
@@ -99,7 +97,7 @@
 					</ul>
 				</div>
 				<!-- user dropdown ends -->
-				
+
 				<div class="top-nav nav-collapse">
 					<ul class="nav">
 						<li><a href="#">Visit Site</a></li>
@@ -116,7 +114,7 @@
 	<!-- topbar ends -->
 		<div class="container-fluid">
 		<div class="row-fluid">
-				
+
 			<!-- left menu starts -->
 			<div class="span2 main-menu-span">
 				<div class="well nav-collapse sidebar-nav">
@@ -137,22 +135,23 @@
 						<li><a class="ajax-link" href="icon.html"><i class="icon-star"></i><span class="hidden-tablet"> Icons</span></a></li>
 						<li><a href="error.html"><i class="icon-ban-circle"></i><span class="hidden-tablet"> Error Page</span></a></li>
 						<li><a href="login.html"><i class="icon-lock"></i><span class="hidden-tablet"> Login Page</span></a></li>
+						<li><a href="login-amazing.html"><i class="icon-lock"></i><span class="hidden-tablet"> Login Amazing Page</span></a></li>
 					</ul>
 					<label id="for-is-ajax" class="hidden-tablet" for="is-ajax"><input id="is-ajax" type="checkbox"> Ajax on menu</label>
 				</div><!--/.well -->
 			</div><!--/span-->
 			<!-- left menu ends -->
-			
+
 			<noscript>
 				<div class="alert alert-block span10">
 					<h4 class="alert-heading">Warning!</h4>
 					<p>You need to have <a href="http://en.wikipedia.org/wiki/JavaScript" target="_blank">JavaScript</a> enabled to use this site.</p>
 				</div>
 			</noscript>
-			
+
 			<div id="content" class="span10">
 			<!-- content starts -->
-			
+
 
 			<div>
 				<ul class="breadcrumb">
@@ -185,7 +184,7 @@
 					<!-- content ends -->
 			</div><!--/#content.span10-->
 				</div><!--/fluid-row-->
-				
+
 		<hr>
 
 		<div class="modal hide fade" id="myModal">
@@ -206,7 +205,7 @@
 			<p class="pull-left">&copy; <a href="http://usman.it" target="_blank">Muhammad Usman</a> 2012</p>
 			<p class="pull-right">Powered by: <a href="http://usman.it/free-responsive-admin-template">Charisma</a></p>
 		</footer>
-		
+
 	</div><!--/.fluid-container-->
 
 	<!-- external javascript
@@ -214,75 +213,75 @@
 	<!-- Placed at the end of the document so the pages load faster -->
 
 	<!-- jQuery -->
-	<script src="js/jquery-1.7.2.min.js"></script>
+	<script src="js/3rd-party/jquery-1.7.2.min.js"></script>
 	<!-- jQuery UI -->
-	<script src="js/jquery-ui-1.8.21.custom.min.js"></script>
+	<script src="js/3rd-party/jquery-ui-1.8.21.custom.min.js"></script>
 	<!-- transition / effect library -->
-	<script src="js/bootstrap-transition.js"></script>
+	<script src="js/3rd-party/bootstrap-transition.js"></script>
 	<!-- alert enhancer library -->
-	<script src="js/bootstrap-alert.js"></script>
+	<script src="js/3rd-party/bootstrap-alert.js"></script>
 	<!-- modal / dialog library -->
-	<script src="js/bootstrap-modal.js"></script>
+	<script src="js/3rd-party/bootstrap-modal.js"></script>
 	<!-- custom dropdown library -->
-	<script src="js/bootstrap-dropdown.js"></script>
+	<script src="js/3rd-party/bootstrap-dropdown.js"></script>
 	<!-- scrolspy library -->
-	<script src="js/bootstrap-scrollspy.js"></script>
+	<script src="js/3rd-party/bootstrap-scrollspy.js"></script>
 	<!-- library for creating tabs -->
-	<script src="js/bootstrap-tab.js"></script>
+	<script src="js/3rd-party/bootstrap-tab.js"></script>
 	<!-- library for advanced tooltip -->
-	<script src="js/bootstrap-tooltip.js"></script>
+	<script src="js/3rd-party/bootstrap-tooltip.js"></script>
 	<!-- popover effect library -->
-	<script src="js/bootstrap-popover.js"></script>
+	<script src="js/3rd-party/bootstrap-popover.js"></script>
 	<!-- button enhancer library -->
-	<script src="js/bootstrap-button.js"></script>
+	<script src="js/3rd-party/bootstrap-button.js"></script>
 	<!-- accordion library (optional, not used in demo) -->
-	<script src="js/bootstrap-collapse.js"></script>
+	<script src="js/3rd-party/bootstrap-collapse.js"></script>
 	<!-- carousel slideshow library (optional, not used in demo) -->
-	<script src="js/bootstrap-carousel.js"></script>
+	<script src="js/3rd-party/bootstrap-carousel.js"></script>
 	<!-- autocomplete library -->
-	<script src="js/bootstrap-typeahead.js"></script>
+	<script src="js/3rd-party/bootstrap-typeahead.js"></script>
 	<!-- tour library -->
-	<script src="js/bootstrap-tour.js"></script>
+	<script src="js/3rd-party/bootstrap-tour.js"></script>
 	<!-- library for cookie management -->
-	<script src="js/jquery.cookie.js"></script>
+	<script src="js/3rd-party/jquery.cookie.js"></script>
 	<!-- calander plugin -->
-	<script src='js/fullcalendar.min.js'></script>
+	<script src="js/3rd-party/fullcalendar.min.js"></script>
 	<!-- data table plugin -->
-	<script src='js/jquery.dataTables.min.js'></script>
+	<script src="js/3rd-party/jquery.dataTables.min.js"></script>
 
 	<!-- chart libraries start -->
-	<script src="js/excanvas.js"></script>
-	<script src="js/jquery.flot.min.js"></script>
-	<script src="js/jquery.flot.pie.min.js"></script>
-	<script src="js/jquery.flot.stack.js"></script>
-	<script src="js/jquery.flot.resize.min.js"></script>
+	<script src="js/3rd-party/excanvas.js"></script>
+	<script src="js/3rd-party/jquery.flot.min.js"></script>
+	<script src="js/3rd-party/jquery.flot.pie.min.js"></script>
+	<script src="js/3rd-party/jquery.flot.stack.js"></script>
+	<script src="js/3rd-party/jquery.flot.resize.min.js"></script>
 	<!-- chart libraries end -->
 
 	<!-- select or dropdown enhancer -->
-	<script src="js/jquery.chosen.min.js"></script>
+	<script src="js/3rd-party/jquery.chosen.min.js"></script>
 	<!-- checkbox, radio, and file input styler -->
-	<script src="js/jquery.uniform.min.js"></script>
+	<script src="js/3rd-party/jquery.uniform.min.js"></script>
 	<!-- plugin for gallery image view -->
-	<script src="js/jquery.colorbox.min.js"></script>
+	<script src="js/3rd-party/jquery.colorbox.min.js"></script>
 	<!-- rich text editor library -->
-	<script src="js/jquery.cleditor.min.js"></script>
+	<script src="js/3rd-party/jquery.cleditor.min.js"></script>
 	<!-- notification plugin -->
-	<script src="js/jquery.noty.js"></script>
+	<script src="js/3rd-party/jquery.noty.js"></script>
 	<!-- file manager library -->
-	<script src="js/jquery.elfinder.min.js"></script>
+	<script src="js/3rd-party/jquery.elfinder.min.js"></script>
 	<!-- star rating plugin -->
-	<script src="js/jquery.raty.min.js"></script>
+	<script src="js/3rd-party/jquery.raty.min.js"></script>
 	<!-- for iOS style toggle switch -->
-	<script src="js/jquery.iphone.toggle.js"></script>
+	<script src="js/3rd-party/jquery.iphone.toggle.js"></script>
 	<!-- autogrowing textarea plugin -->
-	<script src="js/jquery.autogrow-textarea.js"></script>
+	<script src="js/3rd-party/jquery.autogrow-textarea.js"></script>
 	<!-- multiple file upload plugin -->
-	<script src="js/jquery.uploadify-3.1.min.js"></script>
+	<script src="js/3rd-party/jquery.uploadify-3.1.min.js"></script>
 	<!-- history.js for cross-browser state change on ajax -->
-	<script src="js/jquery.history.js"></script>
+	<script src="js/3rd-party/jquery.history.js"></script>
 	<!-- application script for Charisma demo -->
 	<script src="js/charisma.js"></script>
-	
-		
+
+
 </body>
 </html>

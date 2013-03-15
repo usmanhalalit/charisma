@@ -31,8 +31,8 @@ $opts = array(
 	'roots' => array(
 		array(
 			'driver'        => 'LocalFileSystem',   // driver for accessing file system (REQUIRED)
-			'path'          => '../../img/gallery/',         // path to files (REQUIRED)
-			'URL'           => dirname($_SERVER['PHP_SELF']) . '/../../img/gallery/', // URL to files (REQUIRED)
+			'path'          => '../../img/charisma/gallery/',         // path to files (REQUIRED)
+			'URL'           => dirname($_SERVER['PHP_SELF']) . '/../../img/charisma/gallery/', // URL to files (REQUIRED)
 			'accessControl' => 'access',             // disable and hide dot starting files (OPTIONAL)
 			'attributes' => array(
 			array(
