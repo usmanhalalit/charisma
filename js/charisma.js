@@ -20,7 +20,7 @@ $(document).ready(function(){
 	function switch_theme(theme_name)
 	{
 		$('#bs-css').attr('href','css/themes/'+theme_name+'/bootstrap.css');
-		$('#th-css').attr('href','css/themes/'+theme_name+'/charisma-app.css');
+		$('#th-css').attr('href','css/themes/'+theme_name+'/app-charisma.css');
 	}
 	
 	//ajax menu checkbox
@@ -161,6 +161,7 @@ function docReady(){
 
 	//star rating
 	$('.raty').raty({
+		path  : 'img/3rd-party/raty',
 		score : 4 //default stars
 	});
 

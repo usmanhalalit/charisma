@@ -65,7 +65,7 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</a>
-				<a class="brand" href="index.html"> <img alt="Charisma Logo" src="img/logo20.png" /> <span>Charisma</span></a>
+				<a class="brand" href="index.html"> <img alt="Charisma Logo" src="img/charisma/logo20.png" /> <span>Charisma</span></a>
 				
 				<!-- theme selector starts -->
 				<div class="btn-group pull-right theme-container" >

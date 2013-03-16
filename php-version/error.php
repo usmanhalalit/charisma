@@ -11,7 +11,7 @@
 			}
 			body{
 				font-family: 'Audiowide', cursive, arial, helvetica, sans-serif;
-				background:url(img/error_bg.png) repeat;
+				background:url(img/charisma/error_bg.png) repeat;
 				background-color:#212121;
 				color:white;
 				font-size: 18px;
