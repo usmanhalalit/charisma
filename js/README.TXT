@@ -33,11 +33,10 @@ LIST * LIST * LIST * LIST * LIST * LIST * LIST * LIST * LIST * LIST * LIST
 		jquery.dataTables.min.js
 		jquery.elfinder.min.js
 
-		flot/				= v0.8.0; https://github.com/flot/flot -- https://github.com/flot/flot/archive/0.8.0.tar.gz
-			jquery.flot.js
-			jquery.flot.pie.js
-			jquery.flot.resize.js
-			jquery.flot.js
+		jquery.flot.js			= v0.8.0; https://github.com/flot/flot -- https://github.com/flot/flot/archive/0.8.0.tar.gz
+		jquery.flot.pie.js		= v0.8.0; https://github.com/flot/flot -- https://github.com/flot/flot/archive/0.8.0.tar.gz
+		jquery.flot.resize.js		= v0.8.0; https://github.com/flot/flot -- https://github.com/flot/flot/archive/0.8.0.tar.gz
+		jquery.flot.js			= v0.8.0; https://github.com/flot/flot -- https://github.com/flot/flot/archive/0.8.0.tar.gz
 
 		jquery.history.js
 		jquery.chosen.min.js

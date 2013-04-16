@@ -185,6 +185,11 @@ input[type="color"],
   background-color: transparent;
 }
 
+.form-horizontal .control-label-inline {
+    *display: inline-block;
+    display: inline-block;
+}
+
 .uneditable-input {
   background-color: #cccccc;
 }

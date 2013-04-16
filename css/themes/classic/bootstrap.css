@@ -21,6 +21,10 @@
  ============================================================================
 */
 
+.form-horizontal .control-label-inline {
+    *display: inline-block;
+    display: inline-block;
+}
 
 
 

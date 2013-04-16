@@ -149,6 +149,11 @@ textarea[readonly] {
   border-color: #333333;
 }
 
+.form-horizontal .control-label-inline {
+    *display: inline-block;
+    display: inline-block;
+}
+
 .input-prepend .add-on,
 .input-append .add-on {
   background-color: #f5f5f5;
