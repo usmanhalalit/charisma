@@ -182,6 +182,11 @@ textarea[readonly] {
   border-color: #73a839;
 }
 
+.form-horizontal .control-label-inline {
+    *display: inline-block;
+    display: inline-block;
+}
+
 .dropdown-menu li > a:hover,
 .dropdown-menu .active > a,
 .dropdown-menu .active > a:hover {

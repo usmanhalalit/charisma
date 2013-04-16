@@ -108,6 +108,11 @@ textarea[readonly] {
   background-color: #202328;
 }
 
+.form-horizontal .control-label-inline {
+    *display: inline-block;
+    display: inline-block;
+}
+
 :-moz-placeholder {
   color: #757c82;
 }

@@ -161,6 +161,11 @@ input[type="color"],
   border-color: #3d9400;
 }
 
+.form-horizontal .control-label-inline {
+    *display: inline-block;
+    display: inline-block;
+}
+
 :-moz-placeholder {
   color: #555555;
 }

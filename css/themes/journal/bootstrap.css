@@ -94,6 +94,11 @@ input[type="color"],
   background-color: #eeeeee;
 }
 
+.form-horizontal .control-label-inline {
+    *display: inline-block;
+    display: inline-block;
+}
+
 .help-block,
 .help-inline {
   color: #888888;
