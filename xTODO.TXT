@@ -1,0 +1,5 @@
+
+    * upgrade:
+        * bootstrap 2.0.4 -> 2.3.1 (at minimal!)
+        * bootstrap-tour 0.1 -> 0.3.0 [needs: bootstrap 2.3.1!]
+
