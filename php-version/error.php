@@ -11,7 +11,7 @@
 			}
 			body{
 				font-family: 'Audiowide', cursive, arial, helvetica, sans-serif;
-				background:url(img/error_bg.png) repeat;
+				background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAUElEQVQYV2NkYGAwBuKzQAwDID4IoIgxIikAMZE1oRiArBDdZBSNMIXoJiFbDZYDKcSmCOYimDuNSVKIzRNYrUYOFuQgweoZbIoxgoeoAAcAEckW11HVTfcAAAAASUVORK5CYII=) repeat;
 				background-color:#212121;
 				color:white;
 				font-size: 18px;
