@@ -1,5 +1,7 @@
 Charisma
 ========
+[![Flattr this](http://api.flattr.com/button/flattr-badge-large.png "Flattr this")](http://flattr.com/thing/1507720/usmanhalalitcharisma-on-GitHub)
+
 
 #### free, premium quality, responsive, multiple skin admin template.
 
