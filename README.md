@@ -10,3 +10,7 @@ I have created Charisma to ease the repeat work I have to do on my projects. Now
 [**See Live Demo**](http://usman.it/themes/charisma/ "")
 
 Please visit [http://usman.it/free-responsive-admin-template/](http://usman.it/free-responsive-admin-template/ "") for more information.
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/usmanhalalit/charisma/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
