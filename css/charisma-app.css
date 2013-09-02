@@ -164,6 +164,7 @@ width:auto;
 clear:none;
 float:left;
 line-height:25px;
+white-space: nowrap;
 }
 .box-header h3{
 font-size:13px;
@@ -171,6 +172,7 @@ width:auto;
 clear:none;
 float:left;
 line-height:25px;
+white-space: nowrap;
 }
 .box-header h2 > i{
 margin-top:1px;
