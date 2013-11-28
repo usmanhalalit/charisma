@@ -154,6 +154,8 @@
 .active .icon.icon-xls,.icon.icon-xls,.icon.icon-xls:hover {background-position : -208px -96px ;}
 .active .icon.icon-zoomin,.icon.icon-zoomin,.icon.icon-zoomin:hover {background-position : -208px -64px ;}
 .active .icon.icon-zoomout,.icon.icon-zoomout,.icon.icon-zoomout:hover {background-position : -224px -64px ;}
+.active .icon.icon-mobile,.icon.icon-mobile,.icon.icon-mobile:hover {background-position: -115px -144px;}
+.active .icon.icon-office,.icon.icon-office,.icon.icon-office:hover {background-position: -95px -144px;}
 .active .icon32.icon-add,.icon32.icon-add,.icon32.icon-add:hover {background-position : -32px -256px ;}
 .active .icon32.icon-alert,.icon32.icon-alert,.icon32.icon-alert:hover {background-position : -128px -256px ;}
 .active .icon32.icon-archive,.icon32.icon-archive,.icon32.icon-archive:hover {background-position : -64px -288px ;}
@@ -310,6 +312,8 @@
 .active .icon32.icon-xls,.icon32.icon-xls,.icon32.icon-xls:hover {background-position : -416px -192px ;}
 .active .icon32.icon-zoomin,.icon32.icon-zoomin,.icon32.icon-zoomin:hover {background-position : -416px -128px ;}
 .active .icon32.icon-zoomout,.icon32.icon-zoomout,.icon32.icon-zoomout:hover {background-position : -448px -128px ;}
+.active .icon32.icon-office,.icon32.icon-office,.icon32.icon-office:hover {background-position: -190px -288px;}
+.active .icon32.icon-mobile,.icon32.icon-mobile,.icon32.icon-mobile:hover {background-position: -224px -288px;}
 .icon.icon-black,.icons-black .icon,.icon.icon-darkgray:hover {background-image : url('../img/opa-icons-black16.png') ;}
 .icon.icon-blue,.icons-blue .icon {background-image : url('../img/opa-icons-blue16.png') ;}
 .icon.icon-color,.icons-color .icon,.active .icon {background-image : url('../img/opa-icons-color16.png') ;}
