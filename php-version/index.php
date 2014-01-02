@@ -11,29 +11,29 @@
 					</li>
 				</ul>
 			</div>
-			<div class="sortable row-fluid">
-				<a data-rel="tooltip" title="6 new members." class="well span3 top-block" href="#">
+			<div class="sortable row">
+				<a data-rel="tooltip" title="6 new members." class="well col-md-3 top-block" href="#">
 					<span class="icon32 icon-red icon-user"></span>
 					<div>Total Members</div>
 					<div>507</div>
 					<span class="notification">6</span>
 				</a>
 
-				<a data-rel="tooltip" title="4 new pro members." class="well span3 top-block" href="#">
+				<a data-rel="tooltip" title="4 new pro members." class="well col-md-3 top-block" href="#">
 					<span class="icon32 icon-color icon-star-on"></span>
 					<div>Pro Members</div>
 					<div>228</div>
 					<span class="notification green">4</span>
 				</a>
 
-				<a data-rel="tooltip" title="$34 new sales." class="well span3 top-block" href="#">
+				<a data-rel="tooltip" title="$34 new sales." class="well col-md-3 top-block" href="#">
 					<span class="icon32 icon-color icon-cart"></span>
 					<div>Sales</div>
 					<div>$13320</div>
 					<span class="notification yellow">$34</span>
 				</a>
 				
-				<a data-rel="tooltip" title="12 new messages." class="well span3 top-block" href="#">
+				<a data-rel="tooltip" title="12 new messages." class="well col-md-3 top-block" href="#">
 					<span class="icon32 icon-color icon-envelope-closed"></span>
 					<div>Messages</div>
 					<div>25</div>
@@ -41,8 +41,8 @@
 				</a>
 			</div>
 			
-			<div class="row-fluid">
-				<div class="box span12">
+			<div class="row">
+				<div class="box col-md-12">
 					<div class="box-header well">
 						<h2><i class="icon-info-sign"></i> Introduction</h2>
 						<div class="box-icon">
@@ -57,7 +57,7 @@
 						<p><b>All pages in the menu are functional, take a look at all, please share this with your followers.</b></p>
 						
 						<p class="center">
-							<a href="http://usman.it/free-responsive-admin-template" class="btn btn-large btn-primary"><i class="icon-chevron-left icon-white"></i> Back to article</a> 
+							<a href="http://usman.it/free-responsive-admin-template" class="btn btn-large btn-primary"><i class="icon-chevron-left icon-white"></i> Back to article</a>
 							<a href="http://usman.it/free-responsive-admin-template" class="btn btn-large"><i class="icon-download-alt"></i> Download Page</a>
 						</p>
 						<div class="clearfix"></div>
@@ -65,8 +65,8 @@
 				</div>
 			</div>
 					
-			<div class="row-fluid sortable">
-				<div class="box span4">
+			<div class="row sortable">
+				<div class="box col-md-4">
 					<div class="box-header well">
 						<h2><i class="icon-th"></i> Tabs</h2>
 						<div class="box-icon">
@@ -101,7 +101,7 @@
 					</div>
 				</div><!--/span-->
 						
-				<div class="box span4">
+				<div class="box col-md-4">
 					<div class="box-header well" data-original-title>
 						<h2><i class="icon-user"></i> Member Activity</h2>
 						<div class="box-icon">
@@ -118,7 +118,7 @@
 										<strong>Name:</strong> <a href="#">Usman
 									</a><br>
 									<strong>Since:</strong> 17/05/2012<br>
-									<strong>Status:</strong> <span class="label label-success">Approved</span>                                  
+									<strong>Status:</strong> <span class="label label-success">Approved</span>
 								</li>
 								<li>
 									<a href="#">
@@ -126,7 +126,7 @@
 										<strong>Name:</strong> <a href="#">Sheikh Heera
 									</a><br>
 									<strong>Since:</strong> 17/05/2012<br>
-									<strong>Status:</strong> <span class="label label-warning">Pending</span>                                 
+									<strong>Status:</strong> <span class="label label-warning">Pending</span>
 								</li>
 								<li>
 									<a href="#">
@@ -134,7 +134,7 @@
 										<strong>Name:</strong> <a href="#">Abdullah
 									</a><br>
 									<strong>Since:</strong> 25/05/2012<br>
-									<strong>Status:</strong> <span class="label label-important">Banned</span>                                  
+									<strong>Status:</strong> <span class="label label-important">Banned</span>
 								</li>
 								<li>
 									<a href="#">
@@ -142,14 +142,14 @@
 										<strong>Name:</strong> <a href="#">Saruar Ahmed
 									</a><br>
 									<strong>Since:</strong> 17/05/2012<br>
-									<strong>Status:</strong> <span class="label label-info">Updates</span>                                  
+									<strong>Status:</strong> <span class="label label-info">Updates</span>
 								</li>
 							</ul>
 						</div>
 					</div>
 				</div><!--/span-->
 						
-				<div class="box span4">
+				<div class="box col-md-4">
 					<div class="box-header well" data-original-title>
 						<h2><i class="icon-list-alt"></i> Realtime Traffic</h2>
 						<div class="box-icon">
@@ -165,8 +165,8 @@
 				</div><!--/span-->
 			</div><!--/row-->
 
-			<div class="row-fluid sortable">
-				<div class="box span4">
+			<div class="row sortable">
+				<div class="box col-md-4">
 					<div class="box-header well" data-original-title>
 						<h2><i class="icon-list"></i> Buttons</h2>
 						<div class="box-icon">
@@ -211,7 +211,7 @@
 					</div>
 				</div><!--/span-->
 					
-				<div class="box span4">
+				<div class="box col-md-4">
 					<div class="box-header well" data-original-title>
 						<h2><i class="icon-list"></i> Buttons</h2>
 						<div class="box-icon">
@@ -251,7 +251,7 @@
 					</div>
 				</div><!--/span-->
 					
-				<div class="box span4">
+				<div class="box col-md-4">
 					<div class="box-header well" data-original-title>
 						<h2><i class="icon-list"></i> Weekly Stat</h2>
 						<div class="box-icon">
@@ -264,7 +264,7 @@
 						<ul class="dashboard-list">
 							<li>
 								<a href="#">
-									<i class="icon-arrow-up"></i>                               
+									<i class="icon-arrow-up"></i>
 									<span class="green">92</span>
 									New Comments                                    
 								</a>
@@ -292,7 +292,7 @@
 						  </li>
 						  <li>
 							<a href="#">
-							  <i class="icon-arrow-up"></i>                               
+							  <i class="icon-arrow-up"></i>
 							  <span class="green">112</span>
 							  New Comments                                    
 							</a>

@@ -11,8 +11,8 @@
 				</ul>
 			</div>
 
-			<div class="row-fluid sortable">
-				<div class="box span9">
+			<div class="row sortable">
+				<div class="box col-md-9">
 					<div class="box-header well" data-original-title>
 						<h2><i class="icon-font"></i> Typography</h2>
 						<div class="box-icon">
@@ -25,8 +25,8 @@
 						  <div class="page-header">
 							  <h1>Typography <small>Headings, paragraphs, lists, and other inline type elements</small></h1>
 						  </div>     
-						  <div class="row-fluid ">            
-							  <div class="span4">
+						  <div class="row ">
+							  <div class="col-md-4">
 								<h3>Sample text and paragraphs</h3>
 								<p>
 								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum ornare dolor, quis ullamcorper ligula sodales at. Nulla tellus elit, varius non commodo eget, mattis vel eros. In sed ornare nulla. Donec consectetur, velit a pharetra ultricies, diam lorem lacinia risus, ac commodo orci erat eu massa. Sed sit amet nulla ipsum. Donec felis mauris, vulputate sed tempor at, aliquam a ligula. Pellentesque non pulvinar nisi.
@@ -35,12 +35,12 @@
 								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum ornare dolor, quis ullamcorper ligula sodales at. Nulla tellus elit, varius non commodo eget, mattis vel eros. In sed ornare nulla. Donec consectetur, velit a pharetra ultricies, diam lorem lacinia risus, ac commodo orci erat eu massa. Sed sit amet nulla ipsum. Donec felis mauris, vulputate sed tempor at, aliquam a ligula. Pellentesque non pulvinar nisi.
 								</p>
 							  </div>
-							  <div class="span4">
+							  <div class="col-md-4">
 								<h3>Example body text</h3>
 								<p>Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
 								<p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec sed odio dui.</p>
 							  </div>
-							  <div class="span4 ">
+							  <div class="col-md-4 ">
 								<div class="well">
 								  <h1>h1. Heading 1</h1>
 								  <h2>h2. Heading 2</h2>
@@ -52,18 +52,18 @@
 							  </div>
 						  </div><!--/row -->                           
 						
-						  <div class="row-fluid">
-							  <div class="span12">
+						  <div class="row">
+							  <div class="col-md-12">
 								  <h3>Example blockquotes</h3>
-								  <div class="row-fluid">
-									<div class="span6">
+								  <div class="row">
+									<div class="col-md-6">
 									  <p>Default blockquotes are styled as such:</p>
 									  <blockquote>
 										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante venenatis.</p>
 										<small>Someone famous in <cite title="">Body of work</cite></small>
 									  </blockquote>
 									</div>
-									<div class="span6">
+									<div class="col-md-6">
 									  <p>You can always float your blockquote to the right:</p>
 									  <blockquote class="pull-right">
 										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante venenatis.</p>
@@ -73,22 +73,22 @@
 								  </div>
 							  </div>
 						  </div>
-						  <div class="row-fluid">
-								<div class="span6">
+						  <div class="row">
+								<div class="col-md-6">
 								<h3>More Sample Text</h3>
 								<p>
 								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum ornare dolor, quis ullamcorper ligula sodales at. Nulla tellus elit, varius non commodo eget, mattis vel eros. In sed ornare nulla. Donec consectetur, velit a pharetra ultricies, diam lorem lacinia risus, ac commodo orci erat eu massa. Sed sit amet nulla ipsum. Donec felis mauris, vulputate sed tempor at, aliquam a ligula. Pellentesque non pulvinar nisi.
 								</p>
 								</div>
-								<div class="span6">
+								<div class="col-md-6">
 								<h3>And Paragraphs</h3>
 								<p>
 								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum ornare dolor, quis ullamcorper ligula sodales at. Nulla tellus elit, varius non commodo eget, mattis vel eros. In sed ornare nulla. Donec consectetur, velit a pharetra ultricies, diam lorem lacinia risus, ac commodo orci erat eu massa. Sed sit amet nulla ipsum. Donec felis mauris, vulputate sed tempor at, aliquam a ligula. Pellentesque non pulvinar nisi.
 								</p>
 							  </div>
 						  </div>
-						  <div class="row-fluid">
-							  <div class="span12">
+						  <div class="row">
+							  <div class="col-md-12">
 								<h2>Example use of Tooltips</h2>
 								<p>Hover over the links below to see tooltips:</p>
 								<div class="tooltip-demo well">
@@ -100,7 +100,7 @@
 					  </div>
 				</div><!--/span-->
 				
-				<div class="box span3">
+				<div class="box col-md-3">
 					<div class="box-header well" data-original-title>
 						<h3>Unordered List</h3>
 						<div class="box-icon">
@@ -128,7 +128,7 @@
 					</div>
 				</div><!--/span-->
 				
-				<div class="box span3">
+				<div class="box col-md-3">
 					<div class="box-header well" data-original-title>
 						<h3>Ordered List</h3>
 						<div class="box-icon">
@@ -149,7 +149,7 @@
 					</div>
 				</div><!--/span-->
 				
-				<div class="box span3">
+				<div class="box col-md-3">
 					<div class="box-header well" data-original-title>
 						<h3>Description List</h3>
 						<div class="box-icon">

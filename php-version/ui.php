@@ -12,8 +12,8 @@
 				</ul>
 			</div>
 			
-			<div class="row-fluid sortable">	
-				<div class="box span12">
+			<div class="row sortable">
+				<div class="box col-md-12">
 					<div class="box-header well" data-original-title>
 						<h2><i class="icon-plus"></i> Extended Elements</h2>
 						<div class="box-icon">
@@ -86,8 +86,8 @@
 				
 			</div><!--/row-->
 
-			<div class="row-fluid sortable">
-				<div class="box span6">
+			<div class="row sortable">
+				<div class="box col-md-6">
 					<div class="box-header well" data-original-title>
 						<h2><i class="icon-tasks"></i> Progress Bars</h2>
 						<div class="box-icon">
@@ -125,7 +125,7 @@
 					</div>
 				</div><!--/span-->
 				
-				<div class="box span6">
+				<div class="box col-md-6">
 					<div class="box-header well">
 						<h2><i class="icon-eye-open"></i> Labels and Annotations</h2>
 						<div class="box-icon">
@@ -197,8 +197,8 @@
 				</div><!--/span-->
 				
 			</div><!--/row-->
-			<div class="row-fluid sortable">
-				<div class="box span5">
+			<div class="row sortable">
+				<div class="box col-md-5">
 					<div class="box-header well">
 						<h2><i class="icon-bullhorn"></i> Alerts</h2>
 						<div class="box-icon">
@@ -228,7 +228,7 @@
 					</div>	
 				</div><!--/span-->
 				
-				<div class="box span7">
+				<div class="box col-md-7">
 					<div class="box-header well" data-original-title>
 						<h2><i class="icon-bell"></i> Notifications</h2>
 						<div class="box-icon">
@@ -263,7 +263,7 @@
 					</div>	
 				</div><!--/span-->
 				
-				<div class="box span7">
+				<div class="box col-md-7">
 					<div class="box-header well" data-original-title>
 						<h2><i class="icon-refresh"></i> Ajax Loaders</h2>
 						<div class="box-icon">

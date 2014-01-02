@@ -1,6 +1,6 @@
 		<?php if(!isset($no_visible_elements) || !$no_visible_elements)	{ ?>
 			<!-- content ends -->
-			</div><!--/#content.span10-->
+			</div><!--/#content.col-md-0-->
 		<?php } ?>
 		</div><!--/fluid-row-->
 		<?php if(!isset($no_visible_elements) || !$no_visible_elements)	{ ?>
