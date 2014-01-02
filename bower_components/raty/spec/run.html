@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>http://wbotelhos.com/labs</title>
+
+	<link rel="stylesheet" type="text/css" href="lib/jasmine.css">
+
+	<script type="text/javascript" src="../demo/js/jquery.min.js"></script>
+	<script type="text/javascript" src="../lib/jquery.raty.js"></script>
+
+	<script type="text/javascript" src="lib/jasmine.js"></script>
+	<script type="text/javascript" src="lib/jasmine-html.js"></script>
+	<script type="text/javascript" src="lib/jasmine-jquery.js"></script>
+
+	<script type="text/javascript" src="spec.js"></script>
+</head>
+<body>
+	<script type="text/javascript">
+		(function() {
+    	var jasmineEnv = jasmine.getEnv();
+
+    	jasmineEnv.updateInterval = 1000;
+
+    	var htmlReporter = new jasmine.HtmlReporter();
+
+    	jasmineEnv.addReporter(htmlReporter);
+
+      jasmineEnv.specFilter = function(spec) {
+        return htmlReporter.specFilter(spec);
+      };
+
+    	var currentWindowOnload = window.onload;
+
+      window.onload = function() {
+        if (currentWindowOnload) {
+          currentWindowOnload();
+        }
+
+        execJasmine();
+      };
+
+      function execJasmine() {
+        jasmineEnv.execute();
+      }
+  	})();
+	</script>
+</body>
+</html>

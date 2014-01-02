@@ -1,0 +1,77 @@
+
+<script type='text/javascript' src='javascripts/jquery.dom-builder.js'></script>
+<script type='text/javascript'>
+  $(function() {
+    $$('table#foo',
+      $$('tr', $$('th.col-1', 'ID'), $$('th.col-2', 'Username'), $$('th.col-3', 'Email')),
+      $$('tr', $$('td', 1), $$('td', 'jaz303'), $$('td', 'jason@magiclamp.co.uk')),
+      { style: "margin:20px auto",
+        hover: [
+          function() { $(this).css('backgroundColor', '#efefef'); },
+          function() { $(this).css('backgroundColor', '#cdcdcd'); }
+        ]
+      }
+    ).appendTo('#test-container');
+
+    TABLE(
+      TR( TH('This is'), TH('another table') ),
+      TR( TD('generated using'), TD('shortcut methods') ),
+      {style: "margin:20px auto"}
+    ).appendTo('#test-container-2');
+
+  });
+</script>
+
+<h2>DOM Builder</h2>
+
+<p>
+  This plugin defines the double-dollar function which can be used to create
+  DOM node hierarchies, set attributes, hook up event handlers and return the
+  resulting structure as a jQuery object. Probably best illustrated with some
+  code:
+</p>
+
+<div class='caption'>Example:</div>
+<pre>$$('table#foo',
+$$('tr', $$('th.col-1', 'ID'), $$('th.col-2', 'Username'), $$('th.col-3', 'Email')),
+$$('tr', $$('td', 1), $$('td', 'jaz303'), $$('td', 'jason@magiclamp.co.uk')),
+{ style: "margin:20px auto",
+hover: [
+function() { $(this).css('backgroundColor', '#efefef'); },
+function() { $(this).css('backgroundColor', '#cdcdcd'); }
+]
+}
+).appendTo('#test-container');</pre>
+
+<p>And here's the resulting table (it's auto-generated, trust me):</p>
+
+<div id='test-container'></div>
+
+<p>It's also possible to use shortcut methods for each tag although by using
+  these you forgo the ability to neatly specify IDs/classes:
+  
+<div class='caption'>Example:</div>
+<pre>TABLE(
+TR( TH('This is'), TH('another table') ),
+TR( TD('generated using'), TD('shortcut methods') ),
+{style: "margin:20px auto"}
+).appendTo('#test-container-2');</pre>
+
+<div id='test-container-2'></div>
+
+<p>The general form of each call to <code>$$()</code> is:</p>
+
+<pre>$$(nodeName, content1, content2 ... contentN, options);</pre>
+
+<p>
+  This will create a node with the given <code>nodeName</code>, apply to it
+  the given options (if any) and then append the content, each of which may
+  be a string, jQuery object or DOM element. Options are objects of key-value
+  pairs; function values will be bound to the event denoted by the key, otherwise
+  the corresponding attribute will be set. The <code>hover</code> option is
+  special; when set to an array, it is assumed to contain two functions to handle
+  hover in/out events on the element.
+</p>
+
+<h3>Direct Link</h3>
+<p><a href='http://github.com/jaz303/jquery-grab-bag/tree/master/javascripts/jquery.dom-builder.js'>jquery.dom-builder.js</a></p>

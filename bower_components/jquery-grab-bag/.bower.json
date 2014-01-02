@@ -1,0 +1,17 @@
+{
+  "name": "jquery-grab-bag",
+  "dependencies": {
+    "jquery": "~1.8.0"
+  },
+  "homepage": "https://github.com/panayi/jquery-grab-bag",
+  "_release": "22c7a83963",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "22c7a83963d748865454b048297bf6ac6a215edd"
+  },
+  "_source": "git://github.com/panayi/jquery-grab-bag.git",
+  "_target": "*",
+  "_originalSource": "jquery-grab-bag",
+  "_direct": true
+}

@@ -1,0 +1,68 @@
+/* commons */
+a { color: #277DA8; text-decoration: none }
+a:hover { color: #48A5D4 }
+
+body { background: url('http://wbotelhos.com/images/background.png') #E7E7E7; font: normal 10px/1.6 'Helvetica Neue', 'Lucida Grande', Helvetica, Arial, sans-serif }
+
+footer { font-size: 1.3em; margin: 0 auto; overflow: auto; padding-bottom: 15px; padding-top: 10px; text-align: center; width: 1100px }
+
+h2 { border-bottom: 1px solid #DEDEDE; clear: right; color: #444; font-size: 2.6em; letter-spacing: .5px; line-height: 1.3em; padding-bottom: 3px }
+h2 a { color: #444 }
+
+h3 { color: #555; font-size: 1.6em; letter-spacing: .5px; }
+
+ul { margin-left: 0; padding-left: 22px }
+ul li { font-size: 1.3em }
+
+/* pygments */
+blockquote { background: url('http://wbotelhos.com/images/quote.gif') no-repeat; border-radius: 4px; margin-left: 0; padding-left: 22px }
+blockquote p { font-size: 1.3em !important; padding-left: 10px; padding-top: 5px }
+code { background-color: #F8F8F8; border: 1px solid #EAEAEA; border-radius: 3px; margin: 0 2px; padding: 1px 5px; white-space: nowrap }
+pre { background-color: #F8F8F8; border: 1px solid #EAEAEA; border-radius: 3px; color: #393939; font-family: menlo, monospace, serif; font-size: 1.3em; padding: 10px 10px; text-shadow: none }
+
+/* wrapper */
+#wrapper { margin: 0 auto; width: 87% }
+#wrapper #container { margin-bottom: 30px; width: 100% }
+
+/* content */
+article > p { font-size: 1.5em }
+
+.option div { color: #444; font: bold 1.4em verdana; margin-top: 12px; letter-spacing: .7px }
+.option div span { color: #888; font: 1em arial }
+.option p { color: #444; font-size: 1.2em; letter-spacing: .4px; margin-top: 5px; text-align: left }
+
+.function p { color: #444; font-size: 1.2em; letter-spacing: .4px; margin-left: 3px; margin-top: -8px; text-align: left }
+
+.demo { margin-bottom: 10px }
+
+.highlight { clear: both }
+
+/* top */
+header { height: 160px }
+header #logo { display: inline-block }
+header #logo h1 { line-height: 2em; margin-bottom: 0; margin-top: 18px }
+header #logo h1 a { color: #3B3B3B; font-size: 3em; letter-spacing: -3px; line-height: 1em; text-shadow: 2px 2px #FFF }
+header #logo h1 a:hover { color: #000 }
+header #logo p { color: #999; font-size: 1.7em; font-weight: bold; margin-left: 10px; margin-top: 10px; text-shadow: 1px 1px 1px #FFF }
+
+header nav { float: right; margin-top: 20px }
+header nav li { display: inline-block; padding: 0 7px 14px; text-align: center; width: 105px }
+header nav li a { background-color: #D7D7D7; border-radius: 4px; color: #333; display: block; font: 15px helvetica; letter-spacing: .4px; padding: 5px 0 2px 6px }
+header nav li a:hover { background-color: #BBB; color: #333 }
+header nav li a i { font-size: 1.5em; left: -20px; position: relative; top: 3px }
+
+header nav li a.download { background-color: #E7D785 }
+header nav li a.download:hover { background-color: #E3D070 }
+
+/* footer */
+.author { background-color: #FDFDFD; border-bottom: 1px solid #F1F1F1; border-radius: 5px; border-top: 1px solid #F1F1F1; height: auto; margin: 50px auto 0; overflow: auto; padding: 10px; width: 75%; vertical-align: middle }
+.author img { background-color: #EEE; display: inline-block; height: 80px; width: 80px; vertical-align: middle }
+.author .biography { color: #555; display: inline-block; font-size: 1.2em; letter-spacing: .3px; margin-top: 2px; padding-left: 7px; padding-right: 7px; width: calc(98% - 80px - 7px - 7px - 6px); vertical-align: middle }
+.author .biography p { margin: 0 }
+.author .social { display: inline-block; width: 2%; vertical-align: middle }
+.author .social a { background-color: #EEE; background-repeat: no-repeat; border-radius: 3px; display: block; height: 16px; margin-bottom: 5px; width: 16px }
+.author .social a:last-child { margin-bottom: 0 }
+.author .social a.facebook { background-image: url('http://wbotelhos.com/images/facebook.png') }
+.author .social a.github { background-image: url('http://wbotelhos.com/images/github.png') }
+.author .social a.linkedin { background-image: url('http://wbotelhos.com/images/linkedin.png') }
+.author .social a.twitter { background-image: url('http://wbotelhos.com/images/twitter.png') }

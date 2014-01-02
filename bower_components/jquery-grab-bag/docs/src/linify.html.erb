@@ -1,0 +1,77 @@
+
+<script type='text/javascript' src='javascripts/jquery.linify.js'></script>
+
+<h2>Linify</h2>
+
+<p>
+  Linify manipulates an element containing plain text, wrapping each individual line
+  in its own <code>div</code> tag, without relying on line-breaks and/or <code>&lt;br /&gt;</code> tags.
+</p>
+
+<div class='example linified'>
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+</div>
+
+<p><a href='#' onclick="$('.linified').linify(); return false;">Click here to linify text above</a></p>
+
+<div class='caption'>Linify example:</div>
+<pre class='code'>&lt;script type=&#x27;text/javascript&#x27;&gt;
+  $(function() {
+    // className is added to each line div. Default is 'line'.
+    $(&#x27;.linified&#x27;).linify({className: 'my-line'});
+  });
+&lt;/script&gt;</pre>
+
+<p>You can use this to do some pretty cool effects:</p>
+
+<div class='example linify-fx' style='overflow:hidden'>
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+</div>
+
+<p><a href='#' onclick="effect(); return false;">FX go go go!</a></p>
+
+<script type='text/javascript'>
+  function effect() {
+    $('.linify-fx').linify({className: 'fx-line'});
+    
+    function makeFader(ele) {
+      return function() {
+        $(ele).animate({opacity: 1, marginLeft: 0});
+      }
+    }
+    
+    var ix = 0;
+    $('.linify-fx').find('.fx-line').css({
+      opacity: 0, marginLeft: -200
+    }).each(function(ix) {
+      setTimeout(makeFader(this), ix * 150);
+    });
+  }
+</script>
+
+<div class='caption'>Linify FX example:</div>
+<pre class='code'>&lt;script type=&#x27;text/javascript&#x27;&gt;
+  function effect() {
+    $(&#x27;.linify-fx&#x27;).linify({className: &#x27;fx-line&#x27;});
+    
+    function makeFader(ele) {
+      return function() {
+        $(ele).animate({opacity: 1, marginLeft: 0});
+      }
+    }
+    
+    var ix = 0;
+    $(&#x27;.linify-fx&#x27;).find(&#x27;.fx-line&#x27;).css({
+      opacity: 0, marginLeft: -200
+    }).each(function(ix) {
+      setTimeout(makeFader(this), ix * 150);
+    });
+  }
+&lt;/script&gt;</pre>
+
+<h3>Direct Link</h3>
+
+<p><a href='http://github.com/jaz303/jquery-grab-bag/tree/master/javascripts/jquery.linify.js'>jquery.linify.js</a></p>
+

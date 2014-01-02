@@ -1,0 +1,29 @@
+
+
+<script type='text/javascript' src='javascripts/jquery.rollover.js'></script>
+
+<h2>Image Rollover</h2>
+
+<p>Apply rollover image switch effect to any elements with the <code>src</code>
+  attribute. Rollover image URL is determined by inserting <code>_h</code> before
+  the image extension, and any images which already match this format will not
+  have the effect applied. Pass <code>true</code> to preload images.</p>
+
+<pre>$('img').rollover(true);</pre>
+
+<img src='images/r.gif' />
+<img src='images/r.gif?foo=bar' />
+<img src='images/r_h.gif' />
+
+<p style='font-size:90%'>(images from <a href='http://www.externalharddrive.com/graphics/bullets/index.html'>External Hard Drive</a>)</p>
+
+<script type='text/javascript'>
+  $(function() {
+    $('img').rollover();
+  });
+</script>
+
+<h2>Direct Link</h2>
+
+<p><a href='http://github.com/jaz303/jquery-grab-bag/tree/master/javascripts/jquery.rollover.js'>jquery.rollover.js</a></p>
+

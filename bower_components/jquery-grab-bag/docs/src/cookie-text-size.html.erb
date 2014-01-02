@@ -1,0 +1,58 @@
+
+
+<script type='text/javascript' src='javascripts/jquery.cookie-text-size.js'></script>
+<script type='text/javascript'>
+  $(function() {
+    cookieResize('#sizer a', 'medium');
+  });
+</script>
+
+<h2>Cookie Style Switcher</h2>
+
+<p>jQuery based helper function for implementing text resize functionality and storing
+  the user's preference in a cookie. The selected "size" is applied to the document
+  by adding a corresponding CSS class to <code>document.body</code>; see below for
+  example code.
+</p>
+
+<p>Call the initialisation function (<code>cookieResize</code>) from within your
+  <code>$(document).ready()</code>, passing a jQuery selector identifying the
+  elements the user will click to switch styles and the default class to apply
+  if no cookie is present. Each of the actuator elements should have a single
+  CSS class; this will be applied to <code>document.body</code> and stored in
+  a cookie on click.
+</p>
+
+<div class='caption'>Example HTML for size control:</div>
+<pre>&lt;div id=&#x27;sizer&#x27;&gt;
+&lt;a href=&#x27;#&#x27; class=&#x27;small&#x27;&gt;small&lt;/a&gt;
+&lt;a href=&#x27;#&#x27; class=&#x27;medium&#x27;&gt;medium&lt;/a&gt;
+&lt;a href=&#x27;#&#x27; class=&#x27;large&#x27;&gt;large&lt;/a&gt;
+&lt;/div&gt;</pre>
+
+<div class='caption'>Example CSS:</div>
+<pre>body.small { font-size: 10px }
+body.medium { font-size: 12px }
+body.large { font-size: 14px }</pre>
+
+<div class='caption'>Javascript for initialisation:</div>
+<pre>$(function() { cookieResize('#sizer a', 'medium'); });</pre>
+
+<h2>Example</h2>
+
+<div id='sizer'>
+  <a href='#' class='small'>small</a>
+  <a href='#' class='medium'>medium</a>
+  <a href='#' class='large'>large</a>
+</div>
+
+<div id='resizable'>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</div>
+
+<h3>Direct Link</h3>
+<p><a href='http://github.com/jaz303/jquery-grab-bag/tree/master/javascripts/jquery.cookie-text-size.js'>jquery.cookie-text-size.js</a></p>
+

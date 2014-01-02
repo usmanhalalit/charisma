@@ -1,0 +1,55 @@
+
+
+<script type='text/javascript' src='javascripts/jquery.input-hint.js'></script>
+<script type='text/javascript'>
+  $(function() {
+    $('#test-form-1 *[title]').inputHint();
+    $('#test-form-2 input[type=text]').inputHint({using: '+ kbd'});
+  });
+</script>
+
+<h2>Input Hint</h2>
+
+<p>
+  Display input hints to users within a text input and remove them automatically
+  on focus/form submission. The hint text for each input can be supplied by
+  assigning it to the standard XHTML <code>title</code> attribute, or by supplying
+  a jQuery selector that, when evaluated in the context of some input element
+  (e.g. <code>$(selector, inputElement)</code>), matches an auxiliary element
+  containing the hint text.
+</p>
+
+<p>Examples of both methods are given below:</p>
+
+<div class='caption'>Example using <code>title</code> attribute:</div>
+<pre>HTML:
+&lt;input type='text' name='forename' hint='Forename' /&gt;
+  
+JS:
+$('*[title]').inputHint();</pre>
+
+<form method='post' id='test-form-1'>
+  <input type='text' title='Forename' name='forename' /><br/>
+  <input type='text' title='Surname' name='surname' />
+  <input type='submit' value='Submit' />
+</form>
+
+<div class='caption'>Example using auxiliary element:</div>
+<pre>HTML:
+&lt;input type='text' name='forename' /&gt;
+&lt;kbd&gt;Enter your forename here&lt;/kbd&gt;
+  
+JS:
+$('input').inputHint({using: '+kbd'});</pre>
+<form method='post' id='test-form-2'>
+  <input type='text' name='forename' /> <kbd>Enter your forename here</kbd><br/>
+  <input type='text' name='surname' /> <kbd>Enter your surname here</kbd>
+  <input type='submit' value='Submit' />
+  <br/>
+  (obviously you'd hide the <code>&lt;kbd/&gt;</code> elements in real usage)
+</form>
+
+<h2>Direct Link</h2>
+
+<p><a href='http://github.com/jaz303/jquery-grab-bag/tree/master/javascripts/jquery.input-hint.js'>jquery.input-hint.js</a></p>
+

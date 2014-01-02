@@ -1,0 +1,7 @@
+project:
+    title: "grab bag"
+    subtitle: "assorted jQuery plugins"
+    jquery_version: "1.2.6"
+    main_nav:
+        - ["Plugin List", "index.html"]
+    stylesheets: ['styles.css']
