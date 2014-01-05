@@ -1,7 +1,5 @@
-<?php include('header.php'); ?>
-
-
-			<div>
+<?php require('header.php'); ?>
+<div>
 				<ul class="breadcrumb">
 					<li>
 						<a href="#">Home</a> <span class="divider">/</span>
@@ -13,13 +11,13 @@
 			</div>
 
 			<div class="row sortable">
-				<div class="box col-md-12">
-					<div class="box-header well" data-original-title>
+				<div class="box col-md-12"><div class="box-inner">
+					<div class="box-header well" data-original-title="">
 						<h2><i class="glyphicon glyphicon-picture"></i> Icons</h2>
 						<div class="box-icon">
-							<a href="#" class="btn btn-setting btn-round"><i class="glyphicon glyphicon-cog"></i></a>
-							<a href="#" class="btn btn-minimize btn-round"><i class="glyphicon glyphicon-chevron-up"></i></a>
-							<a href="#" class="btn btn-close btn-round"><i class="glyphicon glyphicon-remove"></i></a>
+							<a href="#" class="btn btn-setting btn-round btn-default"><i class="glyphicon glyphicon-cog"></i></a>
+							<a href="#" class="btn btn-minimize btn-round btn-default"><i class="glyphicon glyphicon-chevron-up"></i></a>
+							<a href="#" class="btn btn-close btn-round btn-default"><i class="glyphicon glyphicon-remove"></i></a>
 						</div>
 					</div>
 					<div class="box-content">
@@ -191,19 +189,19 @@
 						  <div class="row">
 							<div class="col-md-4">
 							  <h3>Built as a sprite</h3>
-							  <p>Instead of making every icon an extra request, we've compiled them into a sprite&mdash;a bunch of images in one file that uses CSS to position the images with <code>background-position</code>. This is the same method we use on Twitter.com and it has worked well for us.</p>
+							  <p>Instead of making every icon an extra request, we've compiled them into a sprite—a bunch of images in one file that uses CSS to position the images with <code>background-position</code>. This is the same method we use on Twitter.com and it has worked well for us.</p>
 							  <p>All icons classes are prefixed with <code>.icon-</code> for proper namespancing and scoping, much like our other components. This will help avoid conflicts with other tools.</p>
 							</div>
 							<div class="col-md-4">
 							  <h3>How to use</h3>
-							  <p>Bootstrap uses an <code>&lt;i&gt;</code> tag for all icons, but they have no case class&mdash;only a shared prefix. To use, place the following code just about anywhere:</p>
+							  <p>Bootstrap uses an <code>&lt;i&gt;</code> tag for all icons, but they have no case class—only a shared prefix. To use, place the following code just about anywhere:</p>
 						<pre class="prettyprint linenums">&lt;i class="glyphicon glyphicon-search"&gt;&lt;/i&gt;</pre>
 							  <p>There are also styles available for inverted (white) icons, made ready with one extra class:</p>
 						<pre class="prettyprint linenums">&lt;i class="glyphicon glyphicon-search icon-white"&gt;&lt;/i&gt;</pre>
 						<div class="alert alert-info"><i class="glyphicon glyphicon-info-sign"></i> In dark themes (Cyborg and Slate) normal icons become white and icon-white become black.</div>
 							  <p>There are 140 classes to choose from for your icons. Just add an <code>&lt;i&gt;</code> tag with the right classes and you're set. You can find the full list in <strong>sprites.less</strong> or right here in this document.</p>
 							  <p>
-								<span class="label label-info">Heads up!</span>
+								<span class="label-info label label-default">Heads up!</span>
 								When using beside strings of text, as in buttons or nav links, be sure to leave a spance after the <code>&lt;i&gt;</code> tag for proper spancing.
 							  </p>
 							</div>
@@ -226,10 +224,10 @@
 							<div class="col-md-4">
 							  <div class="btn-toolbar" style="margin-bottom: 9px">
 								<div class="btn-group">
-								  <a class="btn" href="#"><i class="glyphicon glyphicon-align-left"></i></a>
-								  <a class="btn" href="#"><i class="glyphicon glyphicon-align-center"></i></a>
-								  <a class="btn" href="#"><i class="glyphicon glyphicon-align-right"></i></a>
-								  <a class="btn" href="#"><i class="glyphicon glyphicon-align-justify"></i></a>
+								  <a class="btn btn-default" href="#"><i class="glyphicon glyphicon-align-left"></i></a>
+								  <a class="btn btn-default" href="#"><i class="glyphicon glyphicon-align-center"></i></a>
+								  <a class="btn btn-default" href="#"><i class="glyphicon glyphicon-align-right"></i></a>
+								  <a class="btn btn-default" href="#"><i class="glyphicon glyphicon-align-justify"></i></a>
 								</div>
 								<div class="btn-group">
 								  <a class="btn btn-primary" href="#"><i class="glyphicon glyphicon-user icon-white"></i> User</a>
@@ -244,14 +242,14 @@
 								</div>
 							  </div>
 							  <p>
-								<a class="btn" href="#"><i class="glyphicon glyphicon-refresh"></i> Refresh</a>
+								<a class="btn btn-default" href="#"><i class="glyphicon glyphicon-refresh"></i> Refresh</a>
 								<a class="btn btn-success" href="#"><i class="glyphicon glyphicon-shopping-cart icon-white"></i> Checkout</a>
 								<a class="btn btn-danger" href="#"><i class="glyphicon glyphicon-trash icon-white"></i> Delete</a>
 							  </p>
 							  <p>
-								<a class="btn btn-large" href="#"><i class="glyphicon glyphicon-comment"></i> Comment</a>
-								<a class="btn btn-small" href="#"><i class="glyphicon glyphicon-cog"></i> Settings</a>
-								<a class="btn btn-small btn-info" href="#"><i class="glyphicon glyphicon-info-sign icon-white"></i> More Info</a>
+								<a class="btn btn-default btn-lg" href="#"><i class="glyphicon glyphicon-comment"></i> Comment</a>
+								<a class="btn btn-default btn-sm" href="#"><i class="glyphicon glyphicon-cog"></i> Settings</a>
+								<a class="btn btn-info btn-sm" href="#"><i class="glyphicon glyphicon-info-sign icon-white"></i> More Info</a>
 							  </p>
 							</div>
 							<div class="col-md-4">
@@ -266,11 +264,11 @@
 							</div>
 							<div class="col-md-4">
 							  <form>
-								<div class="control-group">
+								<div class="form-group">
 								  <label class="control-label" for="inputIcon">Email address</label>
 								  <div class="controls">
 									<div class="input-prepend">
-									  <span class="add-on"><i class="glyphicon glyphicon-envelope"></i></span><input id="inputIcon" type="text">
+									  <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span><input id="inputIcon" type="text">
 									</div>
 								  </div>
 								</div>
@@ -280,8 +278,8 @@
 						</section>
 						
 					</div>
-				</div><!--/span-->
+				</div></div><!--/span-->
 			
 			</div><!--/row-->
-    
-<?php include('footer.php'); ?>
+
+<?php require('footer.php'); ?>
