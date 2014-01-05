@@ -1,7 +1,5 @@
-<?php include('header.php'); ?>
-
-
-			<div>
+<?php require('header.php'); ?>
+<div>
 				<ul class="breadcrumb">
 					<li>
 						<a href="#">Home</a> <span class="divider">/</span>
@@ -42,13 +40,13 @@
 			</div>
 			
 			<div class="row">
-				<div class="box col-md-12">
+				<div class="box col-md-12"><div class="box-inner">
 					<div class="box-header well">
 						<h2><i class="icon-info-sign"></i> Introduction</h2>
 						<div class="box-icon">
-							<a href="#" class="btn btn-setting btn-round"><i class="icon-cog"></i></a>
-							<a href="#" class="btn btn-minimize btn-round"><i class="icon-chevron-up"></i></a>
-							<a href="#" class="btn btn-close btn-round"><i class="icon-remove"></i></a>
+							<a href="#" class="btn btn-setting btn-round btn-default"><i class="icon-cog"></i></a>
+							<a href="#" class="btn btn-minimize btn-round btn-default"><i class="icon-chevron-up"></i></a>
+							<a href="#" class="btn btn-close btn-round btn-default"><i class="icon-remove"></i></a>
 						</div>
 					</div>
 					<div class="box-content">
@@ -57,22 +55,22 @@
 						<p><b>All pages in the menu are functional, take a look at all, please share this with your followers.</b></p>
 						
 						<p class="center">
-							<a href="http://usman.it/free-responsive-admin-template" class="btn btn-large btn-primary"><i class="icon-chevron-left icon-white"></i> Back to article</a>
-							<a href="http://usman.it/free-responsive-admin-template" class="btn btn-large"><i class="icon-download-alt"></i> Download Page</a>
+							<a href="http://usman.it/free-responsive-admin-template" class="btn btn-primary btn-lg"><i class="icon-chevron-left icon-white"></i> Back to article</a>
+							<a href="http://usman.it/free-responsive-admin-template" class="btn btn-default btn-lg"><i class="icon-download-alt"></i> Download Page</a>
 						</p>
 						<div class="clearfix"></div>
 					</div>
-				</div>
+				</div></div>
 			</div>
 					
 			<div class="row sortable">
-				<div class="box col-md-4">
+				<div class="box col-md-4"><div class="box-inner">
 					<div class="box-header well">
 						<h2><i class="icon-th"></i> Tabs</h2>
 						<div class="box-icon">
-							<a href="#" class="btn btn-setting btn-round"><i class="icon-cog"></i></a>
-							<a href="#" class="btn btn-minimize btn-round"><i class="icon-chevron-up"></i></a>
-							<a href="#" class="btn btn-close btn-round"><i class="icon-remove"></i></a>
+							<a href="#" class="btn btn-setting btn-round btn-default"><i class="icon-cog"></i></a>
+							<a href="#" class="btn btn-minimize btn-round btn-default"><i class="icon-chevron-up"></i></a>
+							<a href="#" class="btn btn-close btn-round btn-default"><i class="icon-remove"></i></a>
 						</div>
 					</div>
 					<div class="box-content">
@@ -85,7 +83,7 @@
 						<div id="myTabContent" class="tab-content">
 							<div class="tab-pane active" id="info">
 								<h3>Charisma <small>a fully featued template</small></h3>
-								<p>Its a fully featured, responsive template for your admin panel. Its optimized for tablet and mobile phones. Scan the QR code below to view it in your mobile device.</p> <img alt="QR Code" class="charisma_qr center" src="img/qrcode136.png" />
+								<p>Its a fully featured, responsive template for your admin panel. Its optimized for tablet and mobile phones. Scan the QR code below to view it in your mobile device.</p> <img alt="QR Code" class="charisma_qr center" src="img/qrcode136.png">
 							</div>
 							<div class="tab-pane" id="custom">
 								<h3>Custom <small>small text</small></h3>
@@ -99,14 +97,14 @@
 							</div>
 						</div>
 					</div>
-				</div><!--/span-->
+				</div></div><!--/span-->
 						
-				<div class="box col-md-4">
-					<div class="box-header well" data-original-title>
+				<div class="box col-md-4"><div class="box-inner">
+					<div class="box-header well" data-original-title="">
 						<h2><i class="icon-user"></i> Member Activity</h2>
 						<div class="box-icon">
-							<a href="#" class="btn btn-minimize btn-round"><i class="icon-chevron-up"></i></a>
-							<a href="#" class="btn btn-close btn-round"><i class="icon-remove"></i></a>
+							<a href="#" class="btn btn-minimize btn-round btn-default"><i class="icon-chevron-up"></i></a>
+							<a href="#" class="btn btn-close btn-round btn-default"><i class="icon-remove"></i></a>
 						</div>
 					</div>
 					<div class="box-content">
@@ -114,47 +112,47 @@
 							<ul class="dashboard-list">
 								<li>
 									<a href="#">
-										<img class="dashboard-avatar" alt="Usman" src="http://www.gravatar.com/avatar/<?php echo md5( strtolower( trim( "usman@halalit.net" ) ) ); ?>.png?s=50"></a>
+										<img class="dashboard-avatar" alt="Usman" src="http://www.gravatar.com/avatar/&lt;?php echo md5( strtolower( trim( " usman@halalit.net"="" )="" );="" ?="">.png?s=50"&gt;</a>
 										<strong>Name:</strong> <a href="#">Usman
 									</a><br>
 									<strong>Since:</strong> 17/05/2012<br>
-									<strong>Status:</strong> <span class="label label-success">Approved</span>
+									<strong>Status:</strong> <span class="label-success label label-default">Approved</span>
 								</li>
 								<li>
 									<a href="#">
-										<img class="dashboard-avatar" alt="Sheikh Heera" src="http://www.gravatar.com/avatar/<?php echo md5( strtolower( trim( "heerasheikh@ymail.com" ) ) ); ?>.png?s=50"></a>
+										<img class="dashboard-avatar" alt="Sheikh Heera" src="http://www.gravatar.com/avatar/&lt;?php echo md5( strtolower( trim( " heerasheikh@ymail.com"="" )="" );="" ?="">.png?s=50"&gt;</a>
 										<strong>Name:</strong> <a href="#">Sheikh Heera
 									</a><br>
 									<strong>Since:</strong> 17/05/2012<br>
-									<strong>Status:</strong> <span class="label label-warning">Pending</span>
+									<strong>Status:</strong> <span class="label-warning label label-default">Pending</span>
 								</li>
 								<li>
 									<a href="#">
-										<img class="dashboard-avatar" alt="Abdullah" src="http://www.gravatar.com/avatar/<?php echo md5( strtolower( trim( "abdullah123456@abc.com" ) ) ); ?>.png?s=50"></a>
+										<img class="dashboard-avatar" alt="Abdullah" src="http://www.gravatar.com/avatar/&lt;?php echo md5( strtolower( trim( " abdullah123456@abc.com"="" )="" );="" ?="">.png?s=50"&gt;</a>
 										<strong>Name:</strong> <a href="#">Abdullah
 									</a><br>
 									<strong>Since:</strong> 25/05/2012<br>
-									<strong>Status:</strong> <span class="label label-important">Banned</span>
+									<strong>Status:</strong> <span class="label-default label label-danger">Banned</span>
 								</li>
 								<li>
 									<a href="#">
-										<img class="dashboard-avatar" alt="Saruar Ahmed" src="http://www.gravatar.com/avatar/<?php echo md5( strtolower( trim( "saruarall@gmail.com" ) ) ); ?>.png?s=50"></a>
+										<img class="dashboard-avatar" alt="Saruar Ahmed" src="http://www.gravatar.com/avatar/&lt;?php echo md5( strtolower( trim( " saruarall@gmail.com"="" )="" );="" ?="">.png?s=50"&gt;</a>
 										<strong>Name:</strong> <a href="#">Saruar Ahmed
 									</a><br>
 									<strong>Since:</strong> 17/05/2012<br>
-									<strong>Status:</strong> <span class="label label-info">Updates</span>
+									<strong>Status:</strong> <span class="label-info label label-default">Updates</span>
 								</li>
 							</ul>
 						</div>
 					</div>
-				</div><!--/span-->
+				</div></div><!--/span-->
 						
-				<div class="box col-md-4">
-					<div class="box-header well" data-original-title>
+				<div class="box col-md-4"><div class="box-inner">
+					<div class="box-header well" data-original-title="">
 						<h2><i class="icon-list-alt"></i> Realtime Traffic</h2>
 						<div class="box-icon">
-							<a href="#" class="btn btn-minimize btn-round"><i class="icon-chevron-up"></i></a>
-							<a href="#" class="btn btn-close btn-round"><i class="icon-remove"></i></a>
+							<a href="#" class="btn btn-minimize btn-round btn-default"><i class="icon-chevron-up"></i></a>
+							<a href="#" class="btn btn-close btn-round btn-default"><i class="icon-remove"></i></a>
 						</div>
 					</div>
 					<div class="box-content">
@@ -162,83 +160,83 @@
 							<p class="clearfix">You can update a chart periodically to get a real-time effect by using a timer to insert the new data in the plot and redraw it.</p>
 							<p>Time between updates: <input id="updateInterval" type="text" value="" style="text-align: right; width:5em"> milliseconds</p>
 					</div>
-				</div><!--/span-->
+				</div></div><!--/span-->
 			</div><!--/row-->
 
 			<div class="row sortable">
-				<div class="box col-md-4">
-					<div class="box-header well" data-original-title>
+				<div class="box col-md-4"><div class="box-inner">
+					<div class="box-header well" data-original-title="">
 						<h2><i class="icon-list"></i> Buttons</h2>
 						<div class="box-icon">
-							<a href="#" class="btn btn-setting btn-round"><i class="icon-cog"></i></a>
-							<a href="#" class="btn btn-minimize btn-round"><i class="icon-chevron-up"></i></a>
-							<a href="#" class="btn btn-close btn-round"><i class="icon-remove"></i></a>
+							<a href="#" class="btn btn-setting btn-round btn-default"><i class="icon-cog"></i></a>
+							<a href="#" class="btn btn-minimize btn-round btn-default"><i class="icon-chevron-up"></i></a>
+							<a href="#" class="btn btn-close btn-round btn-default"><i class="icon-remove"></i></a>
 						</div>
 					</div>
 					<div class="box-content buttons">
 						<p class="btn-group">
-							  <button class="btn">Left</button>
-							  <button class="btn">Middle</button>
-							  <button class="btn">Right</button>
+							  <button class="btn btn-default">Left</button>
+							  <button class="btn btn-default">Middle</button>
+							  <button class="btn btn-default">Right</button>
 						</p>
 						<p>
-							<button class="btn btn-small"><i class="icon-star"></i> Icon button</button>
-							<button class="btn btn-small btn-primary">Small button</button>
-							<button class="btn btn-small btn-danger">Small button</button>
+							<button class="btn btn-default btn-sm"><i class="icon-star"></i> Icon button</button>
+							<button class="btn btn-primary btn-sm">Small button</button>
+							<button class="btn btn-danger btn-sm">Small button</button>
 						</p>
 						<p>
-							<button class="btn btn-small btn-warning">Small button</button>
-							<button class="btn btn-small btn-success">Small button</button>
-							<button class="btn btn-small btn-info">Small button</button>
+							<button class="btn btn-warning btn-sm">Small button</button>
+							<button class="btn btn-success btn-sm">Small button</button>
+							<button class="btn btn-info btn-sm">Small button</button>
 						</p>
 						<p>
-							<button class="btn btn-small btn-inverse">Small button</button>
-							<button class="btn btn-large btn-primary btn-round">Round button</button>
-							<button class="btn btn-large btn-round"><i class="icon-ok"></i></button>
+							<button class="btn btn-inverse btn-default btn-sm">Small button</button>
+							<button class="btn btn-primary btn-round btn-lg">Round button</button>
+							<button class="btn btn-round btn-default btn-lg"><i class="icon-ok"></i></button>
 							<button class="btn btn-primary"><i class="icon-edit icon-white"></i></button>
 						</p>
 						<p>
-							<button class="btn btn-mini">Mini button</button>
-							<button class="btn btn-mini btn-primary">Mini button</button>
-							<button class="btn btn-mini btn-danger">Mini button</button>
-							<button class="btn btn-mini btn-warning">Mini button</button>
+							<button class="btn btn-default btn-xs">Mini button</button>
+							<button class="btn btn-primary btn-xs">Mini button</button>
+							<button class="btn btn-danger btn-xs">Mini button</button>
+							<button class="btn btn-warning btn-xs">Mini button</button>
 						</p>
 						<p>
-							<button class="btn btn-mini btn-info">Mini button</button>
-							<button class="btn btn-mini btn-success">Mini button</button>
-							<button class="btn btn-mini btn-inverse">Mini button</button>
+							<button class="btn btn-info btn-xs">Mini button</button>
+							<button class="btn btn-success btn-xs">Mini button</button>
+							<button class="btn btn-inverse btn-default btn-xs">Mini button</button>
 						</p>
 					</div>
-				</div><!--/span-->
+				</div></div><!--/span-->
 					
-				<div class="box col-md-4">
-					<div class="box-header well" data-original-title>
+				<div class="box col-md-4"><div class="box-inner">
+					<div class="box-header well" data-original-title="">
 						<h2><i class="icon-list"></i> Buttons</h2>
 						<div class="box-icon">
-							<a href="#" class="btn btn-setting btn-round"><i class="icon-cog"></i></a>
-							<a href="#" class="btn btn-minimize btn-round"><i class="icon-chevron-up"></i></a>
-							<a href="#" class="btn btn-close btn-round"><i class="icon-remove"></i></a>
+							<a href="#" class="btn btn-setting btn-round btn-default"><i class="icon-cog"></i></a>
+							<a href="#" class="btn btn-minimize btn-round btn-default"><i class="icon-chevron-up"></i></a>
+							<a href="#" class="btn btn-close btn-round btn-default"><i class="icon-remove"></i></a>
 						</div>
 					</div>
 					<div class="box-content  buttons">
 						<p>
-							<button class="btn btn-large">Large button</button>
-							<button class="btn btn-large btn-primary">Large button</button>
+							<button class="btn btn-default btn-lg">Large button</button>
+							<button class="btn btn-primary btn-lg">Large button</button>
 						</p>
 						<p>
-							<button class="btn btn-large btn-danger">Large button</button>
-							<button class="btn btn-large btn-warning">Large button</button>
+							<button class="btn btn-danger btn-lg">Large button</button>
+							<button class="btn btn-warning btn-lg">Large button</button>
 						</p>
 						<p>
-							<button class="btn btn-large btn-success">Large button</button>
-							<button class="btn btn-large btn-info">Large button</button>
+							<button class="btn btn-success btn-lg">Large button</button>
+							<button class="btn btn-info btn-lg">Large button</button>
 						</p>
 						<p>
-							<button class="btn btn-large btn-inverse">Large button</button>
+							<button class="btn btn-inverse btn-default btn-lg">Large button</button>
 						</p>
 						<div class="btn-group">
-							<button class="btn btn-large">Large Dropdown</button>
-							<button class="btn btn-large dropdown-toggle" data-toggle="dropdown"><span class="caret"></span></button>
+							<button class="btn btn-default btn-lg">Large Dropdown</button>
+							<button class="btn dropdown-toggle btn-default btn-lg" data-toggle="dropdown"><span class="caret"></span></button>
 							<ul class="dropdown-menu">
 								<li><a href="#"><i class="icon-star"></i> Action</a></li>
 								<li><a href="#"><i class="icon-tag"></i> Another action</a></li>
@@ -249,15 +247,15 @@
 						</div>
 						
 					</div>
-				</div><!--/span-->
+				</div></div><!--/span-->
 					
-				<div class="box col-md-4">
-					<div class="box-header well" data-original-title>
+				<div class="box col-md-4"><div class="box-inner">
+					<div class="box-header well" data-original-title="">
 						<h2><i class="icon-list"></i> Weekly Stat</h2>
 						<div class="box-icon">
-							<a href="#" class="btn btn-setting btn-round"><i class="icon-cog"></i></a>
-							<a href="#" class="btn btn-minimize btn-round"><i class="icon-chevron-up"></i></a>
-							<a href="#" class="btn btn-close btn-round"><i class="icon-remove"></i></a>
+							<a href="#" class="btn btn-setting btn-round btn-default"><i class="icon-cog"></i></a>
+							<a href="#" class="btn btn-minimize btn-round btn-default"><i class="icon-chevron-up"></i></a>
+							<a href="#" class="btn btn-close btn-round btn-default"><i class="icon-remove"></i></a>
 						</div>
 					</div>
 					<div class="box-content">
@@ -320,10 +318,10 @@
 						  </li>
 						</ul>
 					</div>
-				</div><!--/span-->
+				</div></div><!--/span-->
 			</div><!--/row-->
 				  
 
 		  
        
-<?php include('footer.php'); ?>
+<?php require('footer.php'); ?>
