@@ -1,6 +1,5 @@
-<?php include('header.php'); ?>
-
-			<div>
+<?php require('header.php'); ?>
+<div>
 				<ul class="breadcrumb">
 					<li>
 						<a href="#">Home</a> <span class="divider">/</span>
@@ -12,13 +11,13 @@
 			</div>
 
 			<div class="row sortable">
-				<div class="box col-md-9">
-					<div class="box-header well" data-original-title>
+				<div class="box col-md-9"><div class="box-inner">
+					<div class="box-header well" data-original-title="">
 						<h2><i class="icon-font"></i> Typography</h2>
 						<div class="box-icon">
-							<a href="#" class="btn btn-setting btn-round"><i class="icon-cog"></i></a>
-							<a href="#" class="btn btn-minimize btn-round"><i class="icon-chevron-up"></i></a>
-							<a href="#" class="btn btn-close btn-round"><i class="icon-remove"></i></a>
+							<a href="#" class="btn btn-setting btn-round btn-default"><i class="icon-cog"></i></a>
+							<a href="#" class="btn btn-minimize btn-round btn-default"><i class="icon-chevron-up"></i></a>
+							<a href="#" class="btn btn-close btn-round btn-default"><i class="icon-remove"></i></a>
 						</div>
 					</div>
 					<div class="box-content">
@@ -92,19 +91,19 @@
 								<h2>Example use of Tooltips</h2>
 								<p>Hover over the links below to see tooltips:</p>
 								<div class="tooltip-demo well">
-								  <p class="muted" style="margin-bottom: 0;">Tight pants next level keffiyeh <a href="#" data-rel="tooltip" data-original-title="first tooltip">you probably</a> haven't heard of them. Photo booth beard raw denim letterpress vegan messenger bag stumptown. Farm-to-table seitan, mcsweeney's fixie sustainable quinoa 8-bit american appadata-rel <a href="#" data-rel="tooltip" data-original-title="Another tooltip">have a</a> terry richardson vinyl chambray. Beard stumptown, cardigans banh mi lomo thundercats. Tofu biodiesel williamsburg marfa, four loko mcsweeney's cleanse vegan chambray. A <a href="#" data-rel="tooltip" data-original-title="Another one here too">really ironic</a> artisan whatever keytar, scenester farm-to-table banksy Austin <a href="#" data-rel="tooltip" data-original-title="The last tip!">twitter handle</a> freegan cred raw denim single-origin coffee viral.
+								  <p class="text-muted" style="margin-bottom: 0;">Tight pants next level keffiyeh <a href="#" data-rel="tooltip" data-original-title="first tooltip">you probably</a> haven't heard of them. Photo booth beard raw denim letterpress vegan messenger bag stumptown. Farm-to-table seitan, mcsweeney's fixie sustainable quinoa 8-bit american appadata-rel <a href="#" data-rel="tooltip" data-original-title="Another tooltip">have a</a> terry richardson vinyl chambray. Beard stumptown, cardigans banh mi lomo thundercats. Tofu biodiesel williamsburg marfa, four loko mcsweeney's cleanse vegan chambray. A <a href="#" data-rel="tooltip" data-original-title="Another one here too">really ironic</a> artisan whatever keytar, scenester farm-to-table banksy Austin <a href="#" data-rel="tooltip" data-original-title="The last tip!">twitter handle</a> freegan cred raw denim single-origin coffee viral.
 								  </p>
 								</div>                                  
 							  </div>
 						  </div>	 
 					  </div>
-				</div><!--/span-->
+				</div></div><!--/span-->
 				
-				<div class="box col-md-3">
-					<div class="box-header well" data-original-title>
+				<div class="box col-md-3"><div class="box-inner">
+					<div class="box-header well" data-original-title="">
 						<h3>Unordered List</h3>
 						<div class="box-icon">
-							<a href="#" class="btn btn-close btn-round"><i class="icon-remove"></i></a>
+							<a href="#" class="btn btn-close btn-round btn-default"><i class="icon-remove"></i></a>
 						</div>
 					</div>
 					<div class="box-content">
@@ -126,13 +125,13 @@
 						  <li>Eget porttitor lorem</li>
 						</ul>            
 					</div>
-				</div><!--/span-->
+				</div></div><!--/span-->
 				
-				<div class="box col-md-3">
-					<div class="box-header well" data-original-title>
+				<div class="box col-md-3"><div class="box-inner">
+					<div class="box-header well" data-original-title="">
 						<h3>Ordered List</h3>
 						<div class="box-icon">
-							<a href="#" class="btn btn-close btn-round"><i class="icon-remove"></i></a>
+							<a href="#" class="btn btn-close btn-round btn-default"><i class="icon-remove"></i></a>
 						</div>
 					</div>
 					<div class="box-content">
@@ -147,13 +146,13 @@
 						  <li>Eget porttitor lorem</li>
 						</ol>           
 					</div>
-				</div><!--/span-->
+				</div></div><!--/span-->
 				
-				<div class="box col-md-3">
-					<div class="box-header well" data-original-title>
+				<div class="box col-md-3"><div class="box-inner">
+					<div class="box-header well" data-original-title="">
 						<h3>Description List</h3>
 						<div class="box-icon">
-							<a href="#" class="btn btn-close btn-round"><i class="icon-remove"></i></a>
+							<a href="#" class="btn btn-close btn-round btn-default"><i class="icon-remove"></i></a>
 						</div>
 					</div>
 					<div class="box-content">
@@ -167,10 +166,11 @@
 						  <dd>Etiam porta sem malesuada magna mollis euismod.</dd>
 						</dl>            
 					</div>
-				</div><!--/span-->
+				</div></div><!--/span-->
 				
 				
 			
 			</div><!--/row-->
-    
-<?php include('footer.php'); ?>
+
+<?php require('footer.php'); ?>
+
