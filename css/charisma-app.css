@@ -194,12 +194,12 @@ select {
     margin: 0 2px;
     height: 20px;
     width: 5px;
-    margin-top: -1px;
+    margin-top: 1px;
 }
 
 .box-icon a i {
-    margin-left: -5.7px;
-    top: 0;
+    margin-left: -6px;
+    top: -1px;
 }
 
 .box-content {
