@@ -13,11 +13,11 @@
 			<div class="row sortable">
 				<div class="box col-md-12"><div class="box-inner">
 					<div class="box-header well" data-original-title="">
-						<h2><i class="icon-user"></i> Members</h2>
+						<h2><i class="glyphicon glyphicon-user"></i> Members</h2>
 						<div class="box-icon">
-							<a href="#" class="btn btn-setting btn-round btn-default"><i class="icon-cog"></i></a>
-							<a href="#" class="btn btn-minimize btn-round btn-default"><i class="icon-chevron-up"></i></a>
-							<a href="#" class="btn btn-close btn-round btn-default"><i class="icon-remove"></i></a>
+							<a href="#" class="btn btn-setting btn-round btn-default"><i class="glyphicon glyphicon-cog"></i></a>
+							<a href="#" class="btn btn-minimize btn-round btn-default"><i class="glyphicon glyphicon-chevron-up"></i></a>
+							<a href="#" class="btn btn-close btn-round btn-default"><i class="glyphicon glyphicon-remove"></i></a>
 						</div>
 					</div>
 					<div class="box-content">
@@ -41,15 +41,15 @@
 								</td>
 								<td class="center">
 									<a class="btn btn-success" href="#">
-										<i class="icon-zoom-in icon-white"></i>
+										<i class="glyphicon glyphicon-zoom-in icon-white"></i>
 										View                                            
 									</a>
 									<a class="btn btn-info" href="#">
-										<i class="icon-edit icon-white"></i>
+										<i class="glyphicon glyphicon-edit icon-white"></i>
 										Edit                                            
 									</a>
 									<a class="btn btn-danger" href="#">
-										<i class="icon-trash icon-white"></i>
+										<i class="glyphicon glyphicon-trash icon-white"></i>
 										Delete
 									</a>
 								</td>
@@ -63,15 +63,15 @@
 								</td>
 								<td class="center">
 									<a class="btn btn-success" href="#">
-										<i class="icon-zoom-in icon-white"></i>
+										<i class="glyphicon glyphicon-zoom-in icon-white"></i>
 										View                                            
 									</a>
 									<a class="btn btn-info" href="#">
-										<i class="icon-edit icon-white"></i>
+										<i class="glyphicon glyphicon-edit icon-white"></i>
 										Edit                                            
 									</a>
 									<a class="btn btn-danger" href="#">
-										<i class="icon-trash icon-white"></i>
+										<i class="glyphicon glyphicon-trash icon-white"></i>
 										Delete
 									</a>
 								</td>
@@ -85,15 +85,15 @@
 								</td>
 								<td class="center">
 									<a class="btn btn-success" href="#">
-										<i class="icon-zoom-in icon-white"></i>
+										<i class="glyphicon glyphicon-zoom-in icon-white"></i>
 										View                                            
 									</a>
 									<a class="btn btn-info" href="#">
-										<i class="icon-edit icon-white"></i>
+										<i class="glyphicon glyphicon-edit icon-white"></i>
 										Edit                                            
 									</a>
 									<a class="btn btn-danger" href="#">
-										<i class="icon-trash icon-white"></i>
+										<i class="glyphicon glyphicon-trash icon-white"></i>
 										Delete
 									</a>
 								</td>
@@ -107,15 +107,15 @@
 								</td>
 								<td class="center">
 									<a class="btn btn-success" href="#">
-										<i class="icon-zoom-in icon-white"></i>
+										<i class="glyphicon glyphicon-zoom-in icon-white"></i>
 										View                                            
 									</a>
 									<a class="btn btn-info" href="#">
-										<i class="icon-edit icon-white"></i>
+										<i class="glyphicon glyphicon-edit icon-white"></i>
 										Edit                                            
 									</a>
 									<a class="btn btn-danger" href="#">
-										<i class="icon-trash icon-white"></i>
+										<i class="glyphicon glyphicon-trash icon-white"></i>
 										Delete
 									</a>
 								</td>
@@ -129,15 +129,15 @@
 								</td>
 								<td class="center">
 									<a class="btn btn-success" href="#">
-										<i class="icon-zoom-in icon-white"></i>
+										<i class="glyphicon glyphicon-zoom-in icon-white"></i>
 										View                                            
 									</a>
 									<a class="btn btn-info" href="#">
-										<i class="icon-edit icon-white"></i>
+										<i class="glyphicon glyphicon-edit icon-white"></i>
 										Edit                                            
 									</a>
 									<a class="btn btn-danger" href="#">
-										<i class="icon-trash icon-white"></i>
+										<i class="glyphicon glyphicon-trash icon-white"></i>
 										Delete
 									</a>
 								</td>
@@ -151,15 +151,15 @@
 								</td>
 								<td class="center">
 									<a class="btn btn-success" href="#">
-										<i class="icon-zoom-in icon-white"></i>
+										<i class="glyphicon glyphicon-zoom-in icon-white"></i>
 										View                                            
 									</a>
 									<a class="btn btn-info" href="#">
-										<i class="icon-edit icon-white"></i>
+										<i class="glyphicon glyphicon-edit icon-white"></i>
 										Edit                                            
 									</a>
 									<a class="btn btn-danger" href="#">
-										<i class="icon-trash icon-white"></i>
+										<i class="glyphicon glyphicon-trash icon-white"></i>
 										Delete
 									</a>
 								</td>
@@ -173,15 +173,15 @@
 								</td>
 								<td class="center">
 									<a class="btn btn-success" href="#">
-										<i class="icon-zoom-in icon-white"></i>
+										<i class="glyphicon glyphicon-zoom-in icon-white"></i>
 										View                                            
 									</a>
 									<a class="btn btn-info" href="#">
-										<i class="icon-edit icon-white"></i>
+										<i class="glyphicon glyphicon-edit icon-white"></i>
 										Edit                                            
 									</a>
 									<a class="btn btn-danger" href="#">
-										<i class="icon-trash icon-white"></i>
+										<i class="glyphicon glyphicon-trash icon-white"></i>
 										Delete
 									</a>
 								</td>
@@ -195,15 +195,15 @@
 								</td>
 								<td class="center">
 									<a class="btn btn-success" href="#">
-										<i class="icon-zoom-in icon-white"></i>
+										<i class="glyphicon glyphicon-zoom-in icon-white"></i>
 										View                                            
 									</a>
 									<a class="btn btn-info" href="#">
-										<i class="icon-edit icon-white"></i>
+										<i class="glyphicon glyphicon-edit icon-white"></i>
 										Edit                                            
 									</a>
 									<a class="btn btn-danger" href="#">
-										<i class="icon-trash icon-white"></i>
+										<i class="glyphicon glyphicon-trash icon-white"></i>
 										Delete
 									</a>
 								</td>
@@ -217,15 +217,15 @@
 								</td>
 								<td class="center">
 									<a class="btn btn-success" href="#">
-										<i class="icon-zoom-in icon-white"></i>
+										<i class="glyphicon glyphicon-zoom-in icon-white"></i>
 										View                                            
 									</a>
 									<a class="btn btn-info" href="#">
-										<i class="icon-edit icon-white"></i>
+										<i class="glyphicon glyphicon-edit icon-white"></i>
 										Edit                                            
 									</a>
 									<a class="btn btn-danger" href="#">
-										<i class="icon-trash icon-white"></i>
+										<i class="glyphicon glyphicon-trash icon-white"></i>
 										Delete
 									</a>
 								</td>
@@ -239,15 +239,15 @@
 								</td>
 								<td class="center">
 									<a class="btn btn-success" href="#">
-										<i class="icon-zoom-in icon-white"></i>
+										<i class="glyphicon glyphicon-zoom-in icon-white"></i>
 										View                                            
 									</a>
 									<a class="btn btn-info" href="#">
-										<i class="icon-edit icon-white"></i>
+										<i class="glyphicon glyphicon-edit icon-white"></i>
 										Edit                                            
 									</a>
 									<a class="btn btn-danger" href="#">
-										<i class="icon-trash icon-white"></i>
+										<i class="glyphicon glyphicon-trash icon-white"></i>
 										Delete
 									</a>
 								</td>
@@ -261,15 +261,15 @@
 								</td>
 								<td class="center">
 									<a class="btn btn-success" href="#">
-										<i class="icon-zoom-in icon-white"></i>
+										<i class="glyphicon glyphicon-zoom-in icon-white"></i>
 										View                                            
 									</a>
 									<a class="btn btn-info" href="#">
-										<i class="icon-edit icon-white"></i>
+										<i class="glyphicon glyphicon-edit icon-white"></i>
 										Edit                                            
 									</a>
 									<a class="btn btn-danger" href="#">
-										<i class="icon-trash icon-white"></i>
+										<i class="glyphicon glyphicon-trash icon-white"></i>
 										Delete
 									</a>
 								</td>
@@ -283,15 +283,15 @@
 								</td>
 								<td class="center">
 									<a class="btn btn-success" href="#">
-										<i class="icon-zoom-in icon-white"></i>
+										<i class="glyphicon glyphicon-zoom-in icon-white"></i>
 										View                                            
 									</a>
 									<a class="btn btn-info" href="#">
-										<i class="icon-edit icon-white"></i>
+										<i class="glyphicon glyphicon-edit icon-white"></i>
 										Edit                                            
 									</a>
 									<a class="btn btn-danger" href="#">
-										<i class="icon-trash icon-white"></i>
+										<i class="glyphicon glyphicon-trash icon-white"></i>
 										Delete
 									</a>
 								</td>
@@ -305,15 +305,15 @@
 								</td>
 								<td class="center">
 									<a class="btn btn-success" href="#">
-										<i class="icon-zoom-in icon-white"></i>
+										<i class="glyphicon glyphicon-zoom-in icon-white"></i>
 										View                                            
 									</a>
 									<a class="btn btn-info" href="#">
-										<i class="icon-edit icon-white"></i>
+										<i class="glyphicon glyphicon-edit icon-white"></i>
 										Edit                                            
 									</a>
 									<a class="btn btn-danger" href="#">
-										<i class="icon-trash icon-white"></i>
+										<i class="glyphicon glyphicon-trash icon-white"></i>
 										Delete
 									</a>
 								</td>
@@ -327,15 +327,15 @@
 								</td>
 								<td class="center">
 									<a class="btn btn-success" href="#">
-										<i class="icon-zoom-in icon-white"></i>
+										<i class="glyphicon glyphicon-zoom-in icon-white"></i>
 										View                                            
 									</a>
 									<a class="btn btn-info" href="#">
-										<i class="icon-edit icon-white"></i>
+										<i class="glyphicon glyphicon-edit icon-white"></i>
 										Edit                                            
 									</a>
 									<a class="btn btn-danger" href="#">
-										<i class="icon-trash icon-white"></i>
+										<i class="glyphicon glyphicon-trash icon-white"></i>
 										Delete
 									</a>
 								</td>
@@ -349,15 +349,15 @@
 								</td>
 								<td class="center">
 									<a class="btn btn-success" href="#">
-										<i class="icon-zoom-in icon-white"></i>
+										<i class="glyphicon glyphicon-zoom-in icon-white"></i>
 										View                                            
 									</a>
 									<a class="btn btn-info" href="#">
-										<i class="icon-edit icon-white"></i>
+										<i class="glyphicon glyphicon-edit icon-white"></i>
 										Edit                                            
 									</a>
 									<a class="btn btn-danger" href="#">
-										<i class="icon-trash icon-white"></i>
+										<i class="glyphicon glyphicon-trash icon-white"></i>
 										Delete
 									</a>
 								</td>
@@ -371,15 +371,15 @@
 								</td>
 								<td class="center">
 									<a class="btn btn-success" href="#">
-										<i class="icon-zoom-in icon-white"></i>
+										<i class="glyphicon glyphicon-zoom-in icon-white"></i>
 										View                                            
 									</a>
 									<a class="btn btn-info" href="#">
-										<i class="icon-edit icon-white"></i>
+										<i class="glyphicon glyphicon-edit icon-white"></i>
 										Edit                                            
 									</a>
 									<a class="btn btn-danger" href="#">
-										<i class="icon-trash icon-white"></i>
+										<i class="glyphicon glyphicon-trash icon-white"></i>
 										Delete
 									</a>
 								</td>
@@ -393,15 +393,15 @@
 								</td>
 								<td class="center">
 									<a class="btn btn-success" href="#">
-										<i class="icon-zoom-in icon-white"></i>
+										<i class="glyphicon glyphicon-zoom-in icon-white"></i>
 										View                                            
 									</a>
 									<a class="btn btn-info" href="#">
-										<i class="icon-edit icon-white"></i>
+										<i class="glyphicon glyphicon-edit icon-white"></i>
 										Edit                                            
 									</a>
 									<a class="btn btn-danger" href="#">
-										<i class="icon-trash icon-white"></i>
+										<i class="glyphicon glyphicon-trash icon-white"></i>
 										Delete
 									</a>
 								</td>
@@ -415,15 +415,15 @@
 								</td>
 								<td class="center">
 									<a class="btn btn-success" href="#">
-										<i class="icon-zoom-in icon-white"></i>
+										<i class="glyphicon glyphicon-zoom-in icon-white"></i>
 										View                                            
 									</a>
 									<a class="btn btn-info" href="#">
-										<i class="icon-edit icon-white"></i>
+										<i class="glyphicon glyphicon-edit icon-white"></i>
 										Edit                                            
 									</a>
 									<a class="btn btn-danger" href="#">
-										<i class="icon-trash icon-white"></i>
+										<i class="glyphicon glyphicon-trash icon-white"></i>
 										Delete
 									</a>
 								</td>
@@ -437,15 +437,15 @@
 								</td>
 								<td class="center">
 									<a class="btn btn-success" href="#">
-										<i class="icon-zoom-in icon-white"></i>
+										<i class="glyphicon glyphicon-zoom-in icon-white"></i>
 										View                                            
 									</a>
 									<a class="btn btn-info" href="#">
-										<i class="icon-edit icon-white"></i>
+										<i class="glyphicon glyphicon-edit icon-white"></i>
 										Edit                                            
 									</a>
 									<a class="btn btn-danger" href="#">
-										<i class="icon-trash icon-white"></i>
+										<i class="glyphicon glyphicon-trash icon-white"></i>
 										Delete
 									</a>
 								</td>
@@ -459,15 +459,15 @@
 								</td>
 								<td class="center">
 									<a class="btn btn-success" href="#">
-										<i class="icon-zoom-in icon-white"></i>
+										<i class="glyphicon glyphicon-zoom-in icon-white"></i>
 										View                                            
 									</a>
 									<a class="btn btn-info" href="#">
-										<i class="icon-edit icon-white"></i>
+										<i class="glyphicon glyphicon-edit icon-white"></i>
 										Edit                                            
 									</a>
 									<a class="btn btn-danger" href="#">
-										<i class="icon-trash icon-white"></i>
+										<i class="glyphicon glyphicon-trash icon-white"></i>
 										Delete
 									</a>
 								</td>
@@ -481,15 +481,15 @@
 								</td>
 								<td class="center">
 									<a class="btn btn-success" href="#">
-										<i class="icon-zoom-in icon-white"></i>
+										<i class="glyphicon glyphicon-zoom-in icon-white"></i>
 										View                                            
 									</a>
 									<a class="btn btn-info" href="#">
-										<i class="icon-edit icon-white"></i>
+										<i class="glyphicon glyphicon-edit icon-white"></i>
 										Edit                                            
 									</a>
 									<a class="btn btn-danger" href="#">
-										<i class="icon-trash icon-white"></i>
+										<i class="glyphicon glyphicon-trash icon-white"></i>
 										Delete
 									</a>
 								</td>
@@ -503,15 +503,15 @@
 								</td>
 								<td class="center">
 									<a class="btn btn-success" href="#">
-										<i class="icon-zoom-in icon-white"></i>
+										<i class="glyphicon glyphicon-zoom-in icon-white"></i>
 										View                                            
 									</a>
 									<a class="btn btn-info" href="#">
-										<i class="icon-edit icon-white"></i>
+										<i class="glyphicon glyphicon-edit icon-white"></i>
 										Edit                                            
 									</a>
 									<a class="btn btn-danger" href="#">
-										<i class="icon-trash icon-white"></i>
+										<i class="glyphicon glyphicon-trash icon-white"></i>
 										Delete
 									</a>
 								</td>
@@ -525,15 +525,15 @@
 								</td>
 								<td class="center">
 									<a class="btn btn-success" href="#">
-										<i class="icon-zoom-in icon-white"></i>
+										<i class="glyphicon glyphicon-zoom-in icon-white"></i>
 										View                                            
 									</a>
 									<a class="btn btn-info" href="#">
-										<i class="icon-edit icon-white"></i>
+										<i class="glyphicon glyphicon-edit icon-white"></i>
 										Edit                                            
 									</a>
 									<a class="btn btn-danger" href="#">
-										<i class="icon-trash icon-white"></i>
+										<i class="glyphicon glyphicon-trash icon-white"></i>
 										Delete
 									</a>
 								</td>
@@ -547,15 +547,15 @@
 								</td>
 								<td class="center">
 									<a class="btn btn-success" href="#">
-										<i class="icon-zoom-in icon-white"></i>
+										<i class="glyphicon glyphicon-zoom-in icon-white"></i>
 										View                                            
 									</a>
 									<a class="btn btn-info" href="#">
-										<i class="icon-edit icon-white"></i>
+										<i class="glyphicon glyphicon-edit icon-white"></i>
 										Edit                                            
 									</a>
 									<a class="btn btn-danger" href="#">
-										<i class="icon-trash icon-white"></i>
+										<i class="glyphicon glyphicon-trash icon-white"></i>
 										Delete
 									</a>
 								</td>
@@ -569,15 +569,15 @@
 								</td>
 								<td class="center">
 									<a class="btn btn-success" href="#">
-										<i class="icon-zoom-in icon-white"></i>
+										<i class="glyphicon glyphicon-zoom-in icon-white"></i>
 										View                                            
 									</a>
 									<a class="btn btn-info" href="#">
-										<i class="icon-edit icon-white"></i>
+										<i class="glyphicon glyphicon-edit icon-white"></i>
 										Edit                                            
 									</a>
 									<a class="btn btn-danger" href="#">
-										<i class="icon-trash icon-white"></i>
+										<i class="glyphicon glyphicon-trash icon-white"></i>
 										Delete
 									</a>
 								</td>
@@ -591,15 +591,15 @@
 								</td>
 								<td class="center">
 									<a class="btn btn-success" href="#">
-										<i class="icon-zoom-in icon-white"></i>
+										<i class="glyphicon glyphicon-zoom-in icon-white"></i>
 										View                                            
 									</a>
 									<a class="btn btn-info" href="#">
-										<i class="icon-edit icon-white"></i>
+										<i class="glyphicon glyphicon-edit icon-white"></i>
 										Edit                                            
 									</a>
 									<a class="btn btn-danger" href="#">
-										<i class="icon-trash icon-white"></i>
+										<i class="glyphicon glyphicon-trash icon-white"></i>
 										Delete
 									</a>
 								</td>
@@ -613,15 +613,15 @@
 								</td>
 								<td class="center">
 									<a class="btn btn-success" href="#">
-										<i class="icon-zoom-in icon-white"></i>
+										<i class="glyphicon glyphicon-zoom-in icon-white"></i>
 										View                                            
 									</a>
 									<a class="btn btn-info" href="#">
-										<i class="icon-edit icon-white"></i>
+										<i class="glyphicon glyphicon-edit icon-white"></i>
 										Edit                                            
 									</a>
 									<a class="btn btn-danger" href="#">
-										<i class="icon-trash icon-white"></i>
+										<i class="glyphicon glyphicon-trash icon-white"></i>
 										Delete
 									</a>
 								</td>
@@ -635,15 +635,15 @@
 								</td>
 								<td class="center">
 									<a class="btn btn-success" href="#">
-										<i class="icon-zoom-in icon-white"></i>
+										<i class="glyphicon glyphicon-zoom-in icon-white"></i>
 										View                                            
 									</a>
 									<a class="btn btn-info" href="#">
-										<i class="icon-edit icon-white"></i>
+										<i class="glyphicon glyphicon-edit icon-white"></i>
 										Edit                                            
 									</a>
 									<a class="btn btn-danger" href="#">
-										<i class="icon-trash icon-white"></i>
+										<i class="glyphicon glyphicon-trash icon-white"></i>
 										Delete
 									</a>
 								</td>
@@ -657,15 +657,15 @@
 								</td>
 								<td class="center">
 									<a class="btn btn-success" href="#">
-										<i class="icon-zoom-in icon-white"></i>
+										<i class="glyphicon glyphicon-zoom-in icon-white"></i>
 										View                                            
 									</a>
 									<a class="btn btn-info" href="#">
-										<i class="icon-edit icon-white"></i>
+										<i class="glyphicon glyphicon-edit icon-white"></i>
 										Edit                                            
 									</a>
 									<a class="btn btn-danger" href="#">
-										<i class="icon-trash icon-white"></i>
+										<i class="glyphicon glyphicon-trash icon-white"></i>
 										Delete
 									</a>
 								</td>
@@ -679,15 +679,15 @@
 								</td>
 								<td class="center">
 									<a class="btn btn-success" href="#">
-										<i class="icon-zoom-in icon-white"></i>
+										<i class="glyphicon glyphicon-zoom-in icon-white"></i>
 										View                                            
 									</a>
 									<a class="btn btn-info" href="#">
-										<i class="icon-edit icon-white"></i>
+										<i class="glyphicon glyphicon-edit icon-white"></i>
 										Edit                                            
 									</a>
 									<a class="btn btn-danger" href="#">
-										<i class="icon-trash icon-white"></i>
+										<i class="glyphicon glyphicon-trash icon-white"></i>
 										Delete
 									</a>
 								</td>
@@ -701,15 +701,15 @@
 								</td>
 								<td class="center">
 									<a class="btn btn-success" href="#">
-										<i class="icon-zoom-in icon-white"></i>
+										<i class="glyphicon glyphicon-zoom-in icon-white"></i>
 										View                                            
 									</a>
 									<a class="btn btn-info" href="#">
-										<i class="icon-edit icon-white"></i>
+										<i class="glyphicon glyphicon-edit icon-white"></i>
 										Edit                                            
 									</a>
 									<a class="btn btn-danger" href="#">
-										<i class="icon-trash icon-white"></i>
+										<i class="glyphicon glyphicon-trash icon-white"></i>
 										Delete
 									</a>
 								</td>
@@ -723,15 +723,15 @@
 								</td>
 								<td class="center">
 									<a class="btn btn-success" href="#">
-										<i class="icon-zoom-in icon-white"></i>
+										<i class="glyphicon glyphicon-zoom-in icon-white"></i>
 										View                                            
 									</a>
 									<a class="btn btn-info" href="#">
-										<i class="icon-edit icon-white"></i>
+										<i class="glyphicon glyphicon-edit icon-white"></i>
 										Edit                                            
 									</a>
 									<a class="btn btn-danger" href="#">
-										<i class="icon-trash icon-white"></i>
+										<i class="glyphicon glyphicon-trash icon-white"></i>
 										Delete
 									</a>
 								</td>
@@ -748,9 +748,9 @@
 					<div class="box-header well" data-original-title="">
 						<h2>Simple Table</h2>
 						<div class="box-icon">
-							<a href="#" class="btn btn-setting btn-round btn-default"><i class="icon-cog"></i></a>
-							<a href="#" class="btn btn-minimize btn-round btn-default"><i class="icon-chevron-up"></i></a>
-							<a href="#" class="btn btn-close btn-round btn-default"><i class="icon-remove"></i></a>
+							<a href="#" class="btn btn-setting btn-round btn-default"><i class="glyphicon glyphicon-cog"></i></a>
+							<a href="#" class="btn btn-minimize btn-round btn-default"><i class="glyphicon glyphicon-chevron-up"></i></a>
+							<a href="#" class="btn btn-close btn-round btn-default"><i class="glyphicon glyphicon-remove"></i></a>
 						</div>
 					</div>
 					<div class="box-content">
@@ -825,9 +825,9 @@
 					<div class="box-header well" data-original-title="">
 						<h2>Striped Table</h2>
 						<div class="box-icon">
-							<a href="#" class="btn btn-setting btn-round btn-default"><i class="icon-cog"></i></a>
-							<a href="#" class="btn btn-minimize btn-round btn-default"><i class="icon-chevron-up"></i></a>
-							<a href="#" class="btn btn-close btn-round btn-default"><i class="icon-remove"></i></a>
+							<a href="#" class="btn btn-setting btn-round btn-default"><i class="glyphicon glyphicon-cog"></i></a>
+							<a href="#" class="btn btn-minimize btn-round btn-default"><i class="glyphicon glyphicon-chevron-up"></i></a>
+							<a href="#" class="btn btn-close btn-round btn-default"><i class="glyphicon glyphicon-remove"></i></a>
 						</div>
 					</div>
 					<div class="box-content">
@@ -904,9 +904,9 @@
 					<div class="box-header well" data-original-title="">
 						<h2>Bordered Table</h2>
 						<div class="box-icon">
-							<a href="#" class="btn btn-setting btn-round btn-default"><i class="icon-cog"></i></a>
-							<a href="#" class="btn btn-minimize btn-round btn-default"><i class="icon-chevron-up"></i></a>
-							<a href="#" class="btn btn-close btn-round btn-default"><i class="icon-remove"></i></a>
+							<a href="#" class="btn btn-setting btn-round btn-default"><i class="glyphicon glyphicon-cog"></i></a>
+							<a href="#" class="btn btn-minimize btn-round btn-default"><i class="glyphicon glyphicon-chevron-up"></i></a>
+							<a href="#" class="btn btn-close btn-round btn-default"><i class="glyphicon glyphicon-remove"></i></a>
 						</div>
 					</div>
 					<div class="box-content">
@@ -981,9 +981,9 @@
 					<div class="box-header well" data-original-title="">
 						<h2>Condensed Table</h2>
 						<div class="box-icon">
-							<a href="#" class="btn btn-setting btn-round btn-default"><i class="icon-cog"></i></a>
-							<a href="#" class="btn btn-minimize btn-round btn-default"><i class="icon-chevron-up"></i></a>
-							<a href="#" class="btn btn-close btn-round btn-default"><i class="icon-remove"></i></a>
+							<a href="#" class="btn btn-setting btn-round btn-default"><i class="glyphicon glyphicon-cog"></i></a>
+							<a href="#" class="btn btn-minimize btn-round btn-default"><i class="glyphicon glyphicon-chevron-up"></i></a>
+							<a href="#" class="btn btn-close btn-round btn-default"><i class="glyphicon glyphicon-remove"></i></a>
 						</div>
 					</div>
 					<div class="box-content">
@@ -1061,9 +1061,9 @@
 					<div class="box-header well" data-original-title="">
 						<h2>Combined All</h2>
 						<div class="box-icon">
-							<a href="#" class="btn btn-setting btn-round btn-default"><i class="icon-cog"></i></a>
-							<a href="#" class="btn btn-minimize btn-round btn-default"><i class="icon-chevron-up"></i></a>
-							<a href="#" class="btn btn-close btn-round btn-default"><i class="icon-remove"></i></a>
+							<a href="#" class="btn btn-setting btn-round btn-default"><i class="glyphicon glyphicon-cog"></i></a>
+							<a href="#" class="btn btn-minimize btn-round btn-default"><i class="glyphicon glyphicon-chevron-up"></i></a>
+							<a href="#" class="btn btn-close btn-round btn-default"><i class="glyphicon glyphicon-remove"></i></a>
 						</div>
 					</div>
 					<div class="box-content">
