@@ -13,11 +13,11 @@
 			<div class="row sortable">
 				<div class="box col-md-12 tour"><div class="box-inner">
 					<div class="box-header well" data-original-title="">
-						<h2><i class="icon-globe"></i> Tour</h2>
+						<h2><i class="glyphicon glyphicon-globe"></i> Tour</h2>
 						<div class="box-icon">
-							<a href="#" class="btn btn-setting btn-round btn-default"><i class="icon-cog"></i></a>
-							<a href="#" class="btn btn-minimize btn-round btn-default"><i class="icon-chevron-up"></i></a>
-							<a href="#" class="btn btn-close btn-round btn-default"><i class="icon-remove"></i></a>
+							<a href="#" class="btn btn-setting btn-round btn-default"><i class="glyphicon glyphicon-cog"></i></a>
+							<a href="#" class="btn btn-minimize btn-round btn-default"><i class="glyphicon glyphicon-chevron-up"></i></a>
+							<a href="#" class="btn btn-close btn-round btn-default"><i class="glyphicon glyphicon-remove"></i></a>
 						</div>
 					</div>
 					<div class="box-content">
