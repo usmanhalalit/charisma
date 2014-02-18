@@ -4,6 +4,10 @@ select {
     background-color: #fff;
 }
 
+.ch-container{
+    padding: 20px;
+}
+
 .top-block {
     font-size: 14px;
     text-align: center;
@@ -139,8 +143,8 @@ select {
     border-radius: 3px 3px 0 0;
     -webkit-border-radius: 3px 3px 0 0;
     -moz-border-radius: 3px 3px 0 0;
-    height: 12px;
-    min-height: 12px;
+    height: 35px;
+    min-height: 35px !important;
     margin-bottom: 0;
     cursor: move;
     font-weight: bold;
@@ -162,6 +166,9 @@ select {
     float: left;
     line-height: 25px;
     white-space: nowrap;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .box-header h3 {

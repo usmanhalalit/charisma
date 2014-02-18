@@ -64,7 +64,7 @@
 	<!-- topbar starts -->
 	<div class="navbar">
 		<div class="navbar-inner">
-			<div class="container">
+			<div class="ch-container">
 				<a class="btn navbar-btn" data-toggle="collapse" data-target=".top-nav.nav-collapse,.sidebar-nav.nav-collapse">
 					<span class="glyphicon glyphicon-bar"></span>
 					<span class="glyphicon glyphicon-bar"></span>
@@ -121,7 +121,7 @@
 	</div>
 	<!-- topbar ends -->
 	<?php } ?>
-	<div class="container">
+	<div class="ch-container">
 		<div class="row">
 		<?php if(!isset($no_visible_elements) || !$no_visible_elements) { ?>
 		
