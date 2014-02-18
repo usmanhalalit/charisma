@@ -42,11 +42,11 @@
 			<div class="row">
 				<div class="box col-md-12"><div class="box-inner">
 					<div class="box-header well">
-						<h2><i class="icon-info-sign"></i> Introduction</h2>
+						<h2><i class="glyphicon glyphicon-info-sign"></i> Introduction</h2>
 						<div class="box-icon">
-							<a href="#" class="btn btn-setting btn-round btn-default"><i class="icon-cog"></i></a>
-							<a href="#" class="btn btn-minimize btn-round btn-default"><i class="icon-chevron-up"></i></a>
-							<a href="#" class="btn btn-close btn-round btn-default"><i class="icon-remove"></i></a>
+							<a href="#" class="btn btn-setting btn-round btn-default"><i class="glyphicon glyphicon-cog"></i></a>
+							<a href="#" class="btn btn-minimize btn-round btn-default"><i class="glyphicon glyphicon-chevron-up"></i></a>
+							<a href="#" class="btn btn-close btn-round btn-default"><i class="glyphicon glyphicon-remove"></i></a>
 						</div>
 					</div>
 					<div class="box-content">
@@ -66,11 +66,11 @@
 			<div class="row sortable">
 				<div class="box col-md-4"><div class="box-inner">
 					<div class="box-header well">
-						<h2><i class="icon-th"></i> Tabs</h2>
+						<h2><i class="glyphicon glyphicon-th"></i> Tabs</h2>
 						<div class="box-icon">
-							<a href="#" class="btn btn-setting btn-round btn-default"><i class="icon-cog"></i></a>
-							<a href="#" class="btn btn-minimize btn-round btn-default"><i class="icon-chevron-up"></i></a>
-							<a href="#" class="btn btn-close btn-round btn-default"><i class="icon-remove"></i></a>
+							<a href="#" class="btn btn-setting btn-round btn-default"><i class="glyphicon glyphicon-cog"></i></a>
+							<a href="#" class="btn btn-minimize btn-round btn-default"><i class="glyphicon glyphicon-chevron-up"></i></a>
+							<a href="#" class="btn btn-close btn-round btn-default"><i class="glyphicon glyphicon-remove"></i></a>
 						</div>
 					</div>
 					<div class="box-content">
@@ -101,10 +101,10 @@
 						
 				<div class="box col-md-4"><div class="box-inner">
 					<div class="box-header well" data-original-title="">
-						<h2><i class="icon-user"></i> Member Activity</h2>
+						<h2><i class="glyphicon glyphicon-user"></i> Member Activity</h2>
 						<div class="box-icon">
-							<a href="#" class="btn btn-minimize btn-round btn-default"><i class="icon-chevron-up"></i></a>
-							<a href="#" class="btn btn-close btn-round btn-default"><i class="icon-remove"></i></a>
+							<a href="#" class="btn btn-minimize btn-round btn-default"><i class="glyphicon glyphicon-chevron-up"></i></a>
+							<a href="#" class="btn btn-close btn-round btn-default"><i class="glyphicon glyphicon-remove"></i></a>
 						</div>
 					</div>
 					<div class="box-content">
@@ -112,36 +112,35 @@
 							<ul class="dashboard-list">
 								<li>
 									<a href="#">
-										<img class="dashboard-avatar" alt="Usman" src="http://www.gravatar.com/avatar/&lt;?php echo md5( strtolower( trim( " usman@halalit.net"="" )="" );="" ?="">.png?s=50"&gt;</a>
+										<img class="dashboard-avatar" alt="Usman" src="http://www.gravatar.com/avatar/f0ea51fa1e4fae92608d8affee12f67b.png?s=50"></a>
 										<strong>Name:</strong> <a href="#">Usman
 									</a><br>
-									<strong>Since:</strong> 17/05/2012<br>
+									<strong>Since:</strong> 17/05/2014<br>
 									<strong>Status:</strong> <span class="label-success label label-default">Approved</span>
 								</li>
 								<li>
 									<a href="#">
-										<img class="dashboard-avatar" alt="Sheikh Heera" src="http://www.gravatar.com/avatar/&lt;?php echo md5( strtolower( trim( " heerasheikh@ymail.com"="" )="" );="" ?="">.png?s=50"&gt;</a>
+										<img class="dashboard-avatar" alt="Sheikh Heera" src="http://www.gravatar.com/avatar/3232415a0380253cfffe19163d04acab.png?s=50"></a>
 										<strong>Name:</strong> <a href="#">Sheikh Heera
 									</a><br>
-									<strong>Since:</strong> 17/05/2012<br>
+									<strong>Since:</strong> 17/05/2014<br>
 									<strong>Status:</strong> <span class="label-warning label label-default">Pending</span>
 								</li>
 								<li>
 									<a href="#">
-										<img class="dashboard-avatar" alt="Abdullah" src="http://www.gravatar.com/avatar/&lt;?php echo md5( strtolower( trim( " abdullah123456@abc.com"="" )="" );="" ?="">.png?s=50"&gt;</a>
+                                        <img class="dashboard-avatar" alt="Abdullah" src="http://www.gravatar.com/avatar/46056f772bde7c536e2086004e300a04.png?s=50"></a>
 										<strong>Name:</strong> <a href="#">Abdullah
 									</a><br>
-									<strong>Since:</strong> 25/05/2012<br>
+									<strong>Since:</strong> 25/05/2014<br>
 									<strong>Status:</strong> <span class="label-default label label-danger">Banned</span>
 								</li>
-								<li>
-									<a href="#">
-										<img class="dashboard-avatar" alt="Saruar Ahmed" src="http://www.gravatar.com/avatar/&lt;?php echo md5( strtolower( trim( " saruarall@gmail.com"="" )="" );="" ?="">.png?s=50"&gt;</a>
-										<strong>Name:</strong> <a href="#">Saruar Ahmed
-									</a><br>
-									<strong>Since:</strong> 17/05/2012<br>
-									<strong>Status:</strong> <span class="label-info label label-default">Updates</span>
-								</li>
+                                <li>
+                                    <a href="#">
+                                        <img class="dashboard-avatar" alt="Sana Amrin" src="http://www.gravatar.com/avatar/hash"></a>
+                                        <strong>Name:</strong> <a href="#">Sana Amrin</a><br>
+                                    <strong>Since:</strong> 17/05/2014<br>
+                                    <strong>Status:</strong> <span class="label label-info">Updates</span>
+                                </li>
 							</ul>
 						</div>
 					</div>
@@ -149,10 +148,10 @@
 						
 				<div class="box col-md-4"><div class="box-inner">
 					<div class="box-header well" data-original-title="">
-						<h2><i class="icon-list-alt"></i> Realtime Traffic</h2>
+						<h2><i class="glyphicon glyphicon-list-alt"></i> Realtime Traffic</h2>
 						<div class="box-icon">
-							<a href="#" class="btn btn-minimize btn-round btn-default"><i class="icon-chevron-up"></i></a>
-							<a href="#" class="btn btn-close btn-round btn-default"><i class="icon-remove"></i></a>
+							<a href="#" class="btn btn-minimize btn-round btn-default"><i class="glyphicon glyphicon-chevron-up"></i></a>
+							<a href="#" class="btn btn-close btn-round btn-default"><i class="glyphicon glyphicon-remove"></i></a>
 						</div>
 					</div>
 					<div class="box-content">
@@ -166,11 +165,11 @@
 			<div class="row sortable">
 				<div class="box col-md-4"><div class="box-inner">
 					<div class="box-header well" data-original-title="">
-						<h2><i class="icon-list"></i> Buttons</h2>
+						<h2><i class="glyphicon glyphicon-list"></i> Buttons</h2>
 						<div class="box-icon">
-							<a href="#" class="btn btn-setting btn-round btn-default"><i class="icon-cog"></i></a>
-							<a href="#" class="btn btn-minimize btn-round btn-default"><i class="icon-chevron-up"></i></a>
-							<a href="#" class="btn btn-close btn-round btn-default"><i class="icon-remove"></i></a>
+							<a href="#" class="btn btn-setting btn-round btn-default"><i class="glyphicon glyphicon-cog"></i></a>
+							<a href="#" class="btn btn-minimize btn-round btn-default"><i class="glyphicon glyphicon-chevron-up"></i></a>
+							<a href="#" class="btn btn-close btn-round btn-default"><i class="glyphicon glyphicon-remove"></i></a>
 						</div>
 					</div>
 					<div class="box-content buttons">
@@ -180,7 +179,7 @@
 							  <button class="btn btn-default">Right</button>
 						</p>
 						<p>
-							<button class="btn btn-default btn-sm"><i class="icon-star"></i> Icon button</button>
+							<button class="btn btn-default btn-sm"><i class="glyphicon glyphicon-star"></i> Icon button</button>
 							<button class="btn btn-primary btn-sm">Small button</button>
 							<button class="btn btn-danger btn-sm">Small button</button>
 						</p>
@@ -192,8 +191,8 @@
 						<p>
 							<button class="btn btn-inverse btn-default btn-sm">Small button</button>
 							<button class="btn btn-primary btn-round btn-lg">Round button</button>
-							<button class="btn btn-round btn-default btn-lg"><i class="icon-ok"></i></button>
-							<button class="btn btn-primary"><i class="icon-edit icon-white"></i></button>
+							<button class="btn btn-round btn-default btn-lg"><i class="glyphicon glyphicon-ok"></i></button>
+							<button class="btn btn-primary"><i class="glyphicon glyphicon-edit glyphicon-white"></i></button>
 						</p>
 						<p>
 							<button class="btn btn-default btn-xs">Mini button</button>
@@ -211,11 +210,11 @@
 					
 				<div class="box col-md-4"><div class="box-inner">
 					<div class="box-header well" data-original-title="">
-						<h2><i class="icon-list"></i> Buttons</h2>
+						<h2><i class="glyphicon glyphicon-list"></i> Buttons</h2>
 						<div class="box-icon">
-							<a href="#" class="btn btn-setting btn-round btn-default"><i class="icon-cog"></i></a>
-							<a href="#" class="btn btn-minimize btn-round btn-default"><i class="icon-chevron-up"></i></a>
-							<a href="#" class="btn btn-close btn-round btn-default"><i class="icon-remove"></i></a>
+							<a href="#" class="btn btn-setting btn-round btn-default"><i class="glyphicon glyphicon-cog"></i></a>
+							<a href="#" class="btn btn-minimize btn-round btn-default"><i class="glyphicon glyphicon-chevron-up"></i></a>
+							<a href="#" class="btn btn-close btn-round btn-default"><i class="glyphicon glyphicon-remove"></i></a>
 						</div>
 					</div>
 					<div class="box-content  buttons">
@@ -238,11 +237,11 @@
 							<button class="btn btn-default btn-lg">Large Dropdown</button>
 							<button class="btn dropdown-toggle btn-default btn-lg" data-toggle="dropdown"><span class="caret"></span></button>
 							<ul class="dropdown-menu">
-								<li><a href="#"><i class="icon-star"></i> Action</a></li>
-								<li><a href="#"><i class="icon-tag"></i> Another action</a></li>
-								<li><a href="#"><i class="icon-download-alt"></i> Something else here</a></li>
+								<li><a href="#"><i class="glyphicon glyphicon-star"></i> Action</a></li>
+								<li><a href="#"><i class="glyphicon glyphicon-tag"></i> Another action</a></li>
+								<li><a href="#"><i class="glyphicon glyphicon-download-alt"></i> Something else here</a></li>
 								<li class="divider"></li>
-								<li><a href="#"><i class="icon-tint"></i> Separated link</a></li>
+								<li><a href="#"><i class="glyphicon glyphicon-tint"></i> Separated link</a></li>
 							</ul>
 						</div>
 						
@@ -251,67 +250,67 @@
 					
 				<div class="box col-md-4"><div class="box-inner">
 					<div class="box-header well" data-original-title="">
-						<h2><i class="icon-list"></i> Weekly Stat</h2>
+						<h2><i class="glyphicon glyphicon-list"></i> Weekly Stat</h2>
 						<div class="box-icon">
-							<a href="#" class="btn btn-setting btn-round btn-default"><i class="icon-cog"></i></a>
-							<a href="#" class="btn btn-minimize btn-round btn-default"><i class="icon-chevron-up"></i></a>
-							<a href="#" class="btn btn-close btn-round btn-default"><i class="icon-remove"></i></a>
+							<a href="#" class="btn btn-setting btn-round btn-default"><i class="glyphicon glyphicon-cog"></i></a>
+							<a href="#" class="btn btn-minimize btn-round btn-default"><i class="glyphicon glyphicon-chevron-up"></i></a>
+							<a href="#" class="btn btn-close btn-round btn-default"><i class="glyphicon glyphicon-remove"></i></a>
 						</div>
 					</div>
 					<div class="box-content">
 						<ul class="dashboard-list">
 							<li>
 								<a href="#">
-									<i class="icon-arrow-up"></i>
+									<i class="glyphicon glyphicon-arrow-up"></i>
 									<span class="green">92</span>
 									New Comments                                    
 								</a>
 							</li>
 						  <li>
 							<a href="#">
-							  <i class="icon-arrow-down"></i>
+							  <i class="glyphicon glyphicon-arrow-down"></i>
 							  <span class="red">15</span>
 							  New Registrations
 							</a>
 						  </li>
 						  <li>
 							<a href="#">
-							  <i class="icon-minus"></i>
+							  <i class="glyphicon glyphicon-minus"></i>
 							  <span class="blue">36</span>
 							  New Articles                                    
 							</a>
 						  </li>
 						  <li>
 							<a href="#">
-							  <i class="icon-comment"></i>
+							  <i class="glyphicon glyphicon-comment"></i>
 							  <span class="yellow">45</span>
 							  User reviews                                    
 							</a>
 						  </li>
 						  <li>
 							<a href="#">
-							  <i class="icon-arrow-up"></i>
+							  <i class="glyphicon glyphicon-arrow-up"></i>
 							  <span class="green">112</span>
 							  New Comments                                    
 							</a>
 						  </li>
 						  <li>
 							<a href="#">
-							  <i class="icon-arrow-down"></i>
+							  <i class="glyphicon glyphicon-arrow-down"></i>
 							  <span class="red">31</span>
 							  New Registrations
 							</a>
 						  </li>
 						  <li>
 							<a href="#">
-							  <i class="icon-minus"></i>
+							  <i class="glyphicon glyphicon-minus"></i>
 							  <span class="blue">93</span>
 							  New Articles                                    
 							</a>
 						  </li>
 						  <li>
 							<a href="#">
-							  <i class="icon-comment"></i>
+							  <i class="glyphicon glyphicon-comment"></i>
 							  <span class="yellow">254</span>
 							  User reviews                                    
 							</a>

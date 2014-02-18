@@ -13,11 +13,11 @@
 			<div class="row sortable">
 				<div class="box col-md-12"><div class="box-inner">
 					<div class="box-header well" data-original-title="">
-						<h2><i class="icon-plus"></i> Extended Elements</h2>
+						<h2><i class="glyphicon glyphicon-plus"></i> Extended Elements</h2>
 						<div class="box-icon">
-							<a href="#" class="btn btn-setting btn-round btn-default"><i class="icon-cog"></i></a>
-							<a href="#" class="btn btn-minimize btn-round btn-default"><i class="icon-chevron-up"></i></a>
-							<a href="#" class="btn btn-close btn-round btn-default"><i class="icon-remove"></i></a>
+							<a href="#" class="btn btn-setting btn-round btn-default"><i class="glyphicon glyphicon-cog"></i></a>
+							<a href="#" class="btn btn-minimize btn-round btn-default"><i class="glyphicon glyphicon-chevron-up"></i></a>
+							<a href="#" class="btn btn-close btn-round btn-default"><i class="glyphicon glyphicon-remove"></i></a>
 						</div>
 					</div>
 					<div class="box-content">
@@ -87,11 +87,11 @@
 			<div class="row sortable">
 				<div class="box col-md-6"><div class="box-inner">
 					<div class="box-header well" data-original-title="">
-						<h2><i class="icon-tasks"></i> Progress Bars</h2>
+						<h2><i class="glyphicon glyphicon-tasks"></i> Progress Bars</h2>
 						<div class="box-icon">
-							<a href="#" class="btn btn-setting btn-round btn-default"><i class="icon-cog"></i></a>
-							<a href="#" class="btn btn-minimize btn-round btn-default"><i class="icon-chevron-up"></i></a>
-							<a href="#" class="btn btn-close btn-round btn-default"><i class="icon-remove"></i></a>
+							<a href="#" class="btn btn-setting btn-round btn-default"><i class="glyphicon glyphicon-cog"></i></a>
+							<a href="#" class="btn btn-minimize btn-round btn-default"><i class="glyphicon glyphicon-chevron-up"></i></a>
+							<a href="#" class="btn btn-close btn-round btn-default"><i class="glyphicon glyphicon-remove"></i></a>
 						</div>
 					</div>
 					<div class="box-content">
@@ -125,11 +125,11 @@
 				
 				<div class="box col-md-6"><div class="box-inner">
 					<div class="box-header well">
-						<h2><i class="icon-eye-open"></i> Labels and Annotations</h2>
+						<h2><i class="glyphicon glyphicon-eye-open"></i> Labels and Annotations</h2>
 						<div class="box-icon">
-							<a href="#" class="btn btn-setting btn-round btn-default"><i class="icon-cog"></i></a>
-							<a href="#" class="btn btn-minimize btn-round btn-default"><i class="icon-chevron-up"></i></a>
-							<a href="#" class="btn btn-close btn-round btn-default"><i class="icon-remove"></i></a>
+							<a href="#" class="btn btn-setting btn-round btn-default"><i class="glyphicon glyphicon-cog"></i></a>
+							<a href="#" class="btn btn-minimize btn-round btn-default"><i class="glyphicon glyphicon-chevron-up"></i></a>
+							<a href="#" class="btn btn-close btn-round btn-default"><i class="glyphicon glyphicon-remove"></i></a>
 						</div>
 					</div>
 					<div class="box-content">
@@ -190,11 +190,11 @@
 			<div class="row sortable">
 				<div class="box col-md-5"><div class="box-inner">
 					<div class="box-header well">
-						<h2><i class="icon-bullhorn"></i> Alerts</h2>
+						<h2><i class="glyphicon glyphicon-bullhorn"></i> Alerts</h2>
 						<div class="box-icon">
-							<a href="#" class="btn btn-setting btn-round btn-default"><i class="icon-cog"></i></a>
-							<a href="#" class="btn btn-minimize btn-round btn-default"><i class="icon-chevron-up"></i></a>
-							<a href="#" class="btn btn-close btn-round btn-default"><i class="icon-remove"></i></a>
+							<a href="#" class="btn btn-setting btn-round btn-default"><i class="glyphicon glyphicon-cog"></i></a>
+							<a href="#" class="btn btn-minimize btn-round btn-default"><i class="glyphicon glyphicon-chevron-up"></i></a>
+							<a href="#" class="btn btn-close btn-round btn-default"><i class="glyphicon glyphicon-remove"></i></a>
 						</div>
 					</div>
 					<div class="box-content alerts">
@@ -215,11 +215,11 @@
 				
 				<div class="box col-md-7"><div class="box-inner">
 					<div class="box-header well" data-original-title="">
-						<h2><i class="icon-bell"></i> Notifications</h2>
+						<h2><i class="glyphicon glyphicon-bell"></i> Notifications</h2>
 						<div class="box-icon">
-							<a href="#" class="btn btn-setting btn-round btn-default"><i class="icon-cog"></i></a>
-							<a href="#" class="btn btn-minimize btn-round btn-default"><i class="icon-chevron-up"></i></a>
-							<a href="#" class="btn btn-close btn-round btn-default"><i class="icon-remove"></i></a>
+							<a href="#" class="btn btn-setting btn-round btn-default"><i class="glyphicon glyphicon-cog"></i></a>
+							<a href="#" class="btn btn-minimize btn-round btn-default"><i class="glyphicon glyphicon-chevron-up"></i></a>
+							<a href="#" class="btn btn-close btn-round btn-default"><i class="glyphicon glyphicon-remove"></i></a>
 						</div>
 					</div>
 					<div class="box-content">
@@ -227,34 +227,34 @@
 							Click buttons below to see Pop Notifications.
 						</div>
 						<p class="center">
-							<button class="btn btn-primary noty" data-noty-options="{&quot;text&quot;:&quot;This is a success notification&quot;,&quot;layout&quot;:&quot;topLeft&quot;,&quot;type&quot;:&quot;success&quot;}"><i class="icon-bell icon-white"></i> Top Left</button>
-							<button class="btn btn-primary noty" data-noty-options="{&quot;text&quot;:&quot;This is an alert notification with fade effect&quot;,&quot;layout&quot;:&quot;topCenter&quot;,&quot;type&quot;:&quot;alert&quot;,&quot;animateOpen&quot;: {&quot;opacity&quot;: &quot;show&quot;}}"><i class="icon-bell icon-white"></i> Top Center (fade)</button>
-							<button class="btn btn-primary noty" data-noty-options="{&quot;text&quot;:&quot;This is an error notification&quot;,&quot;layout&quot;:&quot;topRight&quot;,&quot;type&quot;:&quot;error&quot;}"><i class="icon-bell icon-white"></i> Top Right</button>
-							<button class="btn btn-primary noty" data-noty-options="{&quot;text&quot;:&quot;This is a success information&quot;,&quot;layout&quot;:&quot;top&quot;,&quot;type&quot;:&quot;information&quot;}"><i class="icon-bell icon-white"></i> Top Full Width</button>
+							<button class="btn btn-primary noty" data-noty-options="{&quot;text&quot;:&quot;This is a success notification&quot;,&quot;layout&quot;:&quot;topLeft&quot;,&quot;type&quot;:&quot;success&quot;}"><i class="glyphicon glyphicon-bell icon-white"></i> Top Left</button>
+							<button class="btn btn-primary noty" data-noty-options="{&quot;text&quot;:&quot;This is an alert notification with fade effect&quot;,&quot;layout&quot;:&quot;topCenter&quot;,&quot;type&quot;:&quot;alert&quot;,&quot;animateOpen&quot;: {&quot;opacity&quot;: &quot;show&quot;}}"><i class="glyphicon glyphicon-bell icon-white"></i> Top Center (fade)</button>
+							<button class="btn btn-primary noty" data-noty-options="{&quot;text&quot;:&quot;This is an error notification&quot;,&quot;layout&quot;:&quot;topRight&quot;,&quot;type&quot;:&quot;error&quot;}"><i class="glyphicon glyphicon-bell icon-white"></i> Top Right</button>
+							<button class="btn btn-primary noty" data-noty-options="{&quot;text&quot;:&quot;This is a success information&quot;,&quot;layout&quot;:&quot;top&quot;,&quot;type&quot;:&quot;information&quot;}"><i class="glyphicon glyphicon-bell icon-white"></i> Top Full Width</button>
 						</p>
 						<p class="center">
-							<button class="btn btn-primary noty" data-noty-options="{&quot;text&quot;:&quot;This is an alert notification with fade effect&quot;,&quot;layout&quot;:&quot;center&quot;,&quot;type&quot;:&quot;alert&quot;,&quot;animateOpen&quot;: {&quot;opacity&quot;: &quot;show&quot;}}"><i class="icon-bell icon-white"></i> Center (fade)</button>
-							<button class="btn btn-primary noty" data-noty-options="{&quot;text&quot;:&quot;This is an error notification&quot;,&quot;layout&quot;:&quot;center&quot;,&quot;type&quot;:&quot;error&quot;}"><i class="icon-bell icon-white"></i> Center</button>
+							<button class="btn btn-primary noty" data-noty-options="{&quot;text&quot;:&quot;This is an alert notification with fade effect&quot;,&quot;layout&quot;:&quot;center&quot;,&quot;type&quot;:&quot;alert&quot;,&quot;animateOpen&quot;: {&quot;opacity&quot;: &quot;show&quot;}}"><i class="glyphicon glyphicon-bell icon-white"></i> Center (fade)</button>
+							<button class="btn btn-primary noty" data-noty-options="{&quot;text&quot;:&quot;This is an error notification&quot;,&quot;layout&quot;:&quot;center&quot;,&quot;type&quot;:&quot;error&quot;}"><i class="glyphicon glyphicon-bell icon-white"></i> Center</button>
 						</p>
 						
 						<p class="center">
-							<button class="btn btn-primary noty" data-noty-options="{&quot;text&quot;:&quot;This is an error notification&quot;,&quot;layout&quot;:&quot;bottomLeft&quot;,&quot;type&quot;:&quot;error&quot;}"><i class="icon-bell icon-white"></i> Bottom Left</button>
-							<button class="btn btn-primary noty" data-noty-options="{&quot;text&quot;:&quot;This is an alert notification with fade effect&quot;,&quot;layout&quot;:&quot;bottomRight&quot;,&quot;type&quot;:&quot;alert&quot;,&quot;animateOpen&quot;: {&quot;opacity&quot;: &quot;show&quot;}}"><i class="icon-bell icon-white"></i> Bottom Right (fade)</button>
+							<button class="btn btn-primary noty" data-noty-options="{&quot;text&quot;:&quot;This is an error notification&quot;,&quot;layout&quot;:&quot;bottomLeft&quot;,&quot;type&quot;:&quot;error&quot;}"><i class="glyphicon glyphicon-bell icon-white"></i> Bottom Left</button>
+							<button class="btn btn-primary noty" data-noty-options="{&quot;text&quot;:&quot;This is an alert notification with fade effect&quot;,&quot;layout&quot;:&quot;bottomRight&quot;,&quot;type&quot;:&quot;alert&quot;,&quot;animateOpen&quot;: {&quot;opacity&quot;: &quot;show&quot;}}"><i class="glyphicon glyphicon-bell icon-white"></i> Bottom Right (fade)</button>
 						</p>
 
 						<p class="center">
-							<button class="btn btn-primary noty" data-noty-options="{&quot;text&quot;:&quot;This is an alert&quot;,&quot;layout&quot;:&quot;bottom&quot;,&quot;type&quot;:&quot;alert&quot;,&quot;closeButton&quot;:&quot;true&quot;}"><i class="icon-bell icon-white"></i> Bottom Full Width with Close Button</button>
+							<button class="btn btn-primary noty" data-noty-options="{&quot;text&quot;:&quot;This is an alert&quot;,&quot;layout&quot;:&quot;bottom&quot;,&quot;type&quot;:&quot;alert&quot;,&quot;closeButton&quot;:&quot;true&quot;}"><i class="glyphicon glyphicon-bell icon-white"></i> Bottom Full Width with Close Button</button>
 						</p>
 					</div>	
 				</div></div><!--/span-->
 				
 				<div class="box col-md-7"><div class="box-inner">
 					<div class="box-header well" data-original-title="">
-						<h2><i class="icon-refresh"></i> Ajax Loaders</h2>
+						<h2><i class="glyphicon glyphicon-refresh"></i> Ajax Loaders</h2>
 						<div class="box-icon">
-							<a href="#" class="btn btn-setting btn-round btn-default"><i class="icon-cog"></i></a>
-							<a href="#" class="btn btn-minimize btn-round btn-default"><i class="icon-chevron-up"></i></a>
-							<a href="#" class="btn btn-close btn-round btn-default"><i class="icon-remove"></i></a>
+							<a href="#" class="btn btn-setting btn-round btn-default"><i class="glyphicon glyphicon-cog"></i></a>
+							<a href="#" class="btn btn-minimize btn-round btn-default"><i class="glyphicon glyphicon-chevron-up"></i></a>
+							<a href="#" class="btn btn-close btn-round btn-default"><i class="glyphicon glyphicon-remove"></i></a>
 						</div>
 					</div>
 					<div class="box-content">
