@@ -63,8 +63,8 @@
 						<p><b>All pages in the menu are functional, take a look at all, please share this with your followers.</b></p>
 						
 						<p class="center">
-							<a href="http://usman.it/free-responsive-admin-template" class="btn btn-primary btn-lg"><i class="icon-chevron-left icon-white"></i> Back to article</a>
-							<a href="http://usman.it/free-responsive-admin-template" class="btn btn-default btn-lg"><i class="icon-download-alt"></i> Download Page</a>
+							<a href="http://usman.it/free-responsive-admin-template" class="btn btn-primary btn-lg"><i class="glyphicon glyphicon-chevron-left glyphicon-white"></i> Back to article</a>
+							<a href="http://usman.it/free-responsive-admin-template" class="btn btn-default btn-lg"><i class="glyphicon glyphicon-download-alt"></i> Download Page</a>
 						</p>
 						<div class="clearfix"></div>
 					</div>

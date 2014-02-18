@@ -266,6 +266,7 @@ ul.dashboard-list li a span {
 }
 
 .thumbnails > li {
+    display: inline-block;
     margin-left: 15px;
 }
 
@@ -292,10 +293,9 @@ img.grayscale {
     position: absolute;
     z-index: 1;
     margin-top: -30px;
-    height: 22px;
-    min-height: 22px;
-    width: 80px;
-    padding: 9px;
+    height: 30px;
+    min-height: 30px;
+    padding: 0 6.5px;
 }
 
 .thumbnail .gallery-controls p {
