@@ -192,13 +192,14 @@ select {
     clear: none;
     float: left;
     margin: 0 2px;
-    height: 18px;
+    height: 20px;
     width: 5px;
     margin-top: -1px;
 }
 
 .box-icon a i {
-    margin-left: -4.5px;
+    margin-left: -5.7px;
+    top: 0;
 }
 
 .box-content {
