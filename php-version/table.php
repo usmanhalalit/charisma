@@ -806,8 +806,7 @@
 								</tr>                                   
 							  </tbody>
 						 </table>  
-						 <div class="pagination pagination-centered">
-						  <ul>
+						 <ul class="pagination pagination-centered">
 							<li><a href="#">Prev</a></li>
 							<li class="active">
 							  <a href="#">1</a>
@@ -817,7 +816,6 @@
 							<li><a href="#">4</a></li>
 							<li><a href="#">Next</a></li>
 						  </ul>
-						</div>     
 					</div>
 				</div></div><!--/span-->
 				
@@ -882,9 +880,8 @@
 									</td>                                        
 								</tr>                                   
 							  </tbody>
-						 </table>  
-						 <div class="pagination pagination-centered">
-						  <ul>
+						 </table>
+                        <ul class="pagination pagination-centered">
 							<li><a href="#">Prev</a></li>
 							<li class="active">
 							  <a href="#">1</a>
@@ -893,8 +890,7 @@
 							<li><a href="#">3</a></li>
 							<li><a href="#">4</a></li>
 							<li><a href="#">Next</a></li>
-						  </ul>
-						</div>     
+						</ul>
 					</div>
 				</div></div><!--/span-->
 			</div><!--/row-->
@@ -961,9 +957,8 @@
 									</td>                                        
 								</tr>                                   
 							  </tbody>
-						 </table>  
-						 <div class="pagination pagination-centered">
-						  <ul>
+						 </table>
+                        <ul class="pagination pagination-centered">
 							<li><a href="#">Prev</a></li>
 							<li class="active">
 							  <a href="#">1</a>
@@ -972,8 +967,7 @@
 							<li><a href="#">3</a></li>
 							<li><a href="#">4</a></li>
 							<li><a href="#">Next</a></li>
-						  </ul>
-						</div>     
+						</ul>
 					</div>
 				</div></div><!--/span-->
 				
@@ -1038,9 +1032,8 @@
 									</td>                                        
 								</tr>                                   
 							  </tbody>
-						 </table>  
-						 <div class="pagination pagination-centered">
-						  <ul>
+						 </table>
+                        <ul class="pagination pagination-centered">
 							<li><a href="#">Prev</a></li>
 							<li class="active">
 							  <a href="#">1</a>
@@ -1049,8 +1042,7 @@
 							<li><a href="#">3</a></li>
 							<li><a href="#">4</a></li>
 							<li><a href="#">Next</a></li>
-						  </ul>
-						</div>     
+						</ul>
 					</div>
 				</div></div><!--/span-->
 			
@@ -1118,9 +1110,8 @@
 									</td>                                        
 								</tr>                                   
 							  </tbody>
-						 </table>  
-						 <div class="pagination pagination-centered">
-						  <ul>
+						 </table>
+                         <ul class="pagination pagination-centered">
 							<li><a href="#">Prev</a></li>
 							<li class="active">
 							  <a href="#">1</a>
@@ -1129,7 +1120,7 @@
 							<li><a href="#">3</a></li>
 							<li><a href="#">4</a></li>
 							<li><a href="#">Next</a></li>
-						  </ul>
+						 </ul>
 						</div>     
 					</div>
 				</div></div><!--/span-->
