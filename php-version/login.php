@@ -16,12 +16,12 @@ include('header.php'); ?>
 					<form class="form-horizontal" action="index.html" method="post">
 						<fieldset>
 							<div class="input-prepend" title="Username" data-rel="tooltip">
-								<span class="input-group-addon"><i class="icon-user"></i></span><input autofocus="" class="col-md-0 input-lg" name="username" id="username" type="text" value="admin">
+								<span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span><input autofocus="" class="col-md-0 input-lg" name="username" id="username" type="text" value="admin">
 							</div>
 							<div class="clearfix"></div>
 
 							<div class="input-prepend" title="Password" data-rel="tooltip">
-								<span class="input-group-addon"><i class="icon-lock"></i></span><input class="col-md-0 input-lg" name="password" id="password" type="password" value="admin123456">
+								<span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span><input class="col-md-0 input-lg" name="password" id="password" type="password" value="admin123456">
 							</div>
 							<div class="clearfix"></div>
 
