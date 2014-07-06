@@ -44,6 +44,7 @@
 	<link href='css/elfinder.theme.css' rel='stylesheet'>
 	<link href='css/jquery.iphone.toggle.css' rel='stylesheet'>
 	<link href='css/uploadify.css' rel='stylesheet'>
+	<link href='css/animate.min.css' rel='stylesheet'>
 
 	<!-- The HTML5 shim, for IE6-8 support of HTML5 elements -->
 	<!--[if lt IE 9]>
@@ -70,9 +71,9 @@
                 <a class="navbar-brand" href="index.html"> <img alt="Charisma Logo" src="img/logo20.png" /> <span>Charisma</span></a>
 
                 <!-- theme selector starts -->
-                <div class="btn-group pull-right theme-container" >
+                <div class="btn-group pull-right theme-container animated tada" >
                     <button class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-                        <i class="glyphicon glyphicon-tint"></i><span class="hidden-phone"> Change Theme / Skin</span>
+                        <i class="glyphicon glyphicon-tint"></i><span class="hidden-sm"> Change Theme / Skin</span>
                         <span class="caret"></span>
                     </button>
                     <ul class="dropdown-menu" id="themes">
@@ -92,7 +93,7 @@
                 <!-- user dropdown starts -->
                 <div class="btn-group pull-right" >
                     <button class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-                        <i class="glyphicon glyphicon-user"></i><span class="hidden-phone"> admin</span>
+                        <i class="glyphicon glyphicon-user"></i><span class="hidden-sm"> admin</span>
                         <span class="caret"></span>
                     </button>
                     <ul class="dropdown-menu">

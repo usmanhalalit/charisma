@@ -418,7 +418,9 @@ div.center, p.center, img.center {
         margin-right: 4%;
     }
 }
-
+.theme-container{
+    z-index: 5;  
+}
 .navbar-search {
     margin-left: 10px;
     margin-top: 7px;

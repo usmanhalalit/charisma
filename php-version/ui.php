@@ -22,12 +22,25 @@
 					</div>
 					<div class="box-content">
 						<table class="table table-bordered table-striped">
-							<tbody><tr>
+							<tbody>
+                            <tr>
 								<td><h3>Multiple File Upload</h3></td>
 								<td>
 									<input data-no-uniform="true" type="file" name="file_upload" id="file_upload">
 								</td>
 								<td></td>
+							</tr>
+                            <tr>
+								<td><h3>CSS3 Animations</h3></td>
+								<td>
+									<h3 class="animated rubberBand">Animation</h3>
+								</td>
+								<td>
+                                    <code>&lt;h3 class="animated rubberBand"&gt;Animation&lt;/h3&gt;</code>
+                                    <br>
+                                    For all more animation classes like <code>rubberBand</code>, please refer to
+                                    <a target="_blank" href="http://daneden.github.io/animate.css/">http://daneden.github.io/animate.css/</a>
+								</td>
 							</tr>
 							<tr>
 								<td><h3>Star Rating</h3></td>
