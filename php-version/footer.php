@@ -38,7 +38,7 @@
 	<!-- jQuery UI -->
 	<script src="js/jquery-ui-1.8.21.custom.min.js"></script>
 
-        <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 
 	<!-- tour library -->
 	<script src="js/bootstrap-tour.js"></script>
