@@ -136,7 +136,7 @@
                         <li class="accordion">
                             <a href="#"><i class="glyphicon glyphicon-plus"></i><span> Accordion Menu</span></a>
                             <ul class="nav nav-pills nav-stacked">
-                                <li><a href="index.html">Child Menu 1</a></li>
+                                <li><a href="#">Child Menu 1</a></li>
                                 <li><a href="#">Child Menu 2</a></li>
                             </ul>
                         </li>
