@@ -592,3 +592,36 @@ ul.ajax-loaders {
     text-transform: uppercase;
 }
 
+.navbar{
+    border-radius: 0;
+}
+
+a, button, input[type=submit], input[type=button], .product-img {
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+}
+
+ul.main-menu li:hover{
+    margin-left: 8px;
+}
+ul.main-menu li.active{
+    margin-left: 8px;
+}
+ul.main-menu li.nav-header:hover{
+    margin-left: 0;
+}
+ul.main-menu li:not(.nav-header){
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+}
+
+.accordion > ul{
+    display: none;
+    margin-left: 10px;
+}

@@ -22,8 +22,7 @@
 	<meta name="author" content="Muhammad Usman">
 
 	<!-- The styles -->
-	<!--<link id="bs-css" href="css/bootstrap-cerulean.css" rel="stylesheet">-->
-	<link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+	<link id="bs-css" href="css/bootstrap-cerulean.min.css" rel="stylesheet">
 	<style type="text/css">
 	  body {
 		padding-bottom: 40px;
@@ -62,7 +61,7 @@
 <body>
 	<?php if(!isset($no_visible_elements) || !$no_visible_elements)	{ ?>
 	<!-- topbar starts -->
-        <div class="navbar navbar-inverse" role="navigation">
+        <div class="navbar navbar-default" role="navigation">
 
             <div class="navbar-inner">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -87,7 +86,7 @@
                         <li><a data-value="journal" href="#"><i class="glyphicon glyphicon-blank"></i> Journal</a></li>
                         <li><a data-value="simplex" href="#"><i class="glyphicon glyphicon-blank"></i> Simplex</a></li>
                         <li><a data-value="slate" href="#"><i class="glyphicon glyphicon-blank"></i> Slate</a></li>
-                        <li><a data-value="spancelab" href="#"><i class="glyphicon glyphicon-blank"></i> spancelab</a></li>
+                        <li><a data-value="spacelab" href="#"><i class="glyphicon glyphicon-blank"></i> Spacelab</a></li>
                         <li><a data-value="united" href="#"><i class="glyphicon glyphicon-blank"></i> United</a></li>
                     </ul>
                 </div>
@@ -108,6 +107,7 @@
                 <!-- user dropdown ends -->
                     <ul class="collapse navbar-collapse nav navbar-nav">
                         <li><a href="#">Visit Site</a></li>
+                        <li><a href="#"><i class="glyphicon glyphicon-star"></i> Sample Menu</a></li>
                         <li>
                             <form class="navbar-search pull-left">
                                 <input placeholder="Search" class="search-query form-control col-md-12" name="query" type="text">
@@ -136,6 +136,13 @@
 						<li><a class="ajax-link" href="gallery.html"><i class="glyphicon glyphicon-picture"></i><span> Gallery</span></a></li>
 						<li class="nav-header hidden-md">Sample Section</li>
 						<li><a class="ajax-link" href="table.html"><i class="glyphicon glyphicon-align-justify"></i><span> Tables</span></a></li>
+                        <li class="accordion">
+                            <a href="#"><i class="glyphicon glyphicon-plus"></i><span> Accordion Menu</span></a>
+                            <ul class="nav">
+                                <li><a href="#">Child Menu 1</a></li>
+                                <li><a href="#">Child Menu 2</a></li>
+                            </ul>
+                        </li>
 						<li><a class="ajax-link" href="calendar.html"><i class="glyphicon glyphicon-calendar"></i><span> Calendar</span></a></li>
 						<li><a class="ajax-link" href="grid.html"><i class="glyphicon glyphicon-th"></i><span> Grid</span></a></li>
 						<li><a class="ajax-link" href="file-manager.html"><i class="glyphicon glyphicon-folder-open"></i><span> File Manager</span></a></li>

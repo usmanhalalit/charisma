@@ -15,7 +15,7 @@
   border: 1px solid transparent;
 
   // Prevent floats from breaking the navbar
-  .clearfix();
+  &:extend(.clearfix all);
 
   @media (min-width: @grid-float-breakpoint) {
     border-radius: @navbar-border-radius;
@@ -29,7 +29,7 @@
 // styling of responsive aspects.
 
 .navbar-header {
-  .clearfix();
+  &:extend(.clearfix all);
 
   @media (min-width: @grid-float-breakpoint) {
     float: left;
@@ -48,13 +48,12 @@
 // content for the user's viewport.
 
 .navbar-collapse {
-  max-height: 340px;
   overflow-x: visible;
   padding-right: @navbar-padding-horizontal;
   padding-left:  @navbar-padding-horizontal;
   border-top: 1px solid transparent;
   box-shadow: inset 0 1px 0 rgba(255,255,255,.1);
-  .clearfix();
+  &:extend(.clearfix all);
   -webkit-overflow-scrolling: touch;
 
   &.in {
@@ -88,19 +87,33 @@
   }
 }
 
+.navbar-fixed-top,
+.navbar-fixed-bottom {
+  .navbar-collapse {
+    max-height: @navbar-collapse-max-height;
+
+    @media (max-width: @screen-xs-min) and (orientation: landscape) {
+      max-height: 200px;
+    }
+  }
+}
+
 
 // Both navbar header and collapse
 //
 // When a container is present, change the behavior of the header and collapse.
 
-.container > .navbar-header,
-.container > .navbar-collapse {
-  margin-right: -@navbar-padding-horizontal;
-  margin-left:  -@navbar-padding-horizontal;
+.container,
+.container-fluid {
+  > .navbar-header,
+  > .navbar-collapse {
+    margin-right: -@navbar-padding-horizontal;
+    margin-left:  -@navbar-padding-horizontal;
 
-  @media (min-width: @grid-float-breakpoint) {
-    margin-right: 0;
-    margin-left:  0;
+    @media (min-width: @grid-float-breakpoint) {
+      margin-right: 0;
+      margin-left:  0;
+    }
   }
 }
 
@@ -128,6 +141,7 @@
   right: 0;
   left: 0;
   z-index: @zindex-navbar-fixed;
+  .translate3d(0, 0, 0);
 
   // Undo the rounded corners
   @media (min-width: @grid-float-breakpoint) {
@@ -152,6 +166,7 @@
   padding: @navbar-padding-vertical @navbar-padding-horizontal;
   font-size: @font-size-large;
   line-height: @line-height-computed;
+  height: @navbar-height;
 
   &:hover,
   &:focus {
@@ -159,7 +174,8 @@
   }
 
   @media (min-width: @grid-float-breakpoint) {
-    .navbar > .container & {
+    .navbar > .container &,
+    .navbar > .container-fluid & {
       margin-left: -@navbar-padding-horizontal;
     }
   }
@@ -182,6 +198,12 @@
   border: 1px solid transparent;
   border-radius: @border-radius-base;
 
+  // We remove the `outline` here, but later compensate by attaching `:hover`
+  // styles to `:focus`.
+  &:focus {
+    outline: 0;
+  }
+
   // Bars
   .icon-bar {
     display: block;
@@ -201,7 +223,7 @@
 
 // Navbar nav links
 //
-// Builds on top of the `.nav` components with it's own modifier class to make
+// Builds on top of the `.nav` components with its own modifier class to make
 // the nav the full height of the horizontal nav (above 768px).
 
 .navbar-nav {
@@ -323,13 +345,6 @@
 // Menu position and menu caret support for dropups via extra dropup class
 .navbar-fixed-bottom .navbar-nav > li > .dropdown-menu {
   .border-bottom-radius(0);
-}
-
-// Right aligned menus need alt position
-.navbar-nav.pull-right > li > .dropdown-menu,
-.navbar-nav > li > .dropdown-menu.pull-right {
-  left: auto;
-  right: 0;
 }
 
 
@@ -488,6 +503,20 @@
     }
   }
 
+  .btn-link {
+    color: @navbar-default-link-color;
+    &:hover,
+    &:focus {
+      color: @navbar-default-link-hover-color;
+    }
+    &[disabled],
+    fieldset[disabled] & {
+      &:hover,
+      &:focus {
+        color: @navbar-default-link-disabled-color;
+      }
+    }
+  }
 }
 
 // Inverse navbar
@@ -609,4 +638,18 @@
     }
   }
 
+  .btn-link {
+    color: @navbar-inverse-link-color;
+    &:hover,
+    &:focus {
+      color: @navbar-inverse-link-hover-color;
+    }
+    &[disabled],
+    fieldset[disabled] & {
+      &:hover,
+      &:focus {
+        color: @navbar-inverse-link-disabled-color;
+      }
+    }
+  }
 }

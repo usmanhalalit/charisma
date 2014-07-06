@@ -11,14 +11,18 @@ $(document).ready(function(){
 		current_theme=$(this).attr('data-value');
 		$.cookie('current_theme',current_theme,{expires:365});
 		switch_theme(current_theme);
-		$('#themes i').removeClass('icon-ok');
-		$(this).find('i').addClass('icon-ok');
+		$('#themes i').removeClass('glyphicon glyphicon-ok');
+		$(this).find('i').addClass('glyphicon glyphicon-ok');
 	});
 	
 	
 	function switch_theme(theme_name)
 	{
-		$('#bs-css').attr('href','css/bootstrap-'+theme_name+'.css');
+        if (theme_name == 'classic') {
+            $('#bs-css').attr('href','bower_components/bootstrap/dist/css/bootstrap.min.css');
+        } else {
+            $('#bs-css').attr('href','css/bootstrap-'+theme_name+'.min.css');
+        }
 	}
 	
 	//ajax menu checkbox
@@ -82,16 +86,14 @@ $(document).ready(function(){
 		$('ul.main-menu li.active').removeClass('active');
 		$clink.parent('li').addClass('active');	
 	});
+
+    $('.accordion a').click(function(e){
+        e.preventDefault();
+        $(this).parent().toggleClass('active');
+        $(this).siblings('ul').slideToggle();
+    });
 	
-	//animating menus on hover
-	$('ul.main-menu li:not(.nav-header)').hover(function(){
-		$(this).animate({'margin-left':'+=5'},300);
-	},
-	function(){
-		$(this).animate({'margin-left':'-=5'},300);
-	});
-	
-	//other things to do on document ready, seperated for ajax calls
+	//other things to do on document ready, separated for ajax calls
 	docReady();
 });
 		
