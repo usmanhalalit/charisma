@@ -10,7 +10,7 @@
 				</ul>
 			</div>
 			<div class="sortable row">
-                <div class="col-md-3">
+                <div class="col-md-3 col-sm-3">
                     <a data-rel="tooltip" title="6 new members." class="well top-block" href="#">
                         <span class="icon32 icon-red icon-user"></span>
                         <div>Total Members</div>
@@ -19,7 +19,7 @@
                     </a>
                 </div>
 
-                <div class="col-md-3">
+                <div class="col-md-3 col-sm-3">
                     <a data-rel="tooltip" title="4 new pro members." class="well top-block" href="#">
                         <span class="icon32 icon-color icon-star-on"></span>
                         <div>Pro Members</div>
@@ -28,7 +28,7 @@
                     </a>
                 </div>
 
-                <div class="col-md-3">
+                <div class="col-md-3 col-sm-3">
                     <a data-rel="tooltip" title="$34 new sales." class="well top-block" href="#">
                         <span class="icon32 icon-color icon-cart"></span>
                         <div>Sales</div>
@@ -37,7 +37,7 @@
                     </a>
                 </div>
 
-                <div class="col-md-3">
+                <div class="col-md-3 col-sm-3">
                     <a data-rel="tooltip" title="12 new messages." class="well top-block" href="#">
                         <span class="icon32 icon-color icon-envelope-closed"></span>
                         <div>Messages</div>

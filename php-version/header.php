@@ -73,7 +73,7 @@
                 <!-- theme selector starts -->
                 <div class="btn-group pull-right theme-container animated tada" >
                     <button class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-                        <i class="glyphicon glyphicon-tint"></i><span class="hidden-sm"> Change Theme / Skin</span>
+                        <i class="glyphicon glyphicon-tint"></i><span class="hidden-sm hidden-xs"> Change Theme / Skin</span>
                         <span class="caret"></span>
                     </button>
                     <ul class="dropdown-menu" id="themes">
@@ -93,7 +93,7 @@
                 <!-- user dropdown starts -->
                 <div class="btn-group pull-right" >
                     <button class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-                        <i class="glyphicon glyphicon-user"></i><span class="hidden-sm"> admin</span>
+                        <i class="glyphicon glyphicon-user"></i><span class="hidden-sm hidden-xs"> admin</span>
                         <span class="caret"></span>
                     </button>
                     <ul class="dropdown-menu">
@@ -122,10 +122,10 @@
 		<?php if(!isset($no_visible_elements) || !$no_visible_elements) { ?>
 		
 			<!-- left menu starts -->
-			<div class="col-md-2">
+			<div class="col-sm-2 col-lg-2">
 				<div class="sidebar-nav collapse navbar-collapse">
 					<ul class="nav nav-pills nav-stacked main-menu">
-						<li class="nav-header hidden-md">Main</li>
+						<li class="nav-header">Main</li>
 						<li><a class="ajax-link" href="index.html"><i class="glyphicon glyphicon-home"></i><span> Dashboard</span></a></li>
 						<li><a class="ajax-link" href="ui.html"><i class="glyphicon glyphicon-eye-open"></i><span> UI Features</span></a></li>
 						<li><a class="ajax-link" href="form.html"><i class="glyphicon glyphicon-edit"></i><span> Forms</span></a></li>
@@ -149,7 +149,7 @@
 						<li><a href="error.html"><i class="glyphicon glyphicon-ban-circle"></i><span> Error Page</span></a></li>
 						<li><a href="login.html"><i class="glyphicon glyphicon-lock"></i><span> Login Page</span></a></li>
 					</ul>
-					<label id="for-is-ajax" class="hidden-md" for="is-ajax"><input id="is-ajax" type="checkbox"> Ajax on menu</label>
+					<label id="for-is-ajax" for="is-ajax"><input id="is-ajax" type="checkbox"> Ajax on menu</label>
 				</div><!--/.well -->
 			</div><!--/span-->
 			<!-- left menu ends -->
@@ -161,6 +161,6 @@
 				</div>
 			</noscript>
 			
-			<div id="content" class="col-md-10">
+			<div id="content" class="col-lg-10 col-sm-10">
 			<!-- content starts -->
 			<?php } ?>
