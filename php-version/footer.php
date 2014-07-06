@@ -34,7 +34,7 @@
 	<!-- Placed at the end of the document so the pages load faster -->
 
 	<!-- jQuery -->
-	<script src="js/jquery-1.7.2.min.js"></script>
+    <script src="bower_components/jquery/jquery.min.js"></script>
 	<!-- jQuery UI -->
 	<script src="js/jquery-ui-1.8.21.custom.min.js"></script>
 
@@ -45,7 +45,7 @@
 	<!-- library for cookie management -->
 	<script src="js/jquery.cookie.js"></script>
 	<!-- calander plugin -->
-	<script src='js/fullcalendar.min.js'></script>
+	<script src='bower_components/fullcalendar/fullcalendar.min.js'></script>
 	<!-- data table plugin -->
 	<script src='js/jquery.dataTables.min.js'></script>
 
@@ -58,17 +58,13 @@
 	<!-- chart libraries end -->
 
 	<!-- select or dropdown enhancer -->
-	<script src="js/jquery.chosen.min.js"></script>
-	<!-- checkbox, radio, and file input styler -->
-	<script src="js/jquery.uniform.min.js"></script>
+	<script src="bower_components/chosen/chosen.jquery.min.js"></script>
 	<!-- plugin for gallery image view -->
-	<script src="js/jquery.colorbox.min.js"></script>
-	<!-- rich text editor library -->
-	<script src="js/jquery.cleditor.min.js"></script>
+	<script src="bower_components/colorbox/jquery.colorbox-min.js"></script>
 	<!-- notification plugin -->
 	<script src="js/jquery.noty.js"></script>
 	<!-- file manager library -->
-	<script src="js/jquery.elfinder.min.js"></script>
+	<script src="bower_components/elfinder/src/elfinder/js/elfinder.js"></script>
 	<!-- star rating plugin -->
 	<script src="js/jquery.raty.min.js"></script>
 	<!-- for iOS style toggle switch -->

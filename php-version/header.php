@@ -34,18 +34,15 @@
 
 	<link href="css/charisma-app.css" rel="stylesheet">
 	<link href="css/jquery-ui-1.8.21.custom.css" rel="stylesheet">
-	<link href='css/fullcalendar.css' rel='stylesheet'>
-	<link href='css/fullcalendar.print.css' rel='stylesheet'  media='print'>
-	<link href='css/chosen.css' rel='stylesheet'>
-	<link href='css/uniform.default.css' rel='stylesheet'>
-	<link href='css/colorbox.css' rel='stylesheet'>
-	<link href='css/jquery.cleditor.css' rel='stylesheet'>
+	<link href='bower_components/fullcalendar/fullcalendar.css' rel='stylesheet'>
+	<link href='bower_components/fullcalendar/fullcalendar.print.css' rel='stylesheet'  media='print'>
+	<link href='bower_components/chosen/chosen.min.css' rel='stylesheet'>
+	<link href='bower_components/colorbox/example3/colorbox.css' rel='stylesheet'>
 	<link href='css/jquery.noty.css' rel='stylesheet'>
 	<link href='css/noty_theme_default.css' rel='stylesheet'>
 	<link href='css/elfinder.min.css' rel='stylesheet'>
 	<link href='css/elfinder.theme.css' rel='stylesheet'>
 	<link href='css/jquery.iphone.toggle.css' rel='stylesheet'>
-	<link href='css/opa-icons.css' rel='stylesheet'>
 	<link href='css/uploadify.css' rel='stylesheet'>
 
 	<!-- The HTML5 shim, for IE6-8 support of HTML5 elements -->
@@ -138,8 +135,8 @@
 						<li><a class="ajax-link" href="table.html"><i class="glyphicon glyphicon-align-justify"></i><span> Tables</span></a></li>
                         <li class="accordion">
                             <a href="#"><i class="glyphicon glyphicon-plus"></i><span> Accordion Menu</span></a>
-                            <ul class="nav">
-                                <li><a href="#">Child Menu 1</a></li>
+                            <ul class="nav nav-pills nav-stacked">
+                                <li><a href="index.html">Child Menu 1</a></li>
                                 <li><a href="#">Child Menu 2</a></li>
                             </ul>
                         </li>

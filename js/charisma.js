@@ -2,6 +2,9 @@ $(document).ready(function(){
 	//themes, change CSS with JS
 	//default theme(CSS) is cerulean, change it if needed
 	var current_theme = $.cookie('current_theme')==null ? 'cerulean' :$.cookie('current_theme');
+    var msie = navigator.userAgent.match(/msie/i);
+    $.browser = {};
+    $.browser.msie = {};
 	switch_theme(current_theme);
 	
 	$('#themes a[data-value="'+current_theme+'"]').find('i').addClass('icon-ok');
@@ -32,7 +35,7 @@ $(document).ready(function(){
 	$('#is-ajax').prop('checked',$.cookie('is-ajax')==='true' ? true : false);
 	
 	//disbaling some functions for Internet Explorer
-	if($.browser.msie)
+	if(msie)
 	{
 		$('#is-ajax').prop('checked',false);
 		$('#for-is-ajax').hide();
@@ -72,7 +75,7 @@ $(document).ready(function(){
 	
 	//ajaxify menus
 	$('a.ajax-link').click(function(e){
-		if($.browser.msie) e.which=1;
+		if(msie) e.which=1;
 		if(e.which!=1 || !$('#is-ajax').prop('checked') || $(this).parent().hasClass('active')) return;
 		e.preventDefault();
 		if($('.btn-navbar').is(':visible'))
@@ -87,11 +90,18 @@ $(document).ready(function(){
 		$clink.parent('li').addClass('active');	
 	});
 
-    $('.accordion a').click(function(e){
+    $('.accordion > a').click(function(e){
         e.preventDefault();
-        $(this).parent().toggleClass('active');
-        $(this).siblings('ul').slideToggle();
+        var $ul = $(this).siblings('ul');
+        var $li = $(this).parent();
+        if ($ul.is(':visible')) $li.removeClass('active');
+        else                    $li.addClass('active');
+        $ul.slideToggle();
     });
+
+    $('.accordion li.active:first').parents('ul').slideDown();
+
+
 	
 	//other things to do on document ready, separated for ajax calls
 	docReady();
@@ -104,9 +114,6 @@ function docReady(){
 		e.preventDefault();
 	});
 	
-	//rich text editor
-	$('.cleditor').cleditor();
-	
 	//datepicker
 	$('.datepicker').datepicker();
 	
@@ -116,10 +123,6 @@ function docReady(){
 		var options = $.parseJSON($(this).attr('data-noty-options'));
 		noty(options);
 	});
-
-
-	//uniform - styler for checkbox, radio and file input
-	$("input:checkbox, input:radio, input:file").not('[data-no-uniform="true"],#uniform-is-ajax').uniform();
 
 	//chosen - improves select
 	$('[data-rel="chosen"],[rel="chosen"]').chosen();
@@ -154,9 +157,9 @@ function docReady(){
 	$('[rel="popover"],[data-rel="popover"]').popover();
 
 	//file manager
-	var elf = $('.file-manager').elfinder({
+	/*var elf = $('.file-manager').elfinder({
 		url : 'misc/elfinder-connector/connector.php'  // connector URL (REQUIRED)
-	}).elfinder('instance');
+	}).elfinder('instance');*/
 
 	//iOS / iPhone style toggle switch
 	$('.iphone-toggle').iphoneStyle();
