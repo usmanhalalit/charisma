@@ -354,13 +354,10 @@ div.center, p.center, img.center {
 .sidebar-nav {
     min-height: 0;
     box-shadow: 0 0 10px #BDBDBD;
-    -webkit-box-shadow: 0 0 10px #BDBDBD;
-    -moz-box-shadow: 0 0 10px #BDBDBD;
     border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
     margin-bottom: 0;
     padding-bottom: 0;
+    max-height: none;
 }
 
 .sidebar-nav > ul > li:not(.nav-header) {
@@ -368,21 +365,21 @@ div.center, p.center, img.center {
     margin-left: -2px;
 }
 
-.brand {
+.navbar-brand {
     font-family: 'Shojumaru', cursive, Arial, serif;
     letter-spacing: 2px;
     text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
-    width: 166px;
+    width: 190px;
 }
 
-.brand img {
+.navbar-brand img {
     float: left;
     height: 20px;
     width: 20px;
     margin-right: 5px;
 }
 
-.brand span {
+.navbar-brand span {
     float: left;
 }
 
@@ -397,6 +394,12 @@ div.center, p.center, img.center {
     }
 }
 
+/* Tablet */
+@media (max-width: 979px) and (min-width: 768px){
+    .sidebar-nav li span{
+        display: none !important;
+    }
+}
 @media (min-width: 768px) and (max-width: 979px) {
     .box-icon {
         display: none;
@@ -418,14 +421,24 @@ div.center, p.center, img.center {
 
 .navbar-search {
     margin-left: 10px;
+    margin-top: 7px;
 }
 
 .navbar-inner {
-    border-radius: 0 0 10px 10px;
-    -webkit-border-radius: 0 0 10px 10px;
-    -moz-border-radius: 0 0 10px 10px;
     padding-top: 5px;
     padding-bottom: 5px;
+    line-height: 30px;
+    height: 60px;
+}
+
+.top-nav .navbar-nav > li{
+    display: block;
+    float: left;
+    line-height: 50px;
+}
+
+.navbar-inner .btn-group{
+    margin: 7px 5px 0 5px;
 }
 
 div.dataTables_length select {
@@ -559,3 +572,23 @@ ul.ajax-loaders {
 .box-content.buttons {
     min-height: 297px;
 }
+
+.main-menu > li > a{
+    border: 1px solid rgba(221, 221, 221, 0.46);
+}
+
+.main-menu > li{
+    margin-top: 0 !important;
+}
+
+.sidebar-nav .nav-header{
+    display: block;
+    padding: 3px 15px;
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 18px;
+    color: #999999;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+    text-transform: uppercase;
+}
+

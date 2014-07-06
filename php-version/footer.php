@@ -37,30 +37,9 @@
 	<script src="js/jquery-1.7.2.min.js"></script>
 	<!-- jQuery UI -->
 	<script src="js/jquery-ui-1.8.21.custom.min.js"></script>
-	<!-- transition / effect library -->
-	<script src="js/bootstrap-transition.js"></script>
-	<!-- alert enhancer library -->
-	<script src="js/bootstrap-alert.js"></script>
-	<!-- modal / dialog library -->
-	<script src="js/bootstrap-modal.js"></script>
-	<!-- custom dropdown library -->
-	<script src="js/bootstrap-dropdown.js"></script>
-	<!-- scrolspy library -->
-	<script src="js/bootstrap-scrollspy.js"></script>
-	<!-- library for creating tabs -->
-	<script src="js/bootstrap-tab.js"></script>
-	<!-- library for advanced tooltip -->
-	<script src="js/bootstrap-tooltip.js"></script>
-	<!-- popover effect library -->
-	<script src="js/bootstrap-popover.js"></script>
-	<!-- button enhancer library -->
-	<script src="js/bootstrap-button.js"></script>
-	<!-- accordion library (optional, not used in demo) -->
-	<script src="js/bootstrap-collapse.js"></script>
-	<!-- carousel slideshow library (optional, not used in demo) -->
-	<script src="js/bootstrap-carousel.js"></script>
-	<!-- autocomplete library -->
-	<script src="js/bootstrap-typeahead.js"></script>
+
+        <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
 	<!-- tour library -->
 	<script src="js/bootstrap-tour.js"></script>
 	<!-- library for cookie management -->
