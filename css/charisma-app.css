@@ -36,6 +36,10 @@ select {
     clear: both;
 }
 
+.top-block i {
+    font-size: 25px;
+}
+
 .top-block:hover {
     text-decoration: none;
 }
