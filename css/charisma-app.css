@@ -645,6 +645,7 @@ ul.main-menu li:not(.nav-header){
     .sidebar-nav.active .nav-canvas{
         left: -20px;
         border-right: solid 1px white;
+        border-bottom: solid 1px white;
     }
 
     .sidebar-nav{

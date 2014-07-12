@@ -86,6 +86,7 @@ $(document).ready(function(){
 		if(e.which!=1 || !$('#is-ajax').prop('checked') || $(this).parent().hasClass('active')) return;
 		e.preventDefault();
         $('.sidebar-nav').removeClass('active');
+        $('.navbar-toggle').removeClass('active');
 		$('#loading').remove();
 		$('#content').fadeOut().parent().append('<div id="loading" class="center">Loading...<div class="center"></div></div>');
 		var $clink=$(this);
