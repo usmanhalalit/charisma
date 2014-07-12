@@ -41,8 +41,6 @@
 
 	<!-- jQuery -->
     <script src="bower_components/jquery/jquery.min.js"></script>
-	<!-- jQuery UI -->
-	<script src="js/jquery-ui-1.8.21.custom.min.js"></script>
 
     <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 

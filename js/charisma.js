@@ -120,7 +120,7 @@ function docReady(){
 	});
 	
 	//datepicker
-	$('.datepicker').datepicker();
+	//$('.datepicker').datepicker();
 	
 	//notifications
 	$('.noty').click(function(e){
@@ -140,17 +140,15 @@ function docReady(){
 	});
 
 	//makes elements soratble, elements that sort need to have id attribute to save the result
-	$('.sortable').sortable({
+	/*$('.sliderable').sortable({
 		revert:true,
 		cancel:'.btn,.box-content,.nav-header',
 		update:function(event,ui){
 			//line below gives the ids of elements, you can make ajax call here to save it to the database
 			//console.log($(this).sortable('toArray'));
 		}
-	});
+	});*/
 
-	//slider
-	$('.slider').slider({range:true,values:[10,65]});
 
 	//tooltip
 	$('[data-toggle="tooltip"]').tooltip();
