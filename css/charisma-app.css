@@ -370,7 +370,7 @@ div.center, p.center, img.center {
     letter-spacing: 2px;
     text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
     width: 183px;
-    font-size: 18px;
+    font-size: 17px;
 }
 
 .navbar-brand img {
@@ -603,17 +603,14 @@ ul.main-menu li:not(.nav-header){
 
 /* Mobile */
 @media (max-width: 767px) {
-    /*.sidebar-nav{
-        position: absolute;
-        width: 100%;
-        height: auto;
-        z-index: 10;
-        top: -10%;
-        left: 0;
-        margin: 0 0 0 0 !important;
-        background: rgba(0, 0, 0, 0.8);
-        max-height: none;
-    }*/
+
+    .navbar-brand {
+        font-family: 'Shojumaru', cursive, Arial, serif;
+        letter-spacing: 2px;
+        text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+        width: 40%;
+        font-size: 14px;
+    }
 
     .nav-sm {
         display: block;
