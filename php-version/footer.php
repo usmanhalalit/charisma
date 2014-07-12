@@ -71,6 +71,7 @@
 	<script src="js/jquery.noty.js"></script>
 	<!-- file manager library -->
 	<script src="bower_components/elfinder/src/elfinder/js/elfinder.js"></script>
+	<script src="bower_components/responsive-tables/responsive-tables.js"></script>
 	<!-- star rating plugin -->
 	<script src="js/jquery.raty.min.js"></script>
 	<!-- for iOS style toggle switch -->

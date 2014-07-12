@@ -21,7 +21,7 @@
 						</div>
 					</div>
 					<div class="box-content">
-						<table class="table table-bordered table-striped">
+						<table class="table table-bordered table-striped responsive">
 							<tbody>
                             <tr>
 								<td><h3>Multiple File Upload</h3></td>

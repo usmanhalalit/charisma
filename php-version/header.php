@@ -39,6 +39,7 @@
 	<link href='bower_components/fullcalendar/fullcalendar.print.css' rel='stylesheet'  media='print'>
 	<link href='bower_components/chosen/chosen.min.css' rel='stylesheet'>
 	<link href='bower_components/colorbox/example3/colorbox.css' rel='stylesheet'>
+	<link href='bower_components/responsive-tables/responsive-tables.css' rel='stylesheet'>
 	<link href='css/jquery.noty.css' rel='stylesheet'>
 	<link href='css/noty_theme_default.css' rel='stylesheet'>
 	<link href='css/elfinder.min.css' rel='stylesheet'>
