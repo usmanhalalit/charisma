@@ -564,14 +564,6 @@ ul.ajax-loaders {
     border-radius: 0;
 }
 
-a, button, input[type=submit], input[type=button], .product-img {
-    -webkit-transition: .5s;
-    -moz-transition: .5s;
-    -ms-transition: .5s;
-    -o-transition: .5s;
-    transition: .5s;
-}
-
 ul.main-menu li:hover{
     margin-left: 8px;
 }
@@ -632,14 +624,15 @@ ul.main-menu li:not(.nav-header){
 
     .sidebar-nav .nav-canvas {
         top: -40px;
-        left: -70%;
+        left: -90%;
         position: absolute;
-        width: 60%;
+        width: 80%;
         z-index: 2;
         background: rgba(0, 0, 0, 0.8);
         margin: 0 !important;
         border-radius: 0 0 20px 0;
         padding-bottom: 10px;
+        will-change: left;
     }
 
     .sidebar-nav.active .nav-canvas{
@@ -655,11 +648,11 @@ ul.main-menu li:not(.nav-header){
     }
 
     .nav-canvas {
-        -webkit-transition: .3s;
-        -moz-transition: .3s;
-        -ms-transition: .3s;
-        -o-transition: .3s;
-        transition: .3s;
+        -webkit-transition: .2s;
+        -moz-transition: .2s;
+        -ms-transition: .2s;
+        -o-transition: .2s;
+        transition: .2s;
     }
 
     .sidebar-nav a{
@@ -728,5 +721,16 @@ ul.main-menu li:not(.nav-header){
     }
     .sidebar-nav li a, .sidebar-nav .nav-header{
         text-align: center
+    }
+}
+
+/* Computer */
+@media (min-width: 980px) {
+    a, button, input[type=submit], input[type=button], .product-img {
+        -webkit-transition: .5s;
+        -moz-transition: .5s;
+        -ms-transition: .5s;
+        -o-transition: .5s;
+        transition: .5s;
     }
 }
