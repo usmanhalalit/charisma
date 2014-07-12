@@ -369,7 +369,8 @@ div.center, p.center, img.center {
     font-family: 'Shojumaru', cursive, Arial, serif;
     letter-spacing: 2px;
     text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
-    width: 190px;
+    width: 183px;
+    font-size: 18px;
 }
 
 .navbar-brand img {
@@ -383,57 +384,6 @@ div.center, p.center, img.center {
     float: left;
 }
 
-@media (max-width: 979px) {
-    .sidebar-nav {
-        padding: 0;
-        margin-bottom: 0;
-    }
-
-    .theme-text {
-        display: none;
-    }
-}
-
-@media (max-width: 767px) {
-    .sidebar-nav{
-        position: absolute;
-        width: 100%;
-        height: auto;
-        z-index: 10;
-        top: -10%;
-        left: 0;
-        margin: 0 0 0 0 !important;
-        background: rgba(0, 0, 0, 0.8);
-        max-height: none;
-    }
-}
-
-/* Tablet */
-@media (min-width: 768px) and (max-width: 979px) {
-    .box-icon {
-        display: none;
-    }
-
-    .box-header h2 {
-        font-size: 13px !important;
-    }
-
-    .box-header h3 {
-        font-size: 11px !important;
-    }
-
-    .main-menu-span {
-        width: 6.2% !important;
-        margin-right: 4%;
-    }
-
-    .sidebar-nav li span{
-        display: block !important;
-    }
-    .sidebar-nav li a, .sidebar-nav .nav-header{
-        text-align: center
-    }
-}
 .theme-container{
     z-index: 5;
 }
@@ -642,4 +592,140 @@ ul.main-menu li:not(.nav-header){
 .accordion > ul{
     display: none;
     margin-left: 10px;
+}
+
+.nav-sm {
+    display: none;
+}
+
+@media (max-width: 979px) {
+    .sidebar-nav {
+        padding: 0;
+        margin-bottom: 0;
+    }
+
+    .theme-text {
+        display: none;
+    }
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+    /*.sidebar-nav{
+        position: absolute;
+        width: 100%;
+        height: auto;
+        z-index: 10;
+        top: -10%;
+        left: 0;
+        margin: 0 0 0 0 !important;
+        background: rgba(0, 0, 0, 0.8);
+        max-height: none;
+    }*/
+
+    .nav-sm {
+        display: block;
+        margin-bottom: 10px;
+        border-bottom: solid white 1px;
+        padding-bottom: 10px;
+    }
+
+    .sidebar-nav .nav-canvas {
+        top: -40px;
+        left: -70%;
+        position: absolute;
+        width: 60%;
+        z-index: 2;
+        background: rgba(0, 0, 0, 0.8);
+        margin: 0 !important;
+        border-radius: 0 0 20px 0;
+        padding-bottom: 10px;
+    }
+
+    .sidebar-nav.active .nav-canvas{
+        left: -20px;
+        border-right: solid 1px white;
+    }
+
+    .sidebar-nav{
+        position: relative;
+        z-index: 3;
+        margin: 0 !important;
+    }
+
+    .nav-canvas {
+        -webkit-transition: .3s;
+        -moz-transition: .3s;
+        -ms-transition: .3s;
+        -o-transition: .3s;
+        transition: .3s;
+    }
+
+    .sidebar-nav a{
+        border: none !important;
+        color: white;
+    }
+
+    #for-is-ajax {
+        color: white;
+        margin-top: 15px;
+    }
+
+    .main-menu .nav-header{
+        color: white;
+    }
+
+    ul.main-menu li:hover{
+        margin-left: inherit;
+    }
+    ul.main-menu li.active{
+        margin-left: inherit;
+    }
+
+
+    ul.main-menu a:hover, .nav-sm a:hover {
+        background: none !important;
+        color: grey;
+    }
+
+    .navbar-default .navbar-toggle:focus {
+        background-color: inherit;
+    }
+
+    .navbar-default .navbar-toggle.active {
+        box-shadow: 0 0 7px rgb(0, 255, 40);
+        border: solid 1px white;
+    }
+
+    .navbar-toggle {
+        margin-left: 5px;
+        margin-right: 0;
+    }
+}
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 979px) {
+    .box-icon {
+        display: none;
+    }
+
+    .box-header h2 {
+        font-size: 13px !important;
+    }
+
+    .box-header h3 {
+        font-size: 11px !important;
+    }
+
+    .main-menu-span {
+        width: 6.2% !important;
+        margin-right: 4%;
+    }
+
+    .sidebar-nav li span{
+        display: block !important;
+    }
+    .sidebar-nav li a, .sidebar-nav .nav-header{
+        text-align: center
+    }
 }

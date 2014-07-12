@@ -6,7 +6,14 @@ $(document).ready(function(){
     $.browser = {};
     $.browser.msie = {};
 	switch_theme(current_theme);
-	
+
+    $('.navbar-toggle').click(function(e){
+        e.preventDefault();
+        $('.nav-sm').html($('.navbar-collapse').html());
+        $('.sidebar-nav').toggleClass('active');
+        $('.navbar-toggle').toggleClass('active');
+    });
+
 	$('#themes a[data-value="'+current_theme+'"]').find('i').addClass('icon-ok');
 				 
 	$('#themes a').click(function(e){
@@ -78,10 +85,7 @@ $(document).ready(function(){
 		if(msie) e.which=1;
 		if(e.which!=1 || !$('#is-ajax').prop('checked') || $(this).parent().hasClass('active')) return;
 		e.preventDefault();
-		if($('.btn-navbar').is(':visible'))
-		{
-			$('.btn-navbar').click();
-		}
+        $('.sidebar-nav').removeClass('active');
 		$('#loading').remove();
 		$('#content').fadeOut().parent().append('<div id="loading" class="center">Loading...<div class="center"></div></div>');
 		var $clink=$(this);
