@@ -713,6 +713,10 @@ ul.main-menu li:not(.nav-header){
         margin-right: 4%;
     }
 
+    .top-menu i{
+        display: none;
+    }
+
     .sidebar-nav li span{
         display: block !important;
     }
