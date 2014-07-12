@@ -153,7 +153,7 @@ function docReady(){
 	$('.slider').slider({range:true,values:[10,65]});
 
 	//tooltip
-	$('[rel="tooltip"],[data-rel="tooltip"]').tooltip({"placement":"bottom",delay: { show: 400, hide: 200 }});
+	$('[data-toggle="tooltip"]').tooltip();
 
 	//auto grow textarea
 	$('textarea.autogrow').autogrow();
