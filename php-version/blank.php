@@ -12,7 +12,7 @@
 				</ul>
 			</div>
 
-			<div class="row sortable">
+			<div class="row">
 				<div class="box col-md-12">
 					<div class="box-header well" data-original-title>
 						<h2><i class="glyphicon glyphicon-picture"></i>Blank</h2>

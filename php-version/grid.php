@@ -10,7 +10,7 @@
 				</ul>
 			</div>
 
-			<div class="row sortable">
+			<div class="row">
 				<div class="box col-md-12"><div class="box-inner">
 					<div class="box-header well" data-original-title="">
 						<h2><i class="glyphicon glyphicon-th"></i> Grid 12</h2>
@@ -30,7 +30,7 @@
 				</div></div><!--/span-->
 			</div><!--/row-->
 			
-			<div class="row sortable">
+			<div class="row">
 				<div class="box col-md-3"><div class="box-inner">
 					<div class="box-header well" data-original-title="">
 						<h2><i class="glyphicon glyphicon-th"></i> Grid 3</h2>
@@ -90,7 +90,7 @@
 				</div></div><!--/span-->
 			</div><!--/row-->
 			
-			<div class="row sortable">
+			<div class="row">
 				<div class="box col-md-6"><div class="box-inner">
 					<div class="box-header well" data-original-title="">
 						<h2><i class="glyphicon glyphicon-th"></i> Grid 6</h2>
@@ -127,7 +127,7 @@
                   </div>
 				</div></div><!--/span-->
 			</div><!--/row-->
-			<div class="row sortable">
+			<div class="row">
 				<div class="box col-md-4"><div class="box-inner">
 					<div class="box-header well" data-original-title="">
 						<h2><i class="glyphicon glyphicon-th"></i> Grid 4</h2>

@@ -10,7 +10,7 @@
 				</ul>
 			</div>
 
-			<div class="row sortable">
+			<div class="row">
 				<div class="box col-md-12"><div class="box-inner">
 					<div class="box-header well" data-original-title="">
 						<h2><i class="glyphicon glyphicon-edit"></i> Form Elements</h2>
@@ -48,7 +48,7 @@
 			
 			</div><!--/row-->
 			
-			<div class="row sortable">
+			<div class="row">
 				<div class="box col-md-12"><div class="box-inner">
 					<div class="box-header well" data-original-title="">
 						<h2><i class="glyphicon glyphicon-edit"></i> Form Elements</h2>

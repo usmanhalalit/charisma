@@ -9,7 +9,7 @@
 					</li>
 				</ul>
 			</div>
-			<div class="sortable row">
+			<div class=" row">
                 <div class="col-md-3 col-sm-3 col-xs-6">
                     <a data-toggle="tooltip" title="6 new members." class="well top-block" href="#">
                         <i class="glyphicon glyphicon-user blue"></i>
@@ -71,7 +71,7 @@
 				</div></div>
 			</div>
 					
-			<div class="row sortable">
+			<div class="row">
 				<div class="box col-md-4"><div class="box-inner">
 					<div class="box-header well">
 						<h2><i class="glyphicon glyphicon-th"></i> Tabs</h2>
@@ -170,7 +170,7 @@
 				</div></div><!--/span-->
 			</div><!--/row-->
 
-			<div class="row sortable">
+			<div class="row">
 				<div class="box col-md-4"><div class="box-inner">
 					<div class="box-header well" data-original-title="">
 						<h2><i class="glyphicon glyphicon-list"></i> Buttons</h2>

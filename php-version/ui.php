@@ -10,7 +10,7 @@
 				</ul>
 			</div>
 			
-			<div class="row sortable">
+			<div class="row">
 				<div class="box col-md-12"><div class="box-inner">
 					<div class="box-header well" data-original-title="">
 						<h2><i class="glyphicon glyphicon-plus"></i> Extended Elements</h2>
@@ -90,7 +90,7 @@
 				
 			</div><!--/row-->
 
-			<div class="row sortable">
+			<div class="row">
 				<div class="box col-md-6"><div class="box-inner">
 					<div class="box-header well" data-original-title="">
 						<h2><i class="glyphicon glyphicon-tasks"></i> Progress Bars</h2>
@@ -107,7 +107,7 @@
                                 60%
                             </div>
                         </div>
-						
+
 						<h3>Animated</h3>
 						<div class="progress progress-striped progress-success active">
 							<div class="progress-bar" style="width: 50%;"></div>
@@ -200,7 +200,7 @@
 				</div></div><!--/span-->
 				
 			</div><!--/row-->
-			<div class="row sortable">
+			<div class="row">
 				<div class="box col-md-5"><div class="box-inner">
 					<div class="box-header well">
 						<h2><i class="glyphicon glyphicon-bullhorn"></i> Alerts</h2>

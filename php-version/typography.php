@@ -10,7 +10,7 @@
 				</ul>
 			</div>
 
-			<div class="row sortable">
+			<div class="row">
 				<div class="box col-md-9"><div class="box-inner">
 					<div class="box-header well" data-original-title="">
 						<h2><i class="glyphicon glyphicon-font"></i> Typography</h2>
