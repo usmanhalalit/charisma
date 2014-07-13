@@ -594,6 +594,25 @@ ul.main-menu li:not(.nav-header){
     display: none;
 }
 
+.donate a{
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.donate{
+    padding: 20px 0 0 20px;
+    text-align: center;
+}
+
+.ad-donate{
+
+}
+
+.powered-by{
+    text-align: right;
+}
+
 @media (max-width: 979px) {
     .sidebar-nav {
         padding: 0;
@@ -695,6 +714,14 @@ ul.main-menu li:not(.nav-header){
     .navbar-toggle {
         margin-left: 5px;
         margin-right: 0;
+    }
+
+    .powered-by {
+        text-align: center;
+    }
+
+    .copyright {
+        text-align: center;
     }
 }
 
