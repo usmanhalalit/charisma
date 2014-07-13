@@ -16,6 +16,20 @@ $(document).ready(function () {
         $('.navbar-toggle').toggleClass('active');
     });
 
+    var $sidebarNav = $('.sidebar-nav');
+
+    $(document).mouseup(function (e)
+    {
+        if (!$sidebarNav.is(e.target) // if the target of the click isn't the container...
+            && $sidebarNav.has(e.target).length === 0) // ... nor a descendant of the container
+        {
+            if ($sidebarNav.hasClass('active')) {
+                $sidebarNav.removeClass('active');
+                $('.navbar-toggle').removeClass('active');
+            }
+        }
+    });
+
 
     $('#themes a').click(function (e) {
         e.preventDefault();
