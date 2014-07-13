@@ -10,11 +10,11 @@
 				padding:0;
 			}
 			body{
-				font-family: 'Audiowide', cursive, arial, helvetica, sans-serif;
+				font-family: arial, helvetica, sans-serif;
 				background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAUElEQVQYV2NkYGAwBuKzQAwDID4IoIgxIikAMZE1oRiArBDdZBSNMIXoJiFbDZYDKcSmCOYimDuNSVKIzRNYrUYOFuQgweoZbIoxgoeoAAcAEckW11HVTfcAAAAASUVORK5CYII=) repeat;
 				background-color:#212121;
 				color:white;
-				font-size: 18px;
+				font-size: 28px;
 				padding-bottom:20px;
 			}
 			.error-code{
@@ -29,7 +29,8 @@
 				float: left;
 			}
 			.not-found{
-				width: 47%;
+                font-family: 'Audiowide', cursive, arial, helvetica, sans-serif;
+				width: 45%;
 				float: right;
 				margin-top: 5%;
 				font-size: 50px;
@@ -73,7 +74,12 @@
 		<div class="clear"></div>
 		<div class="content">
 			The page your are looking for is not found.
-			<br/><a href="index.html">Go Home</a> or<br/><form>Search<br/><input autofocus type="text" name="search" /></form>
+			<br>
+            <a href="index.html">Go Home</a>
+            or
+            <br>
+            <br>
+            <form>Search<br><input autofocus type="text" name="search" /></form>
 		</div>
 	</body>
 </html>
