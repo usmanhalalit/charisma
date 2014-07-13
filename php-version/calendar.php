@@ -21,18 +21,7 @@
 						</div>
 				  </div>
 				  <div class="box-content">
-					<div id="external-events" class="well">
-						<h4>Draggable Events</h4>
-						<div class="external-event badge">Default</div>
-						<div class="external-event badge badge-success">Completed</div>
-						<div class="external-event badge badge-warning">Warning</div>
-						<div class="external-event badge badge-important">Important</div>
-						<div class="external-event badge badge-info">Info</div>
-						<div class="external-event badge badge-inverse">Other</div>
-						<p>
-						<label for="drop-remove"><input type="checkbox" id="drop-remove"> remove after drop</label>
-						</p>
-						</div>
+
 
 						<div id="calendar"></div>
 
