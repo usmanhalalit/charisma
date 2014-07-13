@@ -72,8 +72,7 @@
 	<script src="bower_components/colorbox/jquery.colorbox-min.js"></script>
 	<!-- notification plugin -->
 	<script src="js/jquery.noty.js"></script>
-	<!-- file manager library -->
-	<script src="bower_components/elfinder/src/elfinder/js/elfinder.js"></script>
+    <!-- library for making tables responsive -->
 	<script src="bower_components/responsive-tables/responsive-tables.js"></script>
 	<!-- star rating plugin -->
 	<script src="js/jquery.raty.min.js"></script>

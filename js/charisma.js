@@ -145,11 +145,6 @@ function docReady() {
     //popover
     $('[data-toggle="popover"]').popover();
 
-    //file manager
-    /*var elf = $('.file-manager').elfinder({
-     url : 'misc/elfinder-connector/connector.php'  // connector URL (REQUIRED)
-     }).elfinder('instance');*/
-
     //iOS / iPhone style toggle switch
     $('.iphone-toggle').iphoneStyle();
 
