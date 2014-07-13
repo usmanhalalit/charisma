@@ -115,4 +115,13 @@
 			</div></div>  
 		</div><!--/row-->
 
+        <!-- chart libraries start -->
+        <script src="bower_components/flot/excanvas.min.js"></script>
+        <script src="bower_components/flot/jquery.flot.js"></script>
+        <script src="bower_components/flot/jquery.flot.pie.js"></script>
+        <script src="bower_components/flot/jquery.flot.stack.js"></script>
+        <script src="bower_components/flot/jquery.flot.resize.js"></script>
+        <!-- chart libraries end -->
+        <script src="js/init-chart.js"></script>
+
 <?php require('footer.php'); ?>

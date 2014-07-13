@@ -53,12 +53,7 @@
 
 	</div><!--/.fluid-container-->
 
-	<!-- external javascript
-	================================================== -->
-	<!-- Placed at the end of the document so the pages load faster -->
-
-	<!-- jQuery -->
-    <script src="bower_components/jquery/jquery.min.js"></script>
+	<!-- external javascript -->
 
     <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 
@@ -70,14 +65,6 @@
 	<script src='bower_components/fullcalendar/fullcalendar.min.js'></script>
 	<!-- data table plugin -->
 	<script src='js/jquery.dataTables.min.js'></script>
-
-	<!-- chart libraries start -->
-	<script src="js/excanvas.js"></script>
-	<script src="js/jquery.flot.min.js"></script>
-	<script src="js/jquery.flot.pie.min.js"></script>
-	<script src="js/jquery.flot.stack.js"></script>
-	<script src="js/jquery.flot.resize.min.js"></script>
-	<!-- chart libraries end -->
 
 	<!-- select or dropdown enhancer -->
 	<script src="bower_components/chosen/chosen.jquery.min.js"></script>

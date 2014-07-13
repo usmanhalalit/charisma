@@ -26,7 +26,6 @@
 	<link id="bs-css" href="css/bootstrap-cerulean.min.css" rel="stylesheet">
 
 	<link href="css/charisma-app.css" rel="stylesheet">
-	<link href="css/jquery-ui-1.8.21.custom.css" rel="stylesheet">
 	<link href='bower_components/fullcalendar/fullcalendar.css' rel='stylesheet'>
 	<link href='bower_components/fullcalendar/fullcalendar.print.css' rel='stylesheet'  media='print'>
 	<link href='bower_components/chosen/chosen.min.css' rel='stylesheet'>
@@ -39,6 +38,9 @@
 	<link href='css/jquery.iphone.toggle.css' rel='stylesheet'>
 	<link href='css/uploadify.css' rel='stylesheet'>
 	<link href='css/animate.min.css' rel='stylesheet'>
+
+    <!-- jQuery -->
+    <script src="bower_components/jquery/jquery.min.js"></script>
 
 	<!-- The HTML5 shim, for IE6-8 support of HTML5 elements -->
 	<!--[if lt IE 9]>

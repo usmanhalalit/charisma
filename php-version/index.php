@@ -163,9 +163,7 @@
 						</div>
 					</div>
 					<div class="box-content">
-						<div id="realtimechart" style="height:190px;"></div>
-							<p class="clearfix">You can update a chart periodically to get a real-time effect by using a timer to insert the new data in the plot and redraw it.</p>
-							<p>Time between updates: <input id="updateInterval" type="text" value="" style="text-align: right; width:5em"> milliseconds</p>
+						
 					</div>
 				</div></div><!--/span-->
 			</div><!--/row-->
