@@ -1,11 +1,11 @@
 $(document).ready(function(){
 	//themes, change CSS with JS
 	//default theme(CSS) is cerulean, change it if needed
-	var current_theme = $.cookie('current_theme')==null ? 'cerulean' :$.cookie('current_theme');
+	var currentTheme = $.cookie('currentTheme')==null ? 'cerulean' :$.cookie('currentTheme');
     var msie = navigator.userAgent.match(/msie/i);
     $.browser = {};
     $.browser.msie = {};
-	switch_theme(current_theme);
+	switchTheme(currentTheme);
 
     $('.navbar-toggle').click(function(e){
         e.preventDefault();
@@ -14,25 +14,25 @@ $(document).ready(function(){
         $('.navbar-toggle').toggleClass('active');
     });
 
-	$('#themes a[data-value="'+current_theme+'"]').find('i').addClass('icon-ok');
-				 
+
 	$('#themes a').click(function(e){
 		e.preventDefault();
-		current_theme=$(this).attr('data-value');
-		$.cookie('current_theme',current_theme,{expires:365});
-		switch_theme(current_theme);
-		$('#themes i').removeClass('glyphicon glyphicon-ok');
-		$(this).find('i').addClass('glyphicon glyphicon-ok');
+		currentTheme=$(this).attr('data-value');
+		$.cookie('currentTheme',currentTheme,{expires:365});
+		switchTheme(currentTheme);
 	});
 	
 	
-	function switch_theme(theme_name)
+	function switchTheme(themeName)
 	{
-        if (theme_name == 'classic') {
+        if (themeName == 'classic') {
             $('#bs-css').attr('href','bower_components/bootstrap/dist/css/bootstrap.min.css');
         } else {
-            $('#bs-css').attr('href','css/bootstrap-'+theme_name+'.min.css');
+            $('#bs-css').attr('href','css/bootstrap-'+themeName+'.min.css');
         }
+
+        $('#themes i').removeClass('glyphicon glyphicon-ok whitespace').addClass('whitespace');
+        $('#themes a[data-value=' + themeName + ']').find('i').removeClass('whitespace').addClass('glyphicon glyphicon-ok');
 	}
 	
 	//ajax menu checkbox

@@ -612,6 +612,11 @@ ul.main-menu li:not(.nav-header){
     text-align: right;
 }
 
+.whitespace:before {
+    content: "\2122";
+    color: transparent !important;
+}
+
 /* Mobile */
 @media only screen and (max-width: 767px) {
 
