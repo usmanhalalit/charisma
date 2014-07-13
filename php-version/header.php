@@ -74,9 +74,9 @@
                         <li><a data-value="classic" href="#"><i class="whitespace"></i> Classic</a></li>
                         <li><a data-value="cerulean" href="#"><i class="whitespace"></i> Cerulean</a></li>
                         <li><a data-value="cyborg" href="#"><i class="whitespace"></i> Cyborg</a></li>
-                        <li><a data-value="redy" href="#"><i class="whitespace"></i> Redy</a></li>
-                        <li><a data-value="journal" href="#"><i class="whitespace"></i> Journal</a></li>
                         <li><a data-value="simplex" href="#"><i class="whitespace"></i> Simplex</a></li>
+                        <li><a data-value="darkly" href="#"><i class="whitespace"></i> Darkly</a></li>
+                        <li><a data-value="lumen" href="#"><i class="whitespace"></i> Lumen</a></li>
                         <li><a data-value="slate" href="#"><i class="whitespace"></i> Slate</a></li>
                         <li><a data-value="spacelab" href="#"><i class="whitespace"></i> Spacelab</a></li>
                         <li><a data-value="united" href="#"><i class="whitespace"></i> United</a></li>
