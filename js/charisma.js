@@ -1,7 +1,9 @@
 $(document).ready(function () {
     //themes, change CSS with JS
     //default theme(CSS) is cerulean, change it if needed
-    var currentTheme = $.cookie('currentTheme') == null ? 'cerulean' : $.cookie('currentTheme');
+    var defaultTheme = 'cerulean';
+
+    var currentTheme = $.cookie('currentTheme') == null ? defaultTheme : $.cookie('currentTheme');
     var msie = navigator.userAgent.match(/msie/i);
     $.browser = {};
     $.browser.msie = {};
@@ -116,9 +118,6 @@ function docReady() {
         e.preventDefault();
     });
 
-    //datepicker
-    //$('.datepicker').datepicker();
-
     //notifications
     $('.noty').click(function (e) {
         e.preventDefault();
@@ -135,16 +134,6 @@ function docReady() {
         e.preventDefault();
         $(this).tab('show');
     });
-
-    //makes elements soratble, elements that sort need to have id attribute to save the result
-    /*$('.sliderable').sortable({
-     revert:true,
-     cancel:'.btn,.box-content,.nav-header',
-     update:function(event,ui){
-     //line below gives the ids of elements, you can make ajax call here to save it to the database
-     //console.log($(this).sortable('toArray'));
-     }
-     });*/
 
 
     //tooltip
@@ -176,7 +165,7 @@ function docReady() {
         // Put your options here
     });
 
-    //gallery controlls container animation
+    //gallery controls container animation
     $('ul.gallery li').hover(function () {
         $('img', this).fadeToggle(1000);
         $(this).find('.gallery-controls').remove();
