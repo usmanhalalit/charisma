@@ -613,19 +613,8 @@ ul.main-menu li:not(.nav-header){
     text-align: right;
 }
 
-@media (max-width: 979px) {
-    .sidebar-nav {
-        padding: 0;
-        margin-bottom: 0;
-    }
-
-    .theme-text {
-        display: none;
-    }
-}
-
 /* Mobile */
-@media (max-width: 767px) {
+@media only screen and (max-width: 767px) {
 
     .navbar-brand {
         font-family: 'Shojumaru', cursive, Arial, serif;
@@ -665,6 +654,7 @@ ul.main-menu li:not(.nav-header){
         position: relative;
         z-index: 3;
         margin: 0 !important;
+        padding: 0;
     }
 
     .nav-canvas {
@@ -726,7 +716,7 @@ ul.main-menu li:not(.nav-header){
 }
 
 /* Tablet */
-@media (min-width: 768px) and (max-width: 979px) {
+@media only screen and (min-width: 768px) and (max-width: 979px) {
     .box-icon {
         display: none;
     }
@@ -754,10 +744,15 @@ ul.main-menu li:not(.nav-header){
     .sidebar-nav li a, .sidebar-nav .nav-header{
         text-align: center
     }
+
+    .sidebar-nav {
+        padding: 0;
+        margin-bottom: 0;
+    }
 }
 
 /* Computer */
-@media (min-width: 980px) {
+@media only screen and (min-width: 980px) {
     a, button, input[type=submit], input[type=button], .product-img {
         -webkit-transition: .5s;
         -moz-transition: .5s;
