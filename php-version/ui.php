@@ -71,13 +71,6 @@
 								<td><code>&lt;a href="#" class="btn btn-danger" data-rel="popover" data-content="And here's some amazing content. It's very engaging. right?" title="A Title"&gt;hover for popover&lt;/a&gt;</code></td>
 							</tr>
 							<tr>
-								<td><h3>Slider</h3></td>
-								<td>
-									<div class="slider"></div>
-								</td>
-								<td><code>&lt;div class="slider"&gt;&lt;/div&gt;</code></td>
-							</tr>
-							<tr>
 								<td><h3>Dialog</h3></td>
 								<td>
 									<a href="#" class="btn btn-info btn-setting">Click for dialog</a>
