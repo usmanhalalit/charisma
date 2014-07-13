@@ -102,30 +102,37 @@
 					</div>
 					<div class="box-content">
 						<h3>Basic</h3>
-						<div class="progress">
-							<div class="progress-bar" style="width: 70%;"></div>
-						</div>
-						<h3>Striped</h3>
-						<div class="progress progress-striped">
-							<div class="progress-bar" style="width: 30%;"></div>
-						</div>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                                60%
+                            </div>
+                        </div>
+						
 						<h3>Animated</h3>
 						<div class="progress progress-striped progress-success active">
 							<div class="progress-bar" style="width: 50%;"></div>
 						</div>
 						<h3>Additional Colors</h3>
-						<div class="progress progress-info progress-striped" style="margin-bottom: 9px;">
-							<div class="progress-bar" style="width: 20%"></div>
-						</div>
-						<div class="progress progress-success" style="margin-bottom: 9px;">
-							<div class="progress-bar" style="width: 40%"></div>
-						</div>
-						<div class="progress progress-warning progress-striped active" style="margin-bottom: 9px;">
-							<div class="progress-bar" style="width: 60%"></div>
-						</div>
-						<div class="progress progress-danger progress-striped" style="margin-bottom: 9px;">
-							<div class="progress-bar" style="width: 80%"></div>
-						</div>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+                                <span class="sr-only">40% Complete (success)</span>
+                            </div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-info progress-bar-striped" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%">
+                                <span class="sr-only">20% Complete</span>
+                            </div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-warning progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+                                <span class="sr-only">60% Complete (warning)</span>
+                            </div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-danger progress-bar-striped" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+                                <span class="sr-only">80% Complete (danger)</span>
+                            </div>
+                        </div>
 					</div>
 				</div></div><!--/span-->
 				
