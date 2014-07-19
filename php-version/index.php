@@ -168,7 +168,7 @@
 					</div>
 					<div class="box-content">
                         <h3>Charisma is Open Source</h3>
-                        <a class="centered btn btn-default center-block col-md-6" title="GitHub" href="https://github.com/usmanhalalit/charisma" target="_blank"><i class="icon-edit"></i> View on GitHub</a>
+                        <a class="btn btn-default center-block col-md-6" title="GitHub" href="https://github.com/usmanhalalit/charisma" target="_blank"><i class="icon-edit"></i> View on GitHub</a>
                         <div class="clearfix"></div>
                         <br>
                         <ul class="github-buttons center-block">

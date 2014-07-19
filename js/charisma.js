@@ -13,20 +13,22 @@ $(document).ready(function () {
         e.preventDefault();
         $('.nav-sm').html($('.navbar-collapse').html());
         $('.sidebar-nav').toggleClass('active');
-        $('.navbar-toggle').toggleClass('active');
+        $(this).toggleClass('active');
     });
 
     var $sidebarNav = $('.sidebar-nav');
 
-    $(document).mouseup(function (e)
-    {
+    $(document).mouseup(function (e) {
         if (!$sidebarNav.is(e.target) // if the target of the click isn't the container...
-            && $sidebarNav.has(e.target).length === 0) // ... nor a descendant of the container
+            && $sidebarNav.has(e.target).length === 0
+            && !$('.navbar-toggle').is(e.target)
+            && $('.navbar-toggle').has(e.target).length === 0
+            && $sidebarNav.hasClass('active')
+            )// ... nor a descendant of the container
         {
-            if ($sidebarNav.hasClass('active')) {
-                $sidebarNav.removeClass('active');
-                $('.navbar-toggle').removeClass('active');
-            }
+            console.log(e.target);
+            e.stopPropagation();
+            $('.navbar-toggle').click();
         }
     });
 
