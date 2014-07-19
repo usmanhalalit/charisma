@@ -62,9 +62,9 @@
 						<p>Its a live demo of the template. I have created Charisma to ease the repeat work I have to do on my projects. Now I re-use Charisma as a base for my admin panel work and I am sharing it with you :)</p>
 						<p><b>All pages in the menu are functional, take a look at all, please share this with your followers.</b></p>
 						
-						<p class="center">
-							<a href="http://usman.it/free-responsive-admin-template" class="btn btn-primary btn-lg"><i class="glyphicon glyphicon-chevron-left glyphicon-white"></i> Back to article</a>
-							<a href="http://usman.it/free-responsive-admin-template" class="btn btn-default btn-lg"><i class="glyphicon glyphicon-download-alt"></i> Download Page</a>
+						<p class="center-block download-buttons">
+							<a href="http://usman.it/free-responsive-admin-template/" class="btn btn-primary btn-lg"><i class="glyphicon glyphicon-chevron-left glyphicon-white"></i> Back to article</a>
+							<a href="http://usman.it/free-responsive-admin-template/" class="btn btn-default btn-lg"><i class="glyphicon glyphicon-download-alt"></i> Download Page</a>
 						</p>
 						<div class="clearfix"></div>
 					</div>
@@ -72,7 +72,7 @@
 			</div>
 					
 			<div class="row">
-				<div class="box col-md-4"><div class="box-inner">
+				<div class="box col-md-4"><div class="box-inner homepage-box">
 					<div class="box-header well">
 						<h2><i class="glyphicon glyphicon-th"></i> Tabs</h2>
 						<div class="box-icon">
@@ -91,7 +91,11 @@
 						<div id="myTabContent" class="tab-content">
 							<div class="tab-pane active" id="info">
 								<h3>Charisma <small>a fully featued template</small></h3>
-								<p>Its a fully featured, responsive template for your admin panel. Its optimized for tablet and mobile phones. Scan the QR code below to view it in your mobile device.</p> <img alt="QR Code" class="charisma_qr center" src="img/qrcode136.png">
+								<p>Its a full featured, responsive template for your admin panel. It is optimized for tablets and mobile phones.</p>
+                                <p>Check how it looks on different devices:</p>
+                                <a href="http://www.responsinator.com/?url=usman.it%2Fthemes%2Fcharisma" target="_blank"><strong>Preview on iPhone size.</strong></a>
+                                <br>
+                                <a href="http://www.responsinator.com/?url=usman.it%2Fthemes%2Fcharisma" target="_blank"><strong>Preview on iPad size.</strong></a>
 							</div>
 							<div class="tab-pane" id="custom">
 								<h3>Custom <small>small text</small></h3>
@@ -154,15 +158,31 @@
 					</div>
 				</div></div><!--/span-->
 						
-				<div class="box col-md-4"><div class="box-inner">
+				<div class="box col-md-4"><div class="box-inner homepage-box">
 					<div class="box-header well" data-original-title="">
-						<h2><i class="glyphicon glyphicon-list-alt"></i> Realtime Traffic</h2>
+						<h2><i class="glyphicon glyphicon-list-alt"></i> Open Source</h2>
 						<div class="box-icon">
 							<a href="#" class="btn btn-minimize btn-round btn-default"><i class="glyphicon glyphicon-chevron-up"></i></a>
 							<a href="#" class="btn btn-close btn-round btn-default"><i class="glyphicon glyphicon-remove"></i></a>
 						</div>
 					</div>
 					<div class="box-content">
+                        <h3>Charisma is Open Source</h3>
+                        <a class="centered btn btn-default center-block col-md-6" title="GitHub" href="https://github.com/usmanhalalit/charisma" target="_blank"><i class="icon-edit"></i> View on GitHub</a>
+                        <div class="clearfix"></div>
+                        <br>
+                        <ul class="github-buttons center-block">
+                            <li><iframe src="http://ghbtns.com/github-btn.html?user=usmanhalalit&amp;repo=charisma&amp;type=watch&amp;count=true" height="20" width="100" frameborder="0" scrolling="0"></iframe></li>
+                            <li><iframe src="http://ghbtns.com/github-btn.html?user=usmanhalalit&amp;repo=charisma&amp;type=fork&amp;count=true" height="20" width="98" frameborder="0" scrolling="0"></iframe></li>
+                        </ul>
+                        <div class="clearfix"></div>
+
+                        <div class="donate">
+                            <div><small>Help development of Charisma</small></div>
+                            <a class="btn btn-default" href="http://flattr.com/thing/1507720/usmanhalalitcharisma-on-GitHub" target="_blank"><i class="glyphicon glyphicon-usd green"></i> Donate</a>
+                        </div>
+                        <br/>
+                        <p>You may like my other open source work, check my profile on <a href="http://github.com/usmanhalalit" target="_blank">GitHub</a>.</p>
 
 					</div>
 				</div></div><!--/span-->

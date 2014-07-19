@@ -599,7 +599,8 @@ ul.main-menu li:not(.nav-header){
     text-align: center;
 }
 
-.ad-donate{
+.preview-on-phone {
+    height: 380px;
 
 }
 
@@ -610,6 +611,23 @@ ul.main-menu li:not(.nav-header){
 .whitespace:before {
     content: "\2122";
     color: transparent !important;
+}
+
+.center-block{
+    float: none !important;
+    text-align: center;
+}
+
+ul.github-buttons li{
+    display: inline;
+}
+
+.homepage-box {
+    height: 380px;
+}
+
+.download-buttons a{
+    margin: 5px;
 }
 
 /* Mobile */
