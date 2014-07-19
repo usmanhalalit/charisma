@@ -18,6 +18,7 @@ $(document).ready(function () {
 
     var $sidebarNav = $('.sidebar-nav');
 
+    // Hide responsive navbar on clicking outside
     $(document).mouseup(function (e) {
         if (!$sidebarNav.is(e.target) // if the target of the click isn't the container...
             && $sidebarNav.has(e.target).length === 0
@@ -26,7 +27,6 @@ $(document).ready(function () {
             && $sidebarNav.hasClass('active')
             )// ... nor a descendant of the container
         {
-            console.log(e.target);
             e.stopPropagation();
             $('.navbar-toggle').click();
         }
