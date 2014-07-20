@@ -26,11 +26,6 @@
                     </div>
                 </div>
                 <div class="box-content">
-                    <p class="center">
-                        <button id="toggle-fullscreen" class="btn btn-primary btn-lg visible-md" data-toggle="button">
-                            Toggle Fullscreen
-                        </button>
-                    </p>
                     <br>
                     <ul class="thumbnails gallery">
                         <?php for ($i = 1; $i <= 24; $i++) { ?>

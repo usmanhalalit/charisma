@@ -28,7 +28,7 @@
                 <div class="box-content">
                     <a href="tour.html">Click Here to restart the tour</a><br>
                     You can create Custom Tour, like this. <br> For more help on implementing tour go <a
-                        href="http://pushly.github.com/bootstrap-tour/index.html" target="_blank">here</a>
+                        href="http://bootstraptour.com/" target="_blank">here</a>
                 </div>
             </div>
         </div>

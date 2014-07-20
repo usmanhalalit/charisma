@@ -80,6 +80,8 @@
 <script src="js/jquery.noty.js"></script>
 <!-- library for making tables responsive -->
 <script src="bower_components/responsive-tables/responsive-tables.js"></script>
+<!-- tour plugin -->
+<script src="bower_components/bootstrap-tour/build/js/bootstrap-tour.min.js"></script>
 <!-- star rating plugin -->
 <script src="js/jquery.raty.min.js"></script>
 <!-- for iOS style toggle switch -->
