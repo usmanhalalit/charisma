@@ -657,7 +657,7 @@ ul.github-buttons li {
         margin-right: 4%;
     }
 
-    .top-menu i {
+    .top-menu > li i {
         display: none;
     }
 

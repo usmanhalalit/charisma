@@ -208,7 +208,13 @@ function docReady() {
     });
 
     //gallery colorbox
-    $('.thumbnail a').colorbox({rel: 'thumbnail a', transition: "elastic", maxWidth: "95%", maxHeight: "95%"});
+    $('.thumbnail a').colorbox({
+        rel: 'thumbnail a',
+        transition: "elastic",
+        maxWidth: "95%",
+        maxHeight: "95%",
+        slideshow: true
+    });
 
     //gallery fullscreen
     $('#toggle-fullscreen').button().click(function () {
