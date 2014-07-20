@@ -637,7 +637,9 @@ ul.github-buttons li {
         text-align: center;
     }
 
-
+    .table-wrapper .pinned {
+        box-shadow: 0 0 20px black;
+    }
 }
 
 /* Tablet */
