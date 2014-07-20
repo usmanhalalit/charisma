@@ -5,7 +5,7 @@ select {
 }
 
 .ch-container {
-    padding: 20px;
+    padding: 10px;
 }
 
 .top-block {
@@ -107,18 +107,6 @@ select {
     background-image: -ms-linear-gradient(top, hsl(11, 95%, 76%), hsl(11, 95%, 61%));
     background-image: -o-linear-gradient(top, hsl(11, 95%, 76%), hsl(11, 95%, 61%));
     background-image: linear-gradient(top, hsl(11, 95%, 76%), hsl(11, 95%, 61%));
-}
-
-#external-events {
-    float: left;
-    width: 15%;
-    padding: 10px;
-    text-align: left;
-}
-
-.external-event {
-    margin: 5px;
-    cursor: move;
 }
 
 .box {
@@ -246,14 +234,7 @@ ul.dashboard-list li a span {
     margin-left: 15px;
     margin-right: 15px;
     border: 1px solid #EBEBEB;
-}
-
-#prependedInput, #appendedPrependedInput, #appendedInputButtons, #appendedInputButton {
-    width: 200px;
-}
-
-#appendedInput {
-    width: 75px;
+    border-radius: 50%;
 }
 
 .thumbnail {
@@ -282,9 +263,6 @@ img.grayscale {
     -moz-filter: grayscale(100%);
     -ms-filter: grayscale(100%);
     -o-filter: grayscale(100%);
-    /*filter: url(desaturate.svg#grayscale);
-    filter: gray;
-    filter: grayscale(100%); */
 }
 
 .thumbnail .gallery-controls {
@@ -302,10 +280,6 @@ img.grayscale {
     width: 100%;
 }
 
-label div.checker, label div.radio {
-    margin-bottom: 3px;
-}
-
 div.uploader {
     border-radius: 14px;
     -webkit-border-radius: 14px;
@@ -314,21 +288,6 @@ div.uploader {
 
 footer {
     clear: both;
-}
-
-footer .pull-right {
-    float: right;
-    margin-right: 10px;
-}
-
-footer .pull-left {
-    float: left;
-    margin-left: 10px;
-}
-
-.docs-input-sizes select, .docs-input-sizes input[type="text"] {
-    display: block;
-    margin-bottom: 9px;
 }
 
 div.center, p.center, img.center {
@@ -343,11 +302,6 @@ div.center, p.center, img.center {
     padding: 5px;
 }
 
-.clear {
-    clear: both;
-    width: 0px;
-    height: 0px;
-}
 
 .sidebar-nav {
     min-height: 0;
@@ -398,23 +352,10 @@ div.center, p.center, img.center {
     height: 60px;
 }
 
-.top-nav .navbar-nav > li {
-    display: block;
-    float: left;
-    line-height: 50px;
-}
+
 
 .navbar-inner .btn-group {
     margin: 7px 5px 0 5px;
-}
-
-div.dataTables_length select {
-    width: 50px;
-}
-
-.dataTables_filter input, .dataTables_length select {
-    display: inline-block;
-    margin-bottom: 0;
 }
 
 ul.ajax-loaders li {
@@ -454,29 +395,6 @@ ul.ajax-loaders {
     margin-left: -10px;
 }
 
-#inputIcon {
-    width: 200px;
-}
-
-.show-grid [class*="span"] {
-    background-color: #EDEDED;
-    text-align: center;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    border-radius: 3px;
-    min-height: 30px;
-    line-height: 30px;
-}
-
-.show-grid {
-    margin-top: 10px;
-    margin-bottom: 20px;
-    color: black;
-}
-
-.show-grid:hover [class*="span"] {
-    background: #DEDEDE;
-}
 
 .login-header {
     padding-top: 30px;
@@ -511,10 +429,6 @@ ul.ajax-loaders {
     color: #F99406;
 }
 
-.login-box {
-
-}
-
 .login-box .input-prepend {
     margin-bottom: 10px;
 }
@@ -522,18 +436,6 @@ ul.ajax-loaders {
 .login-box .btn {
     margin-top: 15px;
     width: 100%
-}
-
-.charisma_qr {
-    height: 136px;
-    width: 136px;
-    border: solid grey 1px;
-    border-radius: 2px;
-    -webkit-border-radius: 2px;
-    -moz-border-radius: 2px;
-    box-shadow: 0 0 10px #BDBDBD;
-    -webkit-box-shadow: 0 0 10px #BDBDBD;
-    -moz-box-shadow: 0 0 10px #BDBDBD;
 }
 
 .box-content.buttons {
