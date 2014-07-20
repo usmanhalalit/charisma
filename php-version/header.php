@@ -26,8 +26,8 @@
     <link id="bs-css" href="css/bootstrap-cerulean.min.css" rel="stylesheet">
 
     <link href="css/charisma-app.css" rel="stylesheet">
-    <link href='bower_components/fullcalendar/fullcalendar.css' rel='stylesheet'>
-    <link href='bower_components/fullcalendar/fullcalendar.print.css' rel='stylesheet' media='print'>
+    <link href='bower_components/fullcalendar/dist/fullcalendar.css' rel='stylesheet'>
+    <link href='bower_components/fullcalendar/dist/fullcalendar.print.css' rel='stylesheet' media='print'>
     <link href='bower_components/chosen/chosen.min.css' rel='stylesheet'>
     <link href='bower_components/colorbox/example3/colorbox.css' rel='stylesheet'>
     <link href='bower_components/responsive-tables/responsive-tables.css' rel='stylesheet'>

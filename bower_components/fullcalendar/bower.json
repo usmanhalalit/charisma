@@ -1,38 +1,35 @@
 {
   "name": "fullcalendar",
-  "version": "1.6.4",
-  "dependencies": {
-    "jquery": "~1.10.2"
-  },
-  "optionalDependencies": {
-    "jquery-ui": "~1.10.3"
-  },
-  "title": "FullCalendar",
+  "version": "2.0.2",
+
   "description": "Full-sized drag & drop event calendar",
-  "keywords": [
-    "calendar",
-    "event",
-    "full-sized"
-  ],
+  "keywords": [ "calendar", "event", "full-sized" ],
   "homepage": "http://arshaw.com/fullcalendar/",
-  "demo": "http://arshaw.com/fullcalendar/",
-  "docs": "http://arshaw.com/fullcalendar/docs/",
-  "download": "http://arshaw.com/fullcalendar/download/",
-  "bugs": "http://code.google.com/p/fullcalendar/issues/list",
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://github.com/arshaw/fullcalendar/blob/master/license.txt"
-    }
-  ],
-  "author": {
-    "name": "Adam Shaw",
-    "email": "arshaw@arshaw.com",
-    "url": "http://arshaw.com/"
+
+  "dependencies": {
+    "jquery": ">=1.7.1",
+    "moment": ">=2.5.0"
   },
-  "copyright": "2013 Adam Shaw",
+  "devDependencies": {
+    "jquery-ui": ">=1.8.17",
+    "jquery-simulate-ext": "~1.3.0",
+    "jquery-mockjax": "~1.5.3",
+    "jasmine-jquery": "~2.0.3",
+    "jasmine-fixture": "~1.2.0",
+    "moment-timezone": "~0.0.6"
+  },
+
   "main": [
-    "fullcalendar.js",
-    "fullcalendar.css"
+    "/dist/fullcalendar.js",
+    "/dist/fullcalendar.css"
+  ],
+  "ignore": [
+    "*",
+    "**/.*",
+    "!/dist/**",
+    "!/bower.json",
+    "!/changelog.*",
+    "!/license.*",
+    "!/readme.*"
   ]
 }

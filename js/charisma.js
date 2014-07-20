@@ -296,30 +296,52 @@ function docReady() {
     });
 
 
-    //initialize the external events for calender
-
-    $('#external-events div.external-event').each(function () {
-
-        // it doesn't need to have a start or end
-        var eventObject = {
-            title: $.trim($(this).text()) // use the element's text as the event title
-        };
-
-        // store the Event Object in the DOM element so we can get to it later
-        $(this).data('eventObject', eventObject);
-
-    });
-
-
-    //initialize the calendar
     $('#calendar').fullCalendar({
         header: {
             left: 'prev,next today',
             center: 'title',
             right: 'month,agendaWeek,agendaDay'
         },
-        editable: true,
-        droppable: true, // this allows things to be dropped onto the calendar !!!
+        defaultDate: '2014-06-12',
+        events: [
+            {
+                title: 'All Day Event',
+                start: '2014-06-01'
+            },
+            {
+                title: 'Long Event',
+                start: '2014-06-07',
+                end: '2014-06-10'
+            },
+            {
+                id: 999,
+                title: 'Repeating Event',
+                start: '2014-06-09T16:00:00'
+            },
+            {
+                id: 999,
+                title: 'Repeating Event',
+                start: '2014-06-16T16:00:00'
+            },
+            {
+                title: 'Meeting',
+                start: '2014-06-12T10:30:00',
+                end: '2014-06-12T12:30:00'
+            },
+            {
+                title: 'Lunch',
+                start: '2014-06-12T12:00:00'
+            },
+            {
+                title: 'Birthday Party',
+                start: '2014-06-13T07:00:00'
+            },
+            {
+                title: 'Click for Google',
+                url: 'http://google.com/',
+                start: '2014-06-28'
+            }
+        ]
     });
 
 }

@@ -63,12 +63,11 @@
 
 <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 
-<!-- tour library -->
-<!-- <script src="js/bootstrap-tour.js"></script> -->
 <!-- library for cookie management -->
 <script src="js/jquery.cookie.js"></script>
 <!-- calender plugin -->
-<script src='bower_components/fullcalendar/fullcalendar.min.js'></script>
+<script src='bower_components/moment/min/moment.min.js'></script>
+<script src='bower_components/fullcalendar/dist/fullcalendar.min.js'></script>
 <!-- data table plugin -->
 <script src='js/jquery.dataTables.min.js'></script>
 
