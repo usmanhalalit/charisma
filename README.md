@@ -27,7 +27,7 @@
 ## Credits
 Without these open osurce software Charisma woudn't have been possible:
 
- - [Twiiter Bootstrap](http://getbootstratp.com)
+ - [Twitter Bootstrap](http://getbootstrap.com/)
  - [jQuery](http://jquery.com)
  - [Bootswatch](http://bootswatch.com/)
  - [Chsoen](http://harvesthq.github.com/chosen/)
