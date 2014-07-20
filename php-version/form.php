@@ -234,6 +234,12 @@
                         <span class="glyphicon glyphicon-ok form-control-feedback"></span>
                     </div>
                 </form>
+
+                <br>
+                <div class="input-group col-md-4">
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-lock red"></i></span>
+                    <input type="password" class="form-control" placeholder="Password">
+                </div>
             </div>
         </div>
     </div>
