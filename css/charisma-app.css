@@ -5,7 +5,7 @@ select {
 }
 
 .ch-container {
-    padding: 10px;
+    padding: 0 15px;
 }
 
 .top-block {
@@ -555,7 +555,7 @@ ul.github-buttons li {
     }
 
     .sidebar-nav .nav-canvas {
-        top: -40px;
+        top: -20px;
         left: -90%;
         position: absolute;
         width: 80%;
@@ -683,5 +683,9 @@ ul.github-buttons li {
         -ms-transition: .5s;
         -o-transition: .5s;
         transition: .5s;
+    }
+
+    .ch-container {
+        padding: 0 20px;
     }
 }
