@@ -5,7 +5,7 @@
 </div><!--/fluid-row-->
 <?php if (!isset($no_visible_elements) || !$no_visible_elements) { ?>
     <div class="row">
-        <div class="col-md-10 col-xs-10  hidden-xs">
+        <div class="col-md-9 col-xs-9  hidden-xs">
             <h5>Advertisement</h5>
             <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
             <!-- Charisma Demo 2 -->
