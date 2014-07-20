@@ -12,7 +12,7 @@
 
 <div class="row">
 
-    <div class="box">
+    <div class="box col-md-12">
         <div class="box-inner">
             <div class="box-header well">
                 <h2><i class="glyphicon glyphicon-list-alt"></i> Chart with points</h2>
@@ -34,7 +34,7 @@
         </div>
     </div>
 
-    <div class="box">
+    <div class="box col-md-12">
         <div class="box-inner">
             <div class="box-header well">
                 <h2><i class="glyphicon glyphicon-list-alt"></i> Flot</h2>
@@ -54,7 +54,7 @@
         </div>
     </div>
 
-    <div class="box">
+    <div class="box col-md-12">
         <div class="box-inner">
             <div class="box-header well">
                 <h2><i class="glyphicon glyphicon-list-alt"></i> Stack Example</h2>
