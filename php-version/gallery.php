@@ -29,7 +29,7 @@
                     <br>
                     <ul class="thumbnails gallery">
                         <?php for ($i = 1; $i <= 24; $i++) { ?>
-                            <li id="image-&lt;?php echo $i ?&gt;" class="thumbnail">
+                            <li id="image-<?php echo $i ?>" class="thumbnail">
                                 <a style="background:url(https://raw.githubusercontent.com/usmanhalalit/charisma/1.x/img/gallery/thumbs/<?php echo $i ?>.jpg)"
                                    title="Sample Image <?php echo $i ?>" href="https://raw.githubusercontent.com/usmanhalalit/charisma/1.x/img/gallery/<?php echo $i ?>.jpg"><img
                                         class="grayscale" src="https://raw.githubusercontent.com/usmanhalalit/charisma/1.x/img/gallery/thumbs/<?php echo $i ?>.jpg"
