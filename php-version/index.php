@@ -68,7 +68,7 @@
             </div>
             <div class="box-content row">
                 <div class="col-md-8">
-                    <h1>Charisma
+                    <h1>Charisma <br>
                         <small>free, premium quality, responsive, multiple skin admin template.</small>
                     </h1>
                     <p>Its a live demo of the template. I have created Charisma to ease the repeat work I have to do on my
@@ -143,25 +143,17 @@
                         <h3>Custom
                             <small>small text</small>
                         </h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum ornare dolor.</p>
+                        <p>Sample paragraph.</p>
 
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum ornare dolor,
-                            quis ullamcorper ligula sodales at. Nulla tellus elit, varius non commodo eget, mattis vel
-                            eros. In sed ornare nulla. Donec consectetur, velit a pharetra ultricies, diam lorem lacinia
-                            risus, ac commodo orci erat eu massa. Sed sit amet nulla ipsum. Donec felis mauris,
-                            vulputate sed tempor at, aliquam a ligula. Pellentesque non pulvinar nisi.</p>
+                        <p>Your custom text.</p>
                     </div>
                     <div class="tab-pane" id="messages">
                         <h3>Messages
                             <small>small text</small>
                         </h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum ornare dolor,
-                            quis ullamcorper ligula sodales at. Nulla tellus elit, varius non commodo eget, mattis vel
-                            eros. In sed ornare nulla. Donec consectetur, velit a pharetra ultricies, diam lorem lacinia
-                            risus, ac commodo orci erat eu massa. Sed sit amet nulla ipsum. Donec felis mauris,
-                            vulputate sed tempor at, aliquam a ligula. Pellentesque non pulvinar nisi.</p>
+                        <p>Sample paragraph.</p>
 
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum ornare dolor.</p>
+                        <p>Your custom text.</p>
                     </div>
                 </div>
             </div>
