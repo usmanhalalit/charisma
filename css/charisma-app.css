@@ -536,6 +536,10 @@ ul.github-buttons li {
     margin: 5px;
 }
 
+.center-text {
+    text-align: center;
+}
+
 /* Mobile */
 @media only screen and (max-width: 767px) {
 
