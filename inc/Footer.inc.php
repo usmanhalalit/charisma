@@ -1,10 +1,11 @@
-<hr>
 
-    <footer class="row">
-        <p class="col-md-9 col-sm-9 col-xs-12 copyright">&copy; <a href="#">Brendan Jany & Valentin Montmirail</a> 2014 - 2015</p>
-    </footer>
 
 </div><!--/.fluid-container-->
+
+<footer class="row">
+	<hr>
+    <p class="col-md-9 col-sm-9 col-xs-12 copyright">&copy; <a href="#">Brendan Jany & Valentin Montmirail</a> 2014 - 2015</p>
+</footer>
 
 <!-- external javascript -->
 <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
