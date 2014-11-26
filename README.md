@@ -20,6 +20,8 @@ Sans ces logiciels open-sources, ce site web n'aurait pas été possible si vite
  - [Uploadify](http://www.uploadify.com/)
 
 ___
-&copy; 2014 - 2015 [Brendan Jany](http://www.japan-party.net/). Version 0.1.
-&copy; 2014 - 2015 [Valentin Montmirail](http://www.valentin-montmirail.fr/). Version 0.1.
-&copy; 2012 - 2014 [Muhammad Usman](http://usman.it/). Licensed under the Apache License, Version 2.0.
+- &copy; 2014 - 2015 [Brendan Jany](http://www.japan-party.net/). Version 0.1.
+
+- &copy; 2014 - 2015 [Valentin Montmirail](http://www.valentin-montmirail.fr/). Version 0.1.
+
+- &copy; 2012 - 2014 [Muhammad Usman](http://usman.it/). Licensed under the Apache License, Version 2.0.
