@@ -40,7 +40,7 @@
                                     <a href="error.html"><i class="glyphicon glyphicon-ban-circle"></i><span> Page d'erreur</span></a>
                                 </li>
                                 <li>
-                                    <a href="login.html"><i class="glyphicon glyphicon-lock"></i><span> Page de connexion</span></a>
+                                    <a href="login.php"><i class="glyphicon glyphicon-lock"></i><span> Page de connexion</span></a>
                                 </li>
                             </ul>
                             <label id="for-is-ajax" for="is-ajax" style="visibility: hidden;">
