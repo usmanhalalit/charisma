@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="utf-8">
     <link href='http://fonts.googleapis.com/css?family=Creepster|Audiowide' rel='stylesheet' type='text/css'>
 
     <style>
+
         * {
             margin: 0;
             padding: 0;
@@ -82,11 +83,13 @@
 <p class="not-found">Not<br/>Found</p>
 
 <div class="clear"></div>
+
 <div class="content">
     La page que vous recherchez n'existe pas !
     <br />
     <br />
     <a href="index.php">Retourner à l'accueil</a>
 </div>
+
 </body>
 </html>

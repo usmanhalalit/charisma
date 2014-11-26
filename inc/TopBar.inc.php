@@ -8,7 +8,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="index.html"> 
+            <a class="navbar-brand" href="index.php"> 
                 <img alt="Charisma Logo" src="img/logo20.png" class="hidden-xs"/>
                 <span style="font-size:10px;">CHRU DE TOURS</span>
             </a>
@@ -23,7 +23,7 @@
                 <ul class="dropdown-menu">
                     <li><a href="#">Profil</a></li>
                     <li class="divider"></li>
-                    <li><a href="login.html">Déconnexion</a></li>
+                    <li><a href="login.php">Déconnexion</a></li>
                 </ul>
             </div>
             <!-- user dropdown ends -->
