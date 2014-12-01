@@ -1,4 +1,21 @@
 <!DOCTYPE html>
+
+<?php 
+    
+    session_start(); 
+
+    if( ! isset( $_SESSION["name"] ) ) {
+
+        $url = 'http://' . $_SERVER['HTTP_HOST'];            
+        $url .= rtrim(dirname($_SERVER['PHP_SELF']), '/\\'); 
+        $url .= '/login.php';                                 
+
+        echo '<script type="text/javascript"> window.location = "'.$url.'"</script>'; 
+        die(); 
+    }
+
+?>
+
 <html lang="fr">
 
     <head>
@@ -7,7 +24,7 @@
 
         <meta charset="utf-8">
     
-        <title>CHRU DE TOURS</title>
+        <title>CHRU DE TOURS - Accueil</title>
     
         <meta name="description" content="">
 

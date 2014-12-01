@@ -1,3 +1,4 @@
+<?php session_start(); ?>
     
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="Brendan Jany & Valentin Montmirail">
