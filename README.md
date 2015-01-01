@@ -25,12 +25,12 @@
 
 
 ## Credits
-Without these open osurce software Charisma woudn't have been possible:
+Without these open source software Charisma woudn't have been possible:
 
  - [Twitter Bootstrap](http://getbootstrap.com/)
  - [jQuery](http://jquery.com)
  - [Bootswatch](http://bootswatch.com/)
- - [Chsoen](http://harvesthq.github.com/chosen/)
+ - [Chosen](http://harvesthq.github.com/chosen/)
  - [Flot Charts](http://www.flotcharts.org/)
  - [Full Calendar](http://arshaw.com/fullcalendar/)
  - [Datatables](http://datatables.net/)
