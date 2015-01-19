@@ -3,8 +3,7 @@
 <?php 
     
     session_start(); 
-
-    if( ! isset( $_SESSION["name"] ) ) {
+    if( ! isset( $_SESSION["connect"] ) ) {
 
         $url = 'http://' . $_SERVER['HTTP_HOST'];            
         $url .= rtrim(dirname($_SERVER['PHP_SELF']), '/\\'); 
@@ -96,7 +95,14 @@
                                     <div class="col-lg-7 col-md-12">
                                         <h1>Projet avec le CHRU de Tours
                                             <br>
-                                            <small>Maîtrise d'ouvrage: Brendan Jany & Valentin Montmirail</small>
+                                            <applet 
+                                                code="gestionpatients.gestionpatients.class" 
+                                                archive="Applet.jar,commons-io-1.1-2.jar,pixelmed.jar,beansbinding-1.2.1.jar,AbsoluteLayout.jar" 
+                                                width=550 
+                                                height=400 
+                                            >
+                                            </applet>
+                                            
                                         </h1>
                                     </div>
                                 </div>

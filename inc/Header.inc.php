@@ -23,6 +23,8 @@
 
     <!-- jQuery -->
     <script src="bower_components/jquery/jquery.min.js"></script>
+    <script src="http://www.java.com/js/deployJava.js"></script>
+    <script src="js/applet.js"></script>
 
     <!-- The HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>

@@ -18,6 +18,7 @@
                                 <li>
                                     <a href="login.php"><i class="glyphicon glyphicon-lock"></i><span> Page de connexion</span></a>
                                 </li>
+
                             </ul>
                             <label id="for-is-ajax" for="is-ajax" style="visibility: hidden;">
                                 <input id="is-ajax" type="checkbox"> Ajax on menu</input>

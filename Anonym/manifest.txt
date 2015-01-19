@@ -1,0 +1,4 @@
+Permissions: all-permissions
+Codebase: *
+Application-Name: Anonym
+Main-Class: gestionpatients.gestionpatients

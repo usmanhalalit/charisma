@@ -1,22 +1,32 @@
-<?php session_start();
+<?php session_start();	
 
-var_dump($_POST["name"]);
-
-echo "<br /> <br />";
-
-var_dump($_POST["password"]);
-
-echo "<br /> <br />";
-
-var_dump($_POST["remember"]);	
+include("../models/User.php");
 
 $url = 'http://' . $_SERVER['HTTP_HOST'];            	 // Get the server
 $url .= rtrim(dirname($_SERVER['PHP_SELF']), '/\\'); 	 // Get the current directory
 $url .= '/../index.php';            					 // Your relative path
 
-var_dump($url);
+$name     = $_POST["name"];
+$password = $_POST["password"];
+$remember = $_POST["remember"];
 
-$_SESSION['name'] = $_POST["name"];
+
+$_SESSION['name'] = $name;
+
+if(checkPassword($name,$password) == 'true') {
+
+	$_SESSION["connect"] = "true";
+
+} else {
+	unset($_SESSION['connect']);
+	unset($_SESSION['name']);
+	$_SESSION["error"] = "Nom d'utilisateur ou mot de passe incorrect...";
+}
+
+if($remember != NULL) {
+
+	$_SESSION['name'] = $name;
+}
 
 echo '<script type="text/javascript"> window.location = "'.$url.'" </script>';
 

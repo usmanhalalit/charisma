@@ -32,11 +32,25 @@
             <div class="alert alert-info">
                 Veuillez utiliser votre nom d'utilisateur et votre mot de passe.
             </div>
+    
+        <?php
+            if(isset($_SESSION["error"])) {
+
+                echo '<div class="alert alert-danger">';
+
+                echo $_SESSION["error"];    
+
+                echo '</div>';
+
+                unset($_SESSION["error"]);
+            }
+        ?>  
+
             <form class="form-horizontal" action="controler/connection.php" method="post">
                 <fieldset>
                     <div class="input-group input-group-lg">
                         <span class="input-group-addon"><i class="glyphicon glyphicon-user red"></i></span>
-                        <input type="text" name="name" class="form-control" placeholder="Nom d'utilisateur">
+                        <input type="text" name="name" class="form-control" placeholder="Nom d'utilisateur" <?php echo 'value="'.$_SESSION["name"].'"' ?>>
                     </div>
                     <div class="clearfix"></div><br>
 
