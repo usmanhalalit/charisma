@@ -8,6 +8,15 @@ select {
     padding: 0 15px;
 }
 
+.centerApplet {
+
+  position: relative; /* on positionne le conteneur */
+  margin-left: 30%;
+  margin-right: 30%;
+  width: 500px;
+  text-align: left;
+}
+
 .top-block {
     border-radius: 20px;
     font-size: 14px;

@@ -3,6 +3,7 @@
 <?php 
     
     session_start(); 
+    
     if( ! isset( $_SESSION["connect"] ) ) {
 
         $url = 'http://' . $_SERVER['HTTP_HOST'];            
@@ -28,14 +29,61 @@
         <meta name="description" content="">
 
         <?php include("inc/Header.inc.php"); ?>
+        <SCRIPT src="http://java.com/js/dtjava.js"></SCRIPT>
+
+      <script>
+
+            function launchApplication(jnlpfile) {
+                dtjava.launch(            {
+                        url : 'AnonymFX.jnlp',
+                        params: {'service': 'Neurologie'}
+                    },
+                    {
+                        javafx : '8.0+'
+                    },
+                    {}
+                );
+                return false;
+            }
+
+        </script>
+
+        <?php if($uagent != "MacOS") { ?>
+
+        <script>
+
+            function javafxEmbed_fxApplication() {
+                dtjava.embed(
+                    {
+                        id : 'fxApplication',
+                        url : 'AnonymFX.jnlp',
+                        placeholder : 'holderID',
+                        width : 700,
+                        height : 400,
+                        params: {'service': 'Neurologie'}
+                    },
+                    {
+                        javafx : '8.0+'
+                    },
+                    {}
+                );
+            }
+
+             dtjava.addOnloadCallback(javafxEmbed_fxApplication);
+
+        </script>
+
+        <?php } ?>
 
     </head>
 
     <body>
 
+        <?php include("detectOS.php"); ?>
+
         <?php include("inc/TopBar.inc.php"); ?>
 
-        <div class="ch-container">
+        <div class="ch-container" >
             <div class="row">
             
                 <?php include("inc/LeftMenu.inc.php"); ?>
@@ -56,30 +104,6 @@
                         </ul>
                     </div>
 
-                    <div class=" row">
-                        <div class="col-md-3 col-sm-3 col-xs-6">
-                            <a data-toggle="tooltip" title="0 nouveau partenaire." class="well top-block" href="#">
-                                <i class="glyphicon glyphicon-user blue"></i>
-                                <div>Ensemble des partenaires</div>
-                                <div>10</div>
-                                <span class="notification">0</span>
-                            </a>
-                        </div>
-
-                        <div class="col-md-3 col-sm-3 col-xs-6"></div>
-
-                        <div class="col-md-3 col-sm-3 col-xs-6"></div>
-
-                        <div class="col-md-3 col-sm-3 col-xs-6">
-                            <a data-toggle="tooltip" title="0 nouveau message." class="well top-block" href="#">
-                                <i class="glyphicon glyphicon-envelope red"></i>
-                                <div>Messages</div>
-                                <div>0</div>
-                                <span class="notification red">0</span>
-                            </a>
-                        </div>
-                    </div>
-
                     <div class="row">
                         <div class="box col-md-12">
                             <div class="box-inner">
@@ -92,18 +116,22 @@
                                 </div>
 
                                 <div class="box-content row">
-                                    <div class="col-lg-7 col-md-12">
-                                        <h1>Projet avec le CHRU de Tours
-                                            <br>
-                                            <applet 
-                                                code="gestionpatients.gestionpatients.class" 
-                                                archive="Applet.jar,commons-io-1.1-2.jar,pixelmed.jar,beansbinding-1.2.1.jar,AbsoluteLayout.jar" 
-                                                width=550 
-                                                height=400 
-                                            >
-                                            </applet>
+                                    <div class="col-lg-7 col-md-12 center" style="height: 500px;">
                                             
-                                        </h1>
+                                        <?php if($uagent == "MacOS") { ?>
+
+                                            <a href='AnonymFX.jnlp' onclick="return launchApplication('AnonymFX.jnlp');">
+                                                <button><img src="./img/anonymisation.png" height="500" width="500" /></button>
+                                            </a>
+
+                                        <?php } else { ?>
+
+                                            <br />    
+                                            <div id='holderID' class="center"></div>                                            
+
+                                        <?php } ?>
+                                        
+                                       
                                     </div>
                                 </div>
 

@@ -13,16 +13,15 @@
                                 </li>
 
                                 <li>
-                                    <a href="error.php"><i class="glyphicon glyphicon-ban-circle"></i><span> Page d'erreur</span></a>
+                                    <a href="documentation.php"><i class="glyphicon glyphicon-lock"></i><span>Documentation</span></a>
                                 </li>
+
                                 <li>
-                                    <a href="login.php"><i class="glyphicon glyphicon-lock"></i><span> Page de connexion</span></a>
+                                    <a href="login.php"><i class="glyphicon glyphicon-lock"></i><span> Déconnexion</span></a>
                                 </li>
 
                             </ul>
-                            <label id="for-is-ajax" for="is-ajax" style="visibility: hidden;">
-                                <input id="is-ajax" type="checkbox"> Ajax on menu</input>
-                            </label>
+           
                         </div>
                     </div>
                 </div>
