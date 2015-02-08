@@ -4,7 +4,7 @@
 
 <footer class="row">
 	<hr>
-    <p class="col-md-9 col-sm-9 col-xs-12 copyright">&copy; <a href="#">Brendan Jany & Valentin Montmirail</a> 2014 - 2015</p>
+    <p class="col-md-9 col-sm-9 col-xs-12 copyright">&copy; <a href="http://www.simplycreat.com" target="_blank"> Simply Créat'</a> 2014 - <?php echo date("Y"); ?></p>
 </footer>
 
 <!-- external javascript -->

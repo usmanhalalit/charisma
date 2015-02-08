@@ -33,19 +33,22 @@
 
       <script>
 
-            function launchApplication(jnlpfile) {
-                dtjava.launch(            {
-                        url : 'AnonymFX.jnlp',
-                        params: {'service': 'Neurologie'}
+        var server = '<?php echo substr("http://".$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'],0,-9)."upload.php"; ?>'
+
+        function launchApplication(jnlpfile) {
+            dtjava.launch({
+                    url : 'AnonymFX.jnlp',
+                    params: {'service': 'Neurologie',
+                             'url': server
+                        }
                     },
                     {
                         javafx : '8.0+'
                     },
                     {}
-                );
-                return false;
-            }
-
+            );
+            return false;
+        }
         </script>
 
         <?php if($uagent != "MacOS") { ?>
@@ -60,7 +63,9 @@
                         placeholder : 'holderID',
                         width : 700,
                         height : 400,
-                        params: {'service': 'Neurologie'}
+                        params: {'service': 'Neurologie',
+                                 'url': server
+                                }
                     },
                     {
                         javafx : '8.0+'
