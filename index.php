@@ -38,7 +38,7 @@
         function launchApplication(jnlpfile) {
             dtjava.launch({
                     url : 'AnonymFX.jnlp',
-                    params: {'service': 'Neurologie',
+                    params: {'serviceName': 'Neurologie',
                              'url': server
                         }
                     },
@@ -63,7 +63,7 @@
                         placeholder : 'holderID',
                         width : 700,
                         height : 400,
-                        params: {'service': 'Neurologie',
+                        params: {'serviceName': 'Neurologie',
                                  'url': server
                                 }
                     },

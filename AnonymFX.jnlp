@@ -11,7 +11,13 @@
   </resources>
   <resources>
     <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
-    <jar href="AnonymFX.jar" size="6299" download="eager" />
+    <jar href="AnonymFX.jar" size="22401" download="eager" />
+    <jar href="libs/commons-io-2.4.jar" size="187875" download="eager" />
+    <jar href="libs/commons-logging-1.2.jar" size="63252" download="eager" />
+    <jar href="libs/httpclient-4.4.jar" size="727656" download="eager" />
+    <jar href="libs/httpcore-4.4.jar" size="326711" download="eager" />
+    <jar href="libs/httpmime-4.4.jar" size="42002" download="eager" />
+    <jar href="libs/pixelmed.jar" size="2936060" download="eager" />
   </resources>
 <security>
   <all-permissions/>
