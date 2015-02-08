@@ -24,6 +24,12 @@
     <!-- jQuery -->
     <script src="bower_components/jquery/jquery.min.js"></script>
     <script src="http://www.java.com/js/deployJava.js"></script>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css">
+    
+     <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="//code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+
+
     <script src="js/applet.js"></script>
 
     <!-- The HTML5 shim, for IE6-8 support of HTML5 elements -->

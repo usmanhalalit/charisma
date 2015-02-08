@@ -13,7 +13,7 @@
                                 </li>
 
                                 <li>
-                                    <a href="documentation.php"><i class="glyphicon glyphicon-lock"></i><span>Documentation</span></a>
+                                    <a href="documentation.php"><i class="glyphicon glyphicon-book"></i><span> Documentation</span></a>
                                 </li>
 
                                 <li>
