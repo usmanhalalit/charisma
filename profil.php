@@ -54,6 +54,7 @@
                     <!-- content starts -->
                     <div>
                         <ul class="breadcrumb">
+                            <li><a href="index.php">Accueil</a></li>
                             <li><a href="#">Mon Profil</a></li>
                         </ul>
                     </div>

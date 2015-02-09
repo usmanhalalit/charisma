@@ -30,9 +30,12 @@
                     <span class="caret"></span>
                 </button>
                 <ul class="dropdown-menu">
-                    <li><a href="profil.php">Profil</a></li>
+                    <li>
+                        
+                        <a href="profil.php"><i class="glyphicon glyphicon-user"></i> Profil</a>
+                    </li>
                     <li class="divider"></li>
-                    <li><a href="login.php">Déconnexion</a></li>
+                    <li><a href="login.php"><i class="glyphicon glyphicon-off"></i> Déconnexion</a></li>
                 </ul>
             </div>
             <!-- user dropdown ends -->
