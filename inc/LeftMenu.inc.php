@@ -17,7 +17,7 @@
                                 </li>
 
                                 <li>
-                                    <a href="login.php"><i class="glyphicon glyphicon-lock"></i><span> Déconnexion</span></a>
+                                    <a href="login.php"><i class="glyphicon glyphicon-off"></i><span> Déconnexion</span></a>
                                 </li>
 
                             </ul>

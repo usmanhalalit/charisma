@@ -17,13 +17,20 @@
 
             <!-- user dropdown starts -->
             <div class="btn-group pull-right">
+
+                
+                <button class="btn btn-default" style="margin-right:20px;" onClick="window.location='admin.php'">
+                        <i class="glyphicon glyphicon-lock"></i>
+                        Administrateur
+                </button>
+                
                 <button class="btn btn-default dropdown-toggle" data-toggle="dropdown">
                     <i class="glyphicon glyphicon-user"></i>
                     <span class="hidden-sm hidden-xs"><?php echo $_SESSION['name'] ?></span>
                     <span class="caret"></span>
                 </button>
                 <ul class="dropdown-menu">
-                    <li><a href="#">Profil</a></li>
+                    <li><a href="profil.php">Profil</a></li>
                     <li class="divider"></li>
                     <li><a href="login.php">Déconnexion</a></li>
                 </ul>

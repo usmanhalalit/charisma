@@ -1,5 +1,18 @@
 <?php
 
+session_start(); 
+
+    if( ! isset( $_SESSION["connect"] ) ) {
+
+        $url = 'http://' . $_SERVER['HTTP_HOST'];            
+        $url .= rtrim(dirname($_SERVER['PHP_SELF']), '/\\'); 
+        $url .= '/login.php';                                 
+
+        echo '<script type="text/javascript"> window.location = "'.$url.'"</script>'; 
+        die(); 
+    }
+
+
 $uagent = $_SERVER['HTTP_USER_AGENT'] . "<br/>";
 
 function os_info($uagent)

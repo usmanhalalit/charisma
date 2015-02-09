@@ -3,7 +3,6 @@
 <?php 
     
     session_start(); 
-    
     if( ! isset( $_SESSION["connect"] ) ) {
 
         $url = 'http://' . $_SERVER['HTTP_HOST'];            
@@ -88,7 +87,7 @@
 
         <?php include("inc/TopBar.inc.php"); ?>
 
-        <div class="ch-container" >
+        <div class="ch-container">
             <div class="row">
             
                 <?php include("inc/LeftMenu.inc.php"); ?>
