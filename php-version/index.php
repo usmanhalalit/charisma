@@ -71,7 +71,7 @@
                     <h1>Charisma <br>
                         <small>free, premium quality, responsive, multiple skin admin template.</small>
                     </h1>
-                    <p>Its a live demo of the template. I have created Charisma to ease the repeat work I have to do on my
+                    <p>It's a live demo of the template. I have created Charisma to ease the repeat work I have to do on my
                         projects. Now I re-use Charisma as a base for my admin panel work and I am sharing it with you
                         :)</p>
 
@@ -143,7 +143,7 @@
                         <h3>Charisma
                             <small>a full featured template</small>
                         </h3>
-                        <p>Its a full featured, responsive template for your admin panel. It is optimized for tablets
+                        <p>It's a full featured, responsive template for your admin panel. It's optimized for tablets
                             and mobile phones.</p>
 
                         <p>Check how it looks on different devices:</p>
@@ -235,7 +235,7 @@
     <div class="box col-md-4">
         <div class="box-inner homepage-box">
             <div class="box-header well" data-original-title="">
-                <h2><i class="glyphicon glyphicon-list-alt"></i> Open Source</h2>
+                <h2><i class="glyphicon glyphicon-list-alt"></i> Keep in touch</h2>
 
                 <div class="box-icon">
                     <a href="#" class="btn btn-minimize btn-round btn-default"><i
@@ -245,34 +245,27 @@
                 </div>
             </div>
             <div class="box-content">
-                <h3>Charisma is Open Source</h3>
-                <a class="btn btn-default center-block col-md-6" title="GitHub"
-                   href="https://github.com/usmanhalalit/charisma" target="_blank"><i class="icon-edit"></i> View on
-                    GitHub</a>
+                <h3>Keep up with my projects and blog posts</h3>
+                <!-- Begin MailChimp Signup Form -->
+                <link href="//cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
+                <style type="text/css">
+                    #mc_embed_signup{ clear:left; font:14px Helvetica,Arial,sans-serif;  width:500px;}
+                    /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+                       We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+                </style>
+                <div id="mc_embed_signup">
+                    <form action="//halalit.us3.list-manage.com/subscribe/post?u=444b176aa3c39f656c66381f6&amp;id=eeb0c04e84" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                        <div id="mc_embed_signup_scroll">
+                            <label for="mce-EMAIL">Please enter your email</label>
+                            <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
 
-                <div class="clearfix"></div>
-                <br>
-                <ul class="github-buttons center-block">
-                    <li>
-                        <iframe
-                            src="http://ghbtns.com/github-btn.html?user=usmanhalalit&amp;repo=charisma&amp;type=watch&amp;count=true"
-                            height="20" width="100" frameborder="0" scrolling="0"></iframe>
-                    </li>
-                    <li>
-                        <iframe
-                            src="http://ghbtns.com/github-btn.html?user=usmanhalalit&amp;repo=charisma&amp;type=fork&amp;count=true"
-                            height="20" width="98" frameborder="0" scrolling="0"></iframe>
-                    </li>
-                </ul>
-                <div class="clearfix"></div>
-
-                <div class="donate">
-                    <div>
-                        <small>Help development of Charisma</small>
-                    </div>
-                    <a class="btn btn-default" href="http://flattr.com/thing/1507720/usmanhalalitcharisma-on-GitHub"
-                       target="_blank"><i class="glyphicon glyphicon-usd green"></i> Donate</a>
+                            <div style="position: absolute; left: -5000px;"><input type="text" name="b_444b176aa3c39f656c66381f6_eeb0c04e84" tabindex="-1" value=""></div>
+                            <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+                        </div>
+                    </form>
                 </div>
+
+                <!--End mc_embed_signup-->
                 <br/>
 
                 <p>You may like my other open source work, check my profile on <a href="http://github.com/usmanhalalit"
