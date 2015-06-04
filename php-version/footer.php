@@ -7,7 +7,7 @@
 
     <!-- Ad, you can remove it -->
     <div class="row">
-        <div class="col-md-9 col-lg-9 col-xs-9  hidden-xs">
+        <div class="col-md-9 col-lg-9 col-xs-9 hidden-xs">
             <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
             <!-- Charisma Demo 2 -->
             <ins class="adsbygoogle"
@@ -18,12 +18,20 @@
                 (adsbygoogle = window.adsbygoogle || []).push({});
             </script>
         </div>
-        <div class="col-md-2 col-lg-3 col-sm-12 col-xs-12 donate">
-            <div>
-                <small>Help development of Charisma</small>
+        <div class="col-md-2 col-lg-3 col-sm-12 col-xs-12 email-subscription-footer">
+            <div class="mc_embed_signup">
+                <form action="//halalit.us3.list-manage.com/subscribe/post?u=444b176aa3c39f656c66381f6&amp;id=eeb0c04e84" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                    <div>
+                        <label>Keep up with my work</label>
+                        <input type="email" value="" name="EMAIL" class="email" placeholder="Email address" required>
+
+                        <div class="power_field"><input type="text" name="b_444b176aa3c39f656c66381f6_eeb0c04e84" tabindex="-1" value=""></div>
+                        <div class="clear"><input type="submit" value="Subscribe" name="subscribe" class="button"></div>
+                    </div>
+                </form>
             </div>
-            <a class="btn btn-default" href="http://flattr.com/thing/1507720/usmanhalalitcharisma-on-GitHub"
-               target="_blank"><i class="glyphicon glyphicon-usd green"></i> Donate</a>
+
+            <!--End mc_embed_signup-->
         </div>
 
     </div>

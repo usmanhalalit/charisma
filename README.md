@@ -50,4 +50,4 @@ Please visit [http://usman.it/free-responsive-admin-template/](http://usman.it/f
 ### [Donate Charisma](http://flattr.com/thing/1507720/usmanhalalitcharisma-on-GitHub)
 
 ___
-&copy; 2012 - 2014 [Muhammad Usman](http://usman.it/). Licensed under the Apache License, Version 2.0.
+&copy; 2012 - 2015 [Muhammad Usman](http://usman.it/). Licensed under the Apache License, Version 2.0.
