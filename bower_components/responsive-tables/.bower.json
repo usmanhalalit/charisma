@@ -7,8 +7,8 @@
     "branch": "master",
     "commit": "0d34bc64dfc82b83fcc0f5a8a4c4938b5b0a8210"
   },
-  "_source": "git@github.com:zurb/responsive-tables.git",
+  "_source": "git://github.com/zurb/responsive-tables.git",
   "_target": "*",
-  "_originalSource": "git@github.com:zurb/responsive-tables.git",
+  "_originalSource": "responsive-tables",
   "_direct": true
 }
