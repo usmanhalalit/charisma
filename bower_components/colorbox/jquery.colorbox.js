@@ -1,7 +1,7 @@
 /*!
-	Colorbox v1.4.33 - 2013-10-31
+	Colorbox v1.4.37 - 2014-02-11
 	jQuery lightbox and modal window plugin
-	(c) 2013 Jack Moore - http://www.jacklmoore.com/colorbox
+	(c) 2014 Jack Moore - http://www.jacklmoore.com/colorbox
 	license: http://www.opensource.org/licenses/mit-license.php
 */
 (function ($, document, window) {
@@ -54,7 +54,7 @@
 		slideshowSpeed: 2500,
 		slideshowStart: "start slideshow",
 		slideshowStop: "stop slideshow",
-		photoRegex: /\.(gif|png|jp(e|g|eg)|bmp|ico|webp)((#|\?).*)?$/i,
+		photoRegex: /\.(gif|png|jp(e|g|eg)|bmp|ico|webp|jxr)((#|\?).*)?$/i,
 
 		// alternate image paths for high-res displays
 		retinaImage: false,
@@ -670,11 +670,13 @@
 				
 				if (settings.reposition) {
 					setTimeout(function () {  // small delay before binding onresize due to an IE8 bug.
-						$window.bind('resize.' + prefix, publicMethod.position);
+						$window.bind('resize.' + prefix, function(){
+							publicMethod.position();
+						});
 					}, 1);
 				}
 
-				if (loadedCallback) {
+				if ($.isFunction(loadedCallback)) {
 					loadedCallback();
 				}
 			},
