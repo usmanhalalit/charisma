@@ -2,10 +2,10 @@
 
 ### Free, premium quality, responsive, multiple skin admin template.
 
-[Live Demo](http://usman.it/themes/charisma/)
+## [Live Demo](http://usman.it/themes/charisma/)
 ### [Download](https://github.com/usmanhalalit/charisma/archive/master.zip)
 
-##Features
+## Features
 
 - 9 different themes.
 - Fully responsive, optimized UI for tablets and mobile phones, [see how it looks on different devices](http://www.responsinator.com/?url=usman.it%2Fthemes%2Fcharisma).
