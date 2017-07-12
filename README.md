@@ -2,7 +2,7 @@
 
 ### Free, premium quality, responsive, multiple skin admin template.
 
-##[Live Demo](http://usman.it/themes/charisma/)
+[Live Demo](http://usman.it/themes/charisma/)
 ### [Download](https://github.com/usmanhalalit/charisma/archive/master.zip)
 
 ##Features
@@ -50,4 +50,4 @@ Please visit [http://usman.it/free-responsive-admin-template/](http://usman.it/f
 ### [Donate Charisma](http://flattr.com/thing/1507720/usmanhalalitcharisma-on-GitHub)
 
 ___
-&copy; 2012 - 2015 [Muhammad Usman](http://usman.it/). Licensed under the Apache License, Version 2.0.
+&copy; 2012 - 2017 [Muhammad Usman](http://usman.it/). Licensed under the Apache License, Version 2.0.
