@@ -46,8 +46,5 @@ Without these open source software Charisma woudn't have been possible:
 Please visit [http://usman.it/free-responsive-admin-template/](http://usman.it/free-responsive-admin-template/ "") for more information.
 
 
-
-### [Donate Charisma](http://flattr.com/thing/1507720/usmanhalalitcharisma-on-GitHub)
-
 ___
 &copy; 2012 - 2017 [Muhammad Usman](http://usman.it/). Licensed under the Apache License, Version 2.0.
