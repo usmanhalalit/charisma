@@ -4,8 +4,6 @@
 <head>
     <!--
         ===
-        This comment should NOT be removed.
-
         Charisma v2.0.0
 
         Copyright 2012-2014 Muhammad Usman
@@ -23,7 +21,7 @@
     <meta name="author" content="Muhammad Usman">
 
     <!-- The styles -->
-    <link id="bs-css" href="css/bootstrap-cerulean.min.css" rel="stylesheet">
+    <link id="bs-css" href="css/bootstrap-cybrog.min.css" rel="stylesheet">
 
     <link href="css/charisma-app.css" rel="stylesheet">
     <link href='bower_components/fullcalendar/dist/fullcalendar.css' rel='stylesheet'>

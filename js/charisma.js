@@ -1,6 +1,6 @@
 $(document).ready(function () {
     //themes, change CSS with JS
-    //default theme(CSS) is cerulean, change it if needed
+    //default theme(CSS) is cyborg, change it if needed
     var defaultTheme = 'cyborg';
 
     var currentTheme = $.cookie('currentTheme') == null ? defaultTheme : $.cookie('currentTheme');
