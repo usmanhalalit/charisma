@@ -189,6 +189,10 @@ select {
     top: -1px;
 }
 
+.box-icon .btn-round {
+    padding-top: 4px;
+}
+
 .box-content {
     padding: 10px;
 }
@@ -198,7 +202,7 @@ select {
     -webkit-border-radius: 40px;
     -moz-border-radius: 40px;
     font-size: 12px;
-    padding-top: 4px;
+    padding: 8px 12px;
 }
 
 ul.dashboard-list li {
@@ -526,6 +530,10 @@ ul.github-buttons li {
 
 .center-text {
     text-align: center;
+}
+
+.chosen-container {
+    width: auto !important;
 }
 
 /* Mobile */
