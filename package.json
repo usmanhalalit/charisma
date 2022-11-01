@@ -1,6 +1,6 @@
 {
   "devDependencies": {
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.2",
     "gulp-php2html": "0.0.8",
     "gulp-rename": "^1.2.0"
   }
